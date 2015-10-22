@@ -10,7 +10,7 @@ import com.cargosmart.csmcs.report.domain.Clientusagedata;
 
 public class DataLoadTools {
 	private static final String SQL_FIND_PUBLISH_USERID = "select DISTINCT(cd.requestInformation#requestIp) from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.requestInformation#requestIp IS NOT NULL and cd.requestInformation#requestIp!='' and cd.userIdentification#userID IS NULL or cd.userIdentification#userID=''";
-	private static final String SQL_FIND_REGIST_USERID = " select top 1 (cd.userIdentification#userID)from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.userIdentification#userID IS NOT NULL and cd.userIdentification#userID!='' and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS)and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS]))";
+	private static final String SQL_FIND_REGIST_USERID = " select top 30 (cd.userIdentification#userID)from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.userIdentification#userID IS NOT NULL and cd.userIdentification#userID!='' and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS)and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS]))";
 	private String sqlConditon = "cd.userIdentification#userID";
 	private final String EXCLUDE_INTERNAL_USER = "and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS])) ORDER BY cd.createTime";
 
@@ -72,7 +72,6 @@ public class DataLoadTools {
 				+ "' and cd.func in ('trace_routes_search','trace_main_routes_search','trace_main_search') "
 				+ EXCLUDE_INTERNAL_USER;
 		 List<Clientusagedata>  searchRecords=resultStepByStep(sql);
-		 System.out.println("manual search result times :"+searchRecords.size());
 		 return searchRecords;
 	}
 
@@ -91,7 +90,7 @@ public class DataLoadTools {
 	}
 
 	public List<Clientusagedata> ScheduleReliability(String id) {
-		System.out.println("ScheduleReliability start");
+		System.out.println("scheduleReliability start ");
 		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
 				+ "' and cd.func in ('trace_routes_selectSSRRPortPair','trace_routes_clickSSRRImage') "
 				+ EXCLUDE_INTERNAL_USER;
