@@ -65,37 +65,37 @@ public class Entrance {
 
 	private long manual_others_web;
 
-	private int favorite_searchReliability_mobile;
+	private long favorite_searchReliability_mobile;
 
-	private int favorite_searchReliability_web;
+	private long favorite_searchReliability_web;
 
-	private int favorite_showMap_mobile;
+	private long favorite_showMap_mobile;
 
-	private int favorite_showMap_web;
+	private long favorite_showMap_web;
 
-	private int favorite_showMap_refineSearch_mobile;
+	private long favorite_showMap_refineSearch_mobile;
 
-	private int favorite_showMap_refineSearch_web;
+	private long favorite_showMap_refineSearch_web;
 
-	private int favorite_showMap_scheduleReliability_mobile;
+	private long favorite_showMap_scheduleReliability_mobile;
 
-	private int favorite_showMap_scheduleReliability_web;
+	private long favorite_showMap_scheduleReliability_web;
 
-	private int favorite_showMap_refineSearch_scheduleReliability_mobile;
+	private long favorite_showMap_refineSearch_scheduleReliability_mobile;
 
-	private int favorite_showMap_refineSearch_scheduleReliability_web;
+	private long favorite_showMap_refineSearch_scheduleReliability_web;
 
-	private int favorite_refineSearch_mobile;
+	private long favorite_refineSearch_mobile;
 
-	private int favorite_refineSearch_web;
+	private long favorite_refineSearch_web;
 
-	private int favorite_searchWithoutFurtherAction_mobile;
+	private long favorite_searchWithoutFurtherAction_mobile;
 
-	private int favorite_searchWithoutFurtherAction_web;
+	private long favorite_searchWithoutFurtherAction_web;
 
-	private int favorite_others_mobile;
+	private long favorite_others_mobile;
 
-	private int favorite_others_web;
+	private long favorite_others_web;
 
 	public void first() {
 		List<String> registerUserIDs = dataLoadTools.getRegistUserIDs();
@@ -164,11 +164,14 @@ public class Entrance {
 	}
 
 	public static void main(String[] args) {
+        long begin = System.currentTimeMillis();
 		new Entrance().first();
+		long end = System.currentTimeMillis();
+		System.out.println("spent time "+(end-begin));
 	}
 
 	public void byManualSearch(List<String> registerUserIDs) {
-
+		
 		for (String id : registerUserIDs) {
 			System.out.println(id);
 			// load the steps data by user id
