@@ -8,11 +8,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.log4j.Logger;
 
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
 
 public class Entrance {
-
+	private static Logger logger = Logger.getLogger(Entrance.class);
+	
 	private DataLoadTools dataLoadTools = new DataLoadTools();
 
 	int[] refineSearchCounts = {0, 0, 0, 0, 0};
@@ -81,11 +83,11 @@ public class Entrance {
 		Entrance et = new Entrance();
 		et.first(false);
 		long end = System.currentTimeMillis();
-		System.out.println("spent time " + (end - begin));
+		logger.info("spent time " + (end - begin));
 		begin = System.currentTimeMillis();
 		et.first(true);
 		end = System.currentTimeMillis();
-		System.out.println("spent time " + (end - begin));
+		logger.info("spent time " + (end - begin));
 	}
 
 	public boolean inArray(String[] arr, String t) {
@@ -216,7 +218,7 @@ public class Entrance {
 		if(ud==null||ud.getRequestInformation_requestHeaders_user_agent()==null||"".equals(ud.getRequestInformation_requestHeaders_user_agent())){
 			return false;
 		}
-		return ud.getRequestInformation_requestHeaders_user_agent().matches("^Big Schedules.*iPhone' and '^Apache-HttpClient");
+		return ud.getRequestInformation_requestHeaders_user_agent().matches("(^Apache-HttpClient)|(^Big Schedules(.*)iPhone$)");
 	}
 	
 }

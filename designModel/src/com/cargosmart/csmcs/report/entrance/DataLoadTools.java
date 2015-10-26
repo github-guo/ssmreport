@@ -5,6 +5,8 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+
 import com.cargosmart.csmcs.report.common.Configure;
 import com.cargosmart.csmcs.report.db.DBHelper;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
@@ -16,6 +18,7 @@ public class DataLoadTools {
 	private final String EXCLUDE_INTERNAL_USER = "and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS])) ORDER BY cd.createTime";
 
 	private DBHelper dbHelper;
+	private static Logger logger = Logger.getLogger(DataLoadTools.class);
 	
 	public DataLoadTools() {
 		dbHelper = new DBHelper();
@@ -41,12 +44,12 @@ public class DataLoadTools {
 	}
 
 	public List<String> getRegistUserIDs() {
-		System.out.println("getRegistUserIDs start");
+		logger.info("getRegistUserIDs start...pls wait");
 		return getUserWithCondition(SQL_FIND_REGIST_USERID);
 	}
 
 	public List<String> getPublishUserIDs() {
-		System.out.println("getPublishUserIDs start");
+		logger.info("getPublishUserIDs start");
 		return getUserWithCondition(SQL_FIND_PUBLISH_USERID);
 	}
 
