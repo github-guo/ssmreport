@@ -64,6 +64,8 @@ public class Entrance {
 			registerUserIDs = dataLoadTools.getRegistUserIDs();
 		}
 		
+		logger.info(requeryPublic==true?"publish users number:"+registerUserIDs.size():"register users numbers"+registerUserIDs.size());
+
 		for (String uid:  registerUserIDs) {
 			querySearchByUserID(uid);
 		}
@@ -101,7 +103,7 @@ public class Entrance {
 	
 	public void querySearchByUserID(String userID) {
 		System.out.println(userID);
-		
+		logger.info("processing user id or ip is " + userID);
 		String[] manualSearchCodes = {"trace_routes_search","trace_main_routes_search","trace_main_search"};
 		String[] favoriteSearchCodes = {"trace_routes_favorite_item", "trace_main_favorite_item"};
 		String[] withoutFurtherCodes = {"trace_routes_firstThingAfterSearch"};
@@ -218,7 +220,7 @@ public class Entrance {
 		if(ud==null||ud.getRequestInformation_requestHeaders_user_agent()==null||"".equals(ud.getRequestInformation_requestHeaders_user_agent())){
 			return false;
 		}
-		return ud.getRequestInformation_requestHeaders_user_agent().matches("(^Apache-HttpClient)|(^Big Schedules(.*)iPhone$)");
+		return ud.getRequestInformation_requestHeaders_user_agent().matches("(^Apache-HttpClient.*)|(^Big Schedules(.*)iPhone$)");
 	}
 	
 }

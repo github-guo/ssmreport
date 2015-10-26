@@ -19,16 +19,16 @@ public class DataLoadTools {
 
 	private DBHelper dbHelper;
 	private static Logger logger = Logger.getLogger(DataLoadTools.class);
-	
+
 	public DataLoadTools() {
 		dbHelper = new DBHelper();
 		dbHelper.loadConfigure(new Configure("config.properties"));
 	}
-	
+
 	private List<String> getUserWithCondition(String sql) {
-		
+
 		ResultSet rs = dbHelper.excuteQuery(sql);
-		
+
 		List<String> registerIDs = new ArrayList<>();
 		try {
 			while (rs.next() != false) {
@@ -76,78 +76,90 @@ public class DataLoadTools {
 	}
 
 	public List<Clientusagedata> allSearch(String id) {
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
-				+ "' "
+		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id + "' "
 				+ (sqlConditon == "cd.requestInformation#requestIp" ? " and LEN(cd.userIdentification#userID)=0 " : "")
 				+ EXCLUDE_INTERNAL_USER;
-		 List<Clientusagedata>  searchRecords=resultStepByStep(sql);
-		 return searchRecords;
-		 
-	}
-	
-	public List<Clientusagedata> manualSearch(String id) {
-		
-		System.out.println("manualSearch start");
-		// SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE  condition=' '
-		//  and cd.func in
-		// ('trace_routes_search','trace_main_routes_search','trace_main_search');
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
-				+ "' and cd.func in ('trace_routes_search','trace_main_routes_search','trace_main_search') "
-				+ EXCLUDE_INTERNAL_USER;
-		 List<Clientusagedata>  searchRecords=resultStepByStep(sql);
-		 return searchRecords;
+		List<Clientusagedata> searchRecords = resultStepByStep(sql);
+		return searchRecords;
+
 	}
 
-	public List<Clientusagedata> favoriteSearch(String id) {
-		System.out.println("favoriteSearch start");
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + "='" + id
-				+ "' and cd.func in ('trace_routes_favorite_item', 'trace_main_favorite_item')" + EXCLUDE_INTERNAL_USER;
-		return resultStepByStep(sql);
-	}
-
-	public List<Clientusagedata> WithoutFurtherAction(String id) {
-		System.out.println("WithoutFurtherAction start");
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
-				+ "' and cd.func='trace_routes_firstThingAfterSearch' " + EXCLUDE_INTERNAL_USER;
-		return resultStepByStep(sql);
-	}
-
-	public List<Clientusagedata> ScheduleReliability(String id) {
-		System.out.println("scheduleReliability start ");
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
-				+ "' and cd.func in ('trace_routes_selectSSRRPortPair','trace_routes_clickSSRRImage') "
-				+ EXCLUDE_INTERNAL_USER;
-		return resultStepByStep(sql);
-	}
-
-	public List<Clientusagedata> ShowMap(String id) {
-		System.out.println("ShowMap start");
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
-				+ "' and cd.func='trace_routes_selectDetail' " + EXCLUDE_INTERNAL_USER;
-		return resultStepByStep(sql);
-	}
-
-	public List<Clientusagedata> RefineSearch(String id) {
-		System.out.println("RefineSearch start");
-		/**
-		 * SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE  sqlConditon=' '
-		 * and (cd.func in
-		 * ('trace_routes_selectCalendar','trace_routes_selectDirect','
-		 * trace_routes_selectCycutoffCalendar','
-		 * trace_routes_selectArrivalCalendar','
-		 * trace_routes_selectDepartureCalendar','trace_routes_changeTransitTime
-		 * ') or cd.func like 'trace_routes_filter%');
-		 */
-		String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE "+sqlConditon+"='" + id
-				+ "' and (cd.func in ('trace_routes_selectCalendar','trace_routes_selectDirect','trace_routes_selectCycutoffCalendar','trace_routes_selectArrivalCalendar','trace_routes_selectDepartureCalendar','trace_routes_changeTransitTime') or cd.func like 'trace_routes_filter%') "
-				+ EXCLUDE_INTERNAL_USER;
-		List<Clientusagedata> part1 = resultStepByStep(sql);
-		return part1;
-	}
-	
 	public void setSearchByIP(boolean byIP) {
 		if (byIP == true) {
 			sqlConditon = "cd.requestInformation#requestIp";
 		}
 	}
+
+	// public List<Clientusagedata> manualSearch(String id) {
+	//
+	// System.out.println("manualSearch start");
+	// // SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE  condition=' '
+	// //  and cd.func in
+	// //
+	// ('trace_routes_search','trace_main_routes_search','trace_main_search');
+	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
+	// sqlConditon + " ='" + id
+	// + "' and cd.func in
+	// ('trace_routes_search','trace_main_routes_search','trace_main_search') "
+	// + EXCLUDE_INTERNAL_USER;
+	// List<Clientusagedata> searchRecords=resultStepByStep(sql);
+	// return searchRecords;
+	// }
+	//
+	// public List<Clientusagedata> favoriteSearch(String id) {
+	// System.out.println("favoriteSearch start");
+	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
+	// sqlConditon + "='" + id
+	// + "' and cd.func in ('trace_routes_favorite_item',
+	// 'trace_main_favorite_item')" + EXCLUDE_INTERNAL_USER;
+	// return resultStepByStep(sql);
+	// }
+	//
+	// public List<Clientusagedata> WithoutFurtherAction(String id) {
+	// System.out.println("WithoutFurtherAction start");
+	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
+	// sqlConditon + " ='" + id
+	// + "' and cd.func='trace_routes_firstThingAfterSearch' " +
+	// EXCLUDE_INTERNAL_USER;
+	// return resultStepByStep(sql);
+	// }
+	//
+	// public List<Clientusagedata> ScheduleReliability(String id) {
+	// System.out.println("scheduleReliability start ");
+	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
+	// sqlConditon + " ='" + id
+	// + "' and cd.func in
+	// ('trace_routes_selectSSRRPortPair','trace_routes_clickSSRRImage') "
+	// + EXCLUDE_INTERNAL_USER;
+	// return resultStepByStep(sql);
+	// }
+	//
+	// public List<Clientusagedata> ShowMap(String id) {
+	// System.out.println("ShowMap start");
+	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
+	// sqlConditon + " ='" + id
+	// + "' and cd.func='trace_routes_selectDetail' " + EXCLUDE_INTERNAL_USER;
+	// return resultStepByStep(sql);
+	// }
+	//
+	// public List<Clientusagedata> RefineSearch(String id) {
+	// System.out.println("RefineSearch start");
+	// /**
+	// * SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE  sqlConditon=' '
+	// * and (cd.func in
+	// * ('trace_routes_selectCalendar','trace_routes_selectDirect','
+	// * trace_routes_selectCycutoffCalendar','
+	// * trace_routes_selectArrivalCalendar','
+	// * trace_routes_selectDepartureCalendar','trace_routes_changeTransitTime
+	// * ') or cd.func like 'trace_routes_filter%');
+	// */
+	// String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE
+	// "+sqlConditon+"='" + id
+	// + "' and (cd.func in
+	// ('trace_routes_selectCalendar','trace_routes_selectDirect','trace_routes_selectCycutoffCalendar','trace_routes_selectArrivalCalendar','trace_routes_selectDepartureCalendar','trace_routes_changeTransitTime')
+	// or cd.func like 'trace_routes_filter%') "
+	// + EXCLUDE_INTERNAL_USER;
+	// List<Clientusagedata> part1 = resultStepByStep(sql);
+	// return part1;
+	// }
 }

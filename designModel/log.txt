@@ -1,3 +1,8 @@
 2015-10-26 14:47:48 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
 2015-10-26 14:49:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 104883
 2015-10-26 14:49:33 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getPublishUserIDs start
+2015-10-26 14:57:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 457795
+2015-10-26 15:07:53 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-10-26 15:11:59 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-10-26 15:13:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 118715
+2015-10-26 15:13:57 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getPublishUserIDs start
