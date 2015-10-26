@@ -10,8 +10,8 @@ import com.cargosmart.csmcs.report.db.DBHelper;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
 
 public class DataLoadTools {
-	private static final String SQL_FIND_PUBLISH_USERID = "select DISTINCT(cd.requestInformation#requestIp) from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.requestInformation#requestIp IS NOT NULL and LEN(cd.userIdentification#userID)=0 and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS)";
-	private static final String SQL_FIND_REGIST_USERID = " select distinct(cd.userIdentification#userID)from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.userIdentification#userID IS NOT NULL and cd.userIdentification#userID!='' and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS)and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS])) ORDER BY cd.userIdentification#userID";
+	private static final String SQL_FIND_PUBLISH_USERID = "select DISTINCT(cd.requestInformation#requestIp) from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.requestInformation#requestIp IS NOT NULL and LEN(cd.userIdentification#userID)=0 and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) ";
+	private static final String SQL_FIND_REGIST_USERID = " select distinct(cd.userIdentification#userID)from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.userIdentification#userID IS NOT NULL and cd.userIdentification#userID!='' and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS)and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS]))  ORDER BY cd.userIdentification#userID";
 	private String sqlConditon = "cd.userIdentification#userID";
 	private final String EXCLUDE_INTERNAL_USER = "and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS])) ORDER BY cd.createTime";
 
@@ -141,12 +141,7 @@ public class DataLoadTools {
 		List<Clientusagedata> part1 = resultStepByStep(sql);
 		return part1;
 	}
-
-	public static void main(String[] args) {
-		List<Clientusagedata> publishUserIDs = new DataLoadTools().manualSearch("ws@ritra.nl");
-		System.out.println(publishUserIDs.size());
-	}
-
+	
 	public void setSearchByIP(boolean byIP) {
 		if (byIP == true) {
 			sqlConditon = "cd.requestInformation#requestIp";

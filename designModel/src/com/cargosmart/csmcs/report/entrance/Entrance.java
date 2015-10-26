@@ -100,7 +100,7 @@ public class Entrance {
 	public void querySearchByUserID(String userID) {
 		System.out.println(userID);
 		
-		String[] manualSearchCodes = {"trace_routes_search","trace_main_routes_searchv","trace_main_search"};
+		String[] manualSearchCodes = {"trace_routes_search","trace_main_routes_search","trace_main_search"};
 		String[] favoriteSearchCodes = {"trace_routes_favorite_item", "trace_main_favorite_item"};
 		String[] withoutFurtherCodes = {"trace_routes_firstThingAfterSearch"};
 		String[] scheduleReliabilityCodes = {"trace_routes_selectSSRRPortPair","trace_routes_clickSSRRImage"};
@@ -154,7 +154,7 @@ public class Entrance {
 			for (String action: followingActionMap.keySet()) {
 				if (inArray(showMapCodes, action)) {
 					hasShowMap = true;
-				} else if (inArray(refineSearchCodes, action)) {
+				} else if (inArray(refineSearchCodes, action)||action.startsWith("trace_routes_filter")) {
 					hasRefineSearch = true;
 				} else if (inArray(scheduleReliabilityCodes, action)) {
 					hasScheduleReliability = true;
@@ -213,6 +213,9 @@ public class Entrance {
 	
 	
 	public boolean isByMobile(Clientusagedata ud) {
+		if(ud==null||ud.getRequestInformation_requestHeaders_user_agent()==null||"".equals(ud.getRequestInformation_requestHeaders_user_agent())){
+			return false;
+		}
 		return ud.getRequestInformation_requestHeaders_user_agent().matches("^Big Schedules.*iPhone' and '^Apache-HttpClient");
 	}
 	
