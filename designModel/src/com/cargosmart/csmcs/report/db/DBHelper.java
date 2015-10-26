@@ -5,8 +5,6 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import com.cargosmart.csmcs.report.common.Configure;
-
 public class DBHelper {
 	private String DRIVE_CLASS = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
 	private String CONNECT_URL = "jdbc:sqlserver://testsql2k5s07:1433;databaseName=CSMCS";

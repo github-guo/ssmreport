@@ -1,4 +1,4 @@
-package com.cargosmart.csmcs.report.common;
+package com.cargosmart.csmcs.report.db;
 
 import java.io.File;
 import java.io.FileInputStream;

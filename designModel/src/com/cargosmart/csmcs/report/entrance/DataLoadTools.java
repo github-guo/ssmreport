@@ -7,7 +7,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
-import com.cargosmart.csmcs.report.common.Configure;
+import com.cargosmart.csmcs.report.db.Configure;
 import com.cargosmart.csmcs.report.db.DBHelper;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
 
