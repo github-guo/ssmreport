@@ -59,7 +59,7 @@ public class Entrance {
 		
 		List<String> registerUserIDs = null;
 		if (requeryPublic) {
-			registerUserIDs = dataLoadTools.getPublishUserIDs();
+			registerUserIDs = dataLoadTools.getPublishUserIPs();
 		} else {
 			registerUserIDs = dataLoadTools.getRegistUserIDs();
 		}
@@ -102,9 +102,8 @@ public class Entrance {
 	}
 	
 	public void querySearchByUserID(String userID) {
-		System.out.println(userID);
 		logger.info("processing user id or ip is " + userID);
-		String[] manualSearchCodes = {"trace_routes_search","trace_main_routes_search","trace_main_search"};
+		String[] manualSearchCodes = {"trace_routes_search","trace_main_routes_search","trace_main_search","trace_routes_search_public"};
 		String[] favoriteSearchCodes = {"trace_routes_favorite_item", "trace_main_favorite_item"};
 		String[] withoutFurtherCodes = {"trace_routes_firstThingAfterSearch"};
 		String[] scheduleReliabilityCodes = {"trace_routes_selectSSRRPortPair","trace_routes_clickSSRRImage"};

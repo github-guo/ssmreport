@@ -12,17 +12,25 @@ import com.cargosmart.csmcs.report.db.DBHelper;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
 
 public class DataLoadTools {
-	private static final String SQL_FIND_PUBLISH_USERID = "select DISTINCT(cd.requestInformation#requestIp) from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.requestInformation#requestIp IS NOT NULL and LEN(cd.userIdentification#userID)=0 and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) order by cd.requestInformation#requestIp";
-	private static final String SQL_FIND_REGIST_USERID = " select distinct(cd.userIdentification#userID)from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.userIdentification#userID IS NOT NULL and cd.userIdentification#userID!='' and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS)and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS]))  ORDER BY cd.userIdentification#userID";
-	private String sqlConditon = "cd.userIdentification#userID";
-	private final String EXCLUDE_INTERNAL_USER = "and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS])) ORDER BY cd.createTime";
+	
+    private  String SQL_FIND_REGIST_USERID = "";
 
+    private  String SQL_FIND_PUBLISH_USERIP = "";
+
+//	private static final  String EXCLUDE_INTERNAL_USER = "and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS]))";
+//	private static final String SQL_FIND_PUBLISH_USERID = "select DISTINCT(cd.requestInformation#requestIp) from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.requestInformation#requestIp IS NOT NULL and LEN(cd.userIdentification#userID)=0" + EXCLUDE_INTERNAL_USER +" order by cd.requestInformation#requestIp";
+//	private static final String SQL_FIND_REGIST_USERID = " select distinct(cd.userIdentification#userID)from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.userIdentification#userID IS NOT NULL and cd.userIdentification#userID!=''"+ EXCLUDE_INTERNAL_USER +" order by cd.userIdentification#userID";
+	
+    private String sqlConditon = "cd.userIdentification#userID";
 	private DBHelper dbHelper;
 	private static Logger logger = Logger.getLogger(DataLoadTools.class);
 
 	public DataLoadTools() {
+		Configure config=new Configure("config.properties");
+		SQL_FIND_PUBLISH_USERIP = config.getValue("SQL_FIND_PUBLISH_USERIP");
+		SQL_FIND_REGIST_USERID = config.getValue("SQL_FIND_REGIST_USERID");
 		dbHelper = new DBHelper();
-		dbHelper.loadConfigure(new Configure("config.properties"));
+		dbHelper.loadConfigure(config);
 	}
 
 	private List<String> getUserWithCondition(String sql) {
@@ -34,7 +42,6 @@ public class DataLoadTools {
 			while (rs.next() != false) {
 				String id = rs.getString(1);
 				registerIDs.add(id);
-				// System.out.println(id);
 			}
 		} catch (SQLException e) {
 			System.err.println("can not get result from db ");
@@ -48,13 +55,14 @@ public class DataLoadTools {
 		return getUserWithCondition(SQL_FIND_REGIST_USERID);
 	}
 
-	public List<String> getPublishUserIDs() {
+	public List<String> getPublishUserIPs() {
 		logger.info("getPublishUserIDs start");
-		return getUserWithCondition(SQL_FIND_PUBLISH_USERID);
+		return getUserWithCondition(SQL_FIND_PUBLISH_USERIP);
 	}
 
 	private List<Clientusagedata> resultStepByStep(String sql) {
 		List<Clientusagedata> searchRs = new ArrayList<>();
+		long begin = System.currentTimeMillis();
 		ResultSet rs = dbHelper.excuteQuery(sql);
 		try {
 			Clientusagedata obj = null;
@@ -72,13 +80,15 @@ public class DataLoadTools {
 		} catch (SQLException e) {
 			System.err.println("can not get result from db");
 		}
+		long end = System.currentTimeMillis();
+		if((end-begin)>=3000){
+			logger.info("sql :" + sql +"\n" + " excute time:" + (end-begin));
+		}
 		return searchRs;
 	}
 
 	public List<Clientusagedata> allSearch(String id) {
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id + "' "
-				+ (sqlConditon == "cd.requestInformation#requestIp" ? " and LEN(cd.userIdentification#userID)=0 " : "")
-				+ EXCLUDE_INTERNAL_USER;
+		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id + "' ORDER BY cd.createTime";
 		List<Clientusagedata> searchRecords = resultStepByStep(sql);
 		return searchRecords;
 
@@ -89,77 +99,4 @@ public class DataLoadTools {
 			sqlConditon = "cd.requestInformation#requestIp";
 		}
 	}
-
-	// public List<Clientusagedata> manualSearch(String id) {
-	//
-	// System.out.println("manualSearch start");
-	// // SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE  condition=' '
-	// //  and cd.func in
-	// //
-	// ('trace_routes_search','trace_main_routes_search','trace_main_search');
-	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
-	// sqlConditon + " ='" + id
-	// + "' and cd.func in
-	// ('trace_routes_search','trace_main_routes_search','trace_main_search') "
-	// + EXCLUDE_INTERNAL_USER;
-	// List<Clientusagedata> searchRecords=resultStepByStep(sql);
-	// return searchRecords;
-	// }
-	//
-	// public List<Clientusagedata> favoriteSearch(String id) {
-	// System.out.println("favoriteSearch start");
-	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
-	// sqlConditon + "='" + id
-	// + "' and cd.func in ('trace_routes_favorite_item',
-	// 'trace_main_favorite_item')" + EXCLUDE_INTERNAL_USER;
-	// return resultStepByStep(sql);
-	// }
-	//
-	// public List<Clientusagedata> WithoutFurtherAction(String id) {
-	// System.out.println("WithoutFurtherAction start");
-	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
-	// sqlConditon + " ='" + id
-	// + "' and cd.func='trace_routes_firstThingAfterSearch' " +
-	// EXCLUDE_INTERNAL_USER;
-	// return resultStepByStep(sql);
-	// }
-	//
-	// public List<Clientusagedata> ScheduleReliability(String id) {
-	// System.out.println("scheduleReliability start ");
-	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
-	// sqlConditon + " ='" + id
-	// + "' and cd.func in
-	// ('trace_routes_selectSSRRPortPair','trace_routes_clickSSRRImage') "
-	// + EXCLUDE_INTERNAL_USER;
-	// return resultStepByStep(sql);
-	// }
-	//
-	// public List<Clientusagedata> ShowMap(String id) {
-	// System.out.println("ShowMap start");
-	// String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
-	// sqlConditon + " ='" + id
-	// + "' and cd.func='trace_routes_selectDetail' " + EXCLUDE_INTERNAL_USER;
-	// return resultStepByStep(sql);
-	// }
-	//
-	// public List<Clientusagedata> RefineSearch(String id) {
-	// System.out.println("RefineSearch start");
-	// /**
-	// * SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE  sqlConditon=' '
-	// * and (cd.func in
-	// * ('trace_routes_selectCalendar','trace_routes_selectDirect','
-	// * trace_routes_selectCycutoffCalendar','
-	// * trace_routes_selectArrivalCalendar','
-	// * trace_routes_selectDepartureCalendar','trace_routes_changeTransitTime
-	// * ') or cd.func like 'trace_routes_filter%');
-	// */
-	// String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE
-	// "+sqlConditon+"='" + id
-	// + "' and (cd.func in
-	// ('trace_routes_selectCalendar','trace_routes_selectDirect','trace_routes_selectCycutoffCalendar','trace_routes_selectArrivalCalendar','trace_routes_selectDepartureCalendar','trace_routes_changeTransitTime')
-	// or cd.func like 'trace_routes_filter%') "
-	// + EXCLUDE_INTERNAL_USER;
-	// List<Clientusagedata> part1 = resultStepByStep(sql);
-	// return part1;
-	// }
 }
