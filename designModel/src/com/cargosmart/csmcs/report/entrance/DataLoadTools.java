@@ -15,6 +15,7 @@ public class DataLoadTools {
 
 	private String SQL_FIND_REGIST_USERID = "";
 	private String SQL_FIND_PUBLISH_USERIP = "";
+	private String SQL_FUNC_CODE="";
 	private String sqlConditon = "cd.userIdentification#userID";
 	private DBHelper dbHelper;
 	private static Logger logger = Logger.getLogger(DataLoadTools.class);
@@ -23,6 +24,7 @@ public class DataLoadTools {
 		Configure config = new Configure("config.properties");
 		SQL_FIND_PUBLISH_USERIP = config.getValue("SQL_FIND_PUBLISH_USERIP");
 		SQL_FIND_REGIST_USERID = config.getValue("SQL_FIND_REGIST_USERID");
+		SQL_FUNC_CODE=config.getValue("SQL_FUNC_CODE");
 		dbHelper = new DBHelper();
 		dbHelper.loadConfigure(config);
 	}
@@ -83,7 +85,7 @@ public class DataLoadTools {
 
 	public List<Clientusagedata> allSearch(String id) {
 		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
-				+ "' ORDER BY cd.createTime";
+				+ "'"+SQL_FUNC_CODE+" ORDER BY cd.createTime";
 		List<Clientusagedata> searchRecords = resultStepByStep(sql);
 		return searchRecords;
 
