@@ -12,21 +12,15 @@ import com.cargosmart.csmcs.report.db.DBHelper;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
 
 public class DataLoadTools {
-	
-    private  String SQL_FIND_REGIST_USERID = "";
 
-    private  String SQL_FIND_PUBLISH_USERIP = "";
-
-//	private static final  String EXCLUDE_INTERNAL_USER = "and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS]))";
-//	private static final String SQL_FIND_PUBLISH_USERID = "select DISTINCT(cd.requestInformation#requestIp) from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.requestInformation#requestIp IS NOT NULL and LEN(cd.userIdentification#userID)=0" + EXCLUDE_INTERNAL_USER +" order by cd.requestInformation#requestIp";
-//	private static final String SQL_FIND_REGIST_USERID = " select distinct(cd.userIdentification#userID)from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.userIdentification#userID IS NOT NULL and cd.userIdentification#userID!=''"+ EXCLUDE_INTERNAL_USER +" order by cd.userIdentification#userID";
-	
-    private String sqlConditon = "cd.userIdentification#userID";
+	private String SQL_FIND_REGIST_USERID = "";
+	private String SQL_FIND_PUBLISH_USERIP = "";
+	private String sqlConditon = "cd.userIdentification#userID";
 	private DBHelper dbHelper;
 	private static Logger logger = Logger.getLogger(DataLoadTools.class);
 
 	public DataLoadTools() {
-		Configure config=new Configure("config.properties");
+		Configure config = new Configure("config.properties");
 		SQL_FIND_PUBLISH_USERIP = config.getValue("SQL_FIND_PUBLISH_USERIP");
 		SQL_FIND_REGIST_USERID = config.getValue("SQL_FIND_REGIST_USERID");
 		dbHelper = new DBHelper();
@@ -81,14 +75,15 @@ public class DataLoadTools {
 			System.err.println("can not get result from db");
 		}
 		long end = System.currentTimeMillis();
-		if((end-begin)>=3000){
-			logger.info("sql :" + sql +"\n" + " excute time:" + (end-begin));
+		if ((end - begin) >= 3000) {
+			logger.info("sql :" + sql + "\n" + " execute time:" + (end - begin));
 		}
 		return searchRs;
 	}
 
 	public List<Clientusagedata> allSearch(String id) {
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id + "' ORDER BY cd.createTime";
+		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
+				+ "' ORDER BY cd.createTime";
 		List<Clientusagedata> searchRecords = resultStepByStep(sql);
 		return searchRecords;
 
