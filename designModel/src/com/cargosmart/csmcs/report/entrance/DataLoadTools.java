@@ -7,6 +7,7 @@ import java.util.List;
 
 import org.apache.log4j.Logger;
 
+import com.cargosmart.csmcs.report.common.DateUtil;
 import com.cargosmart.csmcs.report.db.Configure;
 import com.cargosmart.csmcs.report.db.DBHelper;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
@@ -62,7 +63,7 @@ public class DataLoadTools {
 		ResultSet rs = dbHelper.excuteQuery(sql);
 		try {
 			Clientusagedata obj = null;
-			while (rs.next() != false) {
+			while (rs!=null&&rs.next()!= false) {
 				obj = new Clientusagedata();
 				obj.setId(rs.getString(1));
 				obj.setSource(rs.getString(2));
@@ -74,6 +75,7 @@ public class DataLoadTools {
 				searchRs.add(obj);
 			}
 		} catch (SQLException e) {
+			e.printStackTrace();
 			System.err.println("can not get result from db");
 		}
 		long end = System.currentTimeMillis();
@@ -84,8 +86,8 @@ public class DataLoadTools {
 	}
 
 	public List<Clientusagedata> allSearch(String id) {
-		String sql = "SELECT *FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
-				+ "'"+SQL_FUNC_CODE+" ORDER BY cd.createTime";
+		String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
+				+ "'"+SQL_FUNC_CODE+ " and createTime between convert(datetime,'"+DateUtil.getStartTime()+"') and convert(datetime,'"+DateUtil.getEndTime()+"') ORDER BY cd.createTime";
 		List<Clientusagedata> searchRecords = resultStepByStep(sql);
 		return searchRecords;
 

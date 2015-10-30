@@ -3,6 +3,9 @@ package com.cargosmart.csmcs.report.entrance;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
@@ -10,13 +13,17 @@ import java.util.Map;
 
 import org.apache.log4j.Logger;
 
+import com.cargosmart.csmcs.report.common.DateUtil;
+import com.cargosmart.csmcs.report.common.JourneyType;
+import com.cargosmart.csmcs.report.db.DBSources;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
 
 public class Entrance {
 	private static Logger logger = Logger.getLogger(Entrance.class);
 
 	private DataLoadTools dataLoadTools = new DataLoadTools();
-
+	private Map<JourneyType,int[]> resultDataMap = new HashMap<>();
+	
 	int[] refineSearchCounts = { 0, 0, 0, 0, 0 };
 	int[] scheduleReliabilityCounts = { 0, 0, 0, 0, 0 };
 	int[] showMapCounts = { 0, 0, 0, 0, 0 };
@@ -69,15 +76,40 @@ public class Entrance {
 		for (String uid : registerUserIDs) {
 			querySearchByUserID(uid);
 		}
-		pintArray(refineSearchCounts);
-		pintArray(scheduleReliabilityCounts);
-		pintArray(showMapCounts);
-		pintArray(showMaprefineSearchCounts);
-		pintArray(showMapscheduleReliabilityCounts);
-		pintArray(showMap3Counts);
-		pintArray(othersCounts);
-
+//		querySearchByUserID(registerUserIDs.get(0));
 		outputToFile("output-" + (requeryPublic ? "public" : "reg") + ".txt");
+		outputToDB(requeryPublic,registerUserIDs);
+	}
+
+	private void outputToDB(boolean requeryPublic,List<String> registerUserIDs) {
+		resultDataMap.put(JourneyType.REFINE_SEARCH, refineSearchCounts);
+		resultDataMap.put(JourneyType.SCHEDULE_RELIABILITY, scheduleReliabilityCounts);
+		resultDataMap.put(JourneyType.SHOW_MAP, showMapCounts);
+		resultDataMap.put(JourneyType.SHOW1, showMaprefineSearchCounts);
+		resultDataMap.put(JourneyType.SHOW2, showMapscheduleReliabilityCounts);
+		resultDataMap.put(JourneyType.SHOW3, showMap3Counts);
+		resultDataMap.put(JourneyType.OTHERS, othersCounts);
+		DBSources db=new DBSources(null);
+		Connection con=db.getConnection();
+		String sql = "INSERT INTO `journeyreport` (`journeyType`, `web`, `mobile`, `manual`, `favorite`, `total`, `usertype`, `from_month`,`to_month`) VALUES (?,?,?,?,?,?,?,?,?)";
+		for(JourneyType type:resultDataMap.keySet()){
+			int [] searchRs=resultDataMap.get(type);
+			try {
+				PreparedStatement pre=con.prepareStatement(sql);
+				pre.setString(1, type.toString());
+				pre.setInt(2, searchRs[0]);
+				pre.setInt(3,searchRs[1]);
+				pre.setInt(4, searchRs[2]);
+				pre.setInt(5, searchRs[3]);
+				pre.setInt(6, searchRs[4]);
+				pre.setString(7,(requeryPublic ? "public" : "register") );
+				pre.setInt(8,DateUtil.getStartMonth());
+				pre.setInt(9, DateUtil.getEndMonth());
+				pre.execute();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
 	}
 
 	public static void main(String[] args) {
@@ -106,7 +138,6 @@ public class Entrance {
 		String[] manualSearchCodes = { "trace_routes_search", "trace_main_routes_search", "trace_main_search",
 				"trace_routes_search_public" };
 		String[] favoriteSearchCodes = { "trace_routes_favorite_item", "trace_main_favorite_item" };
-		String[] withoutFurtherCodes = { "trace_routes_firstThingAfterSearch" };
 		String[] scheduleReliabilityCodes = { "trace_routes_selectSSRRPortPair", "trace_routes_clickSSRRImage" };
 		String[] showMapCodes = { "trace_routes_selectDetail" };
 		String[] refineSearchCodes = { "trace_routes_selectCalendar", "trace_routes_selectDirect",
@@ -118,6 +149,9 @@ public class Entrance {
 		// String currentSearchID = null;
 		Map<String, Integer> currentSearchMap = null;
 		Calendar actionStopCal = null;
+		if(searchedRecords==null||searchedRecords.size()==0){
+			return ;
+		}
 		for (Clientusagedata ud : searchedRecords) {
 			if (inArray(manualSearchCodes, ud.getFunc()) || inArray(favoriteSearchCodes, ud.getFunc())) {
 				// currentSearchID = ud.getId();

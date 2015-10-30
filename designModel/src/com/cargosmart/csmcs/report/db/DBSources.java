@@ -13,6 +13,8 @@ import javax.sql.DataSource;
 import org.apache.log4j.Logger;
 import org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory;
 
+import com.cargosmart.csmcs.report.common.JourneyType;
+
 public class DBSources {
 	private static Logger logger = Logger.getLogger(DBSources.class);
 	private final String CONFIG_FILE="dbcp.properties";
@@ -26,7 +28,7 @@ public class DBSources {
 	private void loadConfig(String configFile){
 		Properties dbcpPro = new Properties();
 		try {
-			dbcpPro.load(new FileInputStream(new File(configFile==null?CONFIG_FILE:configFile)));
+			dbcpPro.load(new FileInputStream(new File(configFile==null||"".equals(configFile)?CONFIG_FILE:configFile)));
             dataSource =BasicDataSourceFactory.createDataSource(dbcpPro);	
 		}  catch (Exception e) {
 			logger.error("can not get the properties file");
@@ -35,7 +37,7 @@ public class DBSources {
 	}
 	
 	
-	public static Connection getConnection() {
+	public Connection getConnection() {
 		try {
 			return dataSource.getConnection();
 		} catch (SQLException e) {
