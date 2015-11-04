@@ -12,11 +12,6 @@ public class DateUtil {
 	static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS");
 	static Calendar cal=Calendar.getInstance();
 	
-	public static void main(String[] args) {
-		System.out.println(DateUtil.getStartTime());
-		System.out.println(DateUtil.getEndTime());
-	}
-	
 	public static String getStartTime(){
 		cal.set(cal.get(Calendar.YEAR), from-1, 1, 0,0,0);
 		cal.set(Calendar.MILLISECOND, 0);

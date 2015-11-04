@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.learn.hibernate.entity">
+	<class name="Event" table="TEvent">
+		<id name="id" column="EVENT_ID"></id>
+		<property name="title" column="EVENT_TITLE"></property>
+		<property name="date" column="EVENT_DATE" type="timestamp"></property>
+	</class>
+</hibernate-mapping>
