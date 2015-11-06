@@ -22,8 +22,8 @@ public class Entrance {
 	private static Logger logger = Logger.getLogger(Entrance.class);
 
 	private DataLoadTools dataLoadTools = new DataLoadTools();
-	private Map<JourneyType,int[]> resultDataMap = new HashMap<>();
-	
+	private Map<JourneyType, int[]> resultDataMap = new HashMap<>();
+
 	int[] refineSearchCounts = { 0, 0, 0, 0, 0 };
 	int[] scheduleReliabilityCounts = { 0, 0, 0, 0, 0 };
 	int[] showMapCounts = { 0, 0, 0, 0, 0 };
@@ -31,9 +31,20 @@ public class Entrance {
 	int[] showMapscheduleReliabilityCounts = { 0, 0, 0, 0, 0 };
 	int[] showMap3Counts = { 0, 0, 0, 0, 0 };
 	int[] othersCounts = { 0, 0, 0, 0, 0 };
-	int []searchEndCounts={0,0,0,0,0};
-	int []searchRegisterCounts={0,0,0,0,0};
-	
+	int[] searchEndCounts = { 0, 0, 0, 0, 0 };
+	int[] searchRegisterCounts = { 0, 0, 0, 0, 0 };
+
+	String[] manualSearchCodes = { "trace_routes_search", "trace_main_routes_search", "trace_main_search",
+			"trace_routes_search_public" };
+	String[] favoriteSearchCodes = { "trace_routes_favorite_item", "trace_main_favorite_item" };
+	String[] scheduleReliabilityCodes = { "trace_routes_selectSSRRPortPair", "trace_routes_clickSSRRImage" };
+	String[] showMapCodes = { "trace_routes_selectDetail" };
+	String[] refineSearchCodes = { "trace_routes_selectCalendar", "trace_routes_selectDirect",
+			"trace_routes_selectCycutoffCalendar", "trace_routes_selectArrivalCalendar",
+			"trace_routes_selectDepartureCalendar", "trace_routes_changeTransitTime" };
+	String[] searchRegister = { "trace_common_click_signup" };
+	String[] searchEnd = { "trace_routes_focusRoutes", "trace_routes_firstThingAfterSearch" };
+
 	public void outputToFile(String filename) {
 		try {
 			FileWriter writer = new FileWriter(new File(filename));
@@ -63,9 +74,9 @@ public class Entrance {
 		showMapscheduleReliabilityCounts = new int[] { 0, 0, 0, 0, 0 };
 		showMap3Counts = new int[] { 0, 0, 0, 0, 0 };
 		othersCounts = new int[] { 0, 0, 0, 0, 0 };
-		searchEndCounts = new int[]{0,0,0,0,0};
-		searchRegisterCounts= new int[]{0,0,0,0,0};
-		
+		searchEndCounts = new int[] { 0, 0, 0, 0, 0 };
+		searchRegisterCounts = new int[] { 0, 0, 0, 0, 0 };
+
 		dataLoadTools.setSearchByIP(requeryPublic);
 
 		List<String> registerUserIDs = null;
@@ -81,41 +92,33 @@ public class Entrance {
 		for (String uid : registerUserIDs) {
 			querySearchByUserID(uid);
 		}
-//		querySearchByUserID(registerUserIDs.get(0));
+		// querySearchByUserID(registerUserIDs.get(0));
 		outputToFile("output-" + (requeryPublic ? "public" : "reg") + ".txt");
-//		outputToDB(requeryPublic,registerUserIDs);
+		// outputToDB(requeryPublic,registerUserIDs);
 	}
 
-	/*private void outputToDB(boolean requeryPublic,List<String> registerUserIDs) {
-		resultDataMap.put(JourneyType.REFINE_SEARCH, refineSearchCounts);
-		resultDataMap.put(JourneyType.SCHEDULE_RELIABILITY, scheduleReliabilityCounts);
-		resultDataMap.put(JourneyType.SHOW_MAP, showMapCounts);
-		resultDataMap.put(JourneyType.SHOW1, showMaprefineSearchCounts);
-		resultDataMap.put(JourneyType.SHOW2, showMapscheduleReliabilityCounts);
-		resultDataMap.put(JourneyType.SHOW3, showMap3Counts);
-		resultDataMap.put(JourneyType.OTHERS, othersCounts);
-		DBSources db=new DBSources(null);
-		Connection con=db.getConnection();
-		String sql = "INSERT INTO `journeyreport` (`journeyType`, `web`, `mobile`, `manual`, `favorite`, `total`, `usertype`, `from_month`,`to_month`) VALUES (?,?,?,?,?,?,?,?,?)";
-		for(JourneyType type:resultDataMap.keySet()){
-			int [] searchRs=resultDataMap.get(type);
-			try {
-				PreparedStatement pre=con.prepareStatement(sql);
-				pre.setString(1, type.toString());
-				pre.setInt(2, searchRs[0]);
-				pre.setInt(3,searchRs[1]);
-				pre.setInt(4, searchRs[2]);
-				pre.setInt(5, searchRs[3]);
-				pre.setInt(6, searchRs[4]);
-				pre.setString(7,(requeryPublic ? "public" : "register") );
-				pre.setInt(8,DateUtil.getStartMonth());
-				pre.setInt(9, DateUtil.getEndMonth());
-				pre.execute();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
-		}
-	}*/
+	/*
+	 * private void outputToDB(boolean requeryPublic,List<String>
+	 * registerUserIDs) { resultDataMap.put(JourneyType.REFINE_SEARCH,
+	 * refineSearchCounts); resultDataMap.put(JourneyType.SCHEDULE_RELIABILITY,
+	 * scheduleReliabilityCounts); resultDataMap.put(JourneyType.SHOW_MAP,
+	 * showMapCounts); resultDataMap.put(JourneyType.SHOW1,
+	 * showMaprefineSearchCounts); resultDataMap.put(JourneyType.SHOW2,
+	 * showMapscheduleReliabilityCounts); resultDataMap.put(JourneyType.SHOW3,
+	 * showMap3Counts); resultDataMap.put(JourneyType.OTHERS, othersCounts);
+	 * DBSources db=new DBSources(null); Connection con=db.getConnection();
+	 * String sql =
+	 * "INSERT INTO `journeyreport` (`journeyType`, `web`, `mobile`, `manual`, `favorite`, `total`, `usertype`, `from_month`,`to_month`) VALUES (?,?,?,?,?,?,?,?,?)"
+	 * ; for(JourneyType type:resultDataMap.keySet()){ int []
+	 * searchRs=resultDataMap.get(type); try { PreparedStatement
+	 * pre=con.prepareStatement(sql); pre.setString(1, type.toString());
+	 * pre.setInt(2, searchRs[0]); pre.setInt(3,searchRs[1]); pre.setInt(4,
+	 * searchRs[2]); pre.setInt(5, searchRs[3]); pre.setInt(6, searchRs[4]);
+	 * pre.setString(7,(requeryPublic ? "public" : "register") );
+	 * pre.setInt(8,DateUtil.getStartMonth()); pre.setInt(9,
+	 * DateUtil.getEndMonth()); pre.execute(); } catch (SQLException e) {
+	 * e.printStackTrace(); } } }
+	 */
 
 	public static void main(String[] args) {
 		long begin = System.currentTimeMillis();
@@ -140,24 +143,14 @@ public class Entrance {
 
 	public void querySearchByUserID(String userID) {
 		logger.info("processing user id or ip is " + userID);
-		String[] manualSearchCodes = { "trace_routes_search", "trace_main_routes_search", "trace_main_search",
-				"trace_routes_search_public" };
-		String[] favoriteSearchCodes = { "trace_routes_favorite_item", "trace_main_favorite_item" };
-		String[] scheduleReliabilityCodes = { "trace_routes_selectSSRRPortPair", "trace_routes_clickSSRRImage" };
-		String[] showMapCodes = { "trace_routes_selectDetail" };
-		String[] refineSearchCodes = { "trace_routes_selectCalendar", "trace_routes_selectDirect",
-				"trace_routes_selectCycutoffCalendar", "trace_routes_selectArrivalCalendar",
-				"trace_routes_selectDepartureCalendar", "trace_routes_changeTransitTime" };
-		String[] searchRegister={"trace_common_click_signup"};
-		String[] searchEnd={"trace_routes_focusRoutes","trace_routes_firstThingAfterSearch"};
 
 		List<Clientusagedata> searchedRecords = dataLoadTools.allSearch(userID);
 		Map<Clientusagedata, Map<String, Integer>> userActionTacingMap = new HashMap<Clientusagedata, Map<String, Integer>>();
 		// String currentSearchID = null;
 		Map<String, Integer> currentSearchMap = null;
 		Calendar actionStopCal = null;
-		if(searchedRecords==null||searchedRecords.size()==0){
-			return ;
+		if (searchedRecords == null || searchedRecords.size() == 0) {
+			return;
 		}
 		for (Clientusagedata ud : searchedRecords) {
 			if (inArray(manualSearchCodes, ud.getFunc()) || inArray(favoriteSearchCodes, ud.getFunc())) {
@@ -194,9 +187,9 @@ public class Entrance {
 			boolean hasScheduleReliability = false;
 			boolean hasRefineSearch = false;
 			boolean hasShowMap = false;
-			boolean hasRegister=false;
-			boolean hasSearchEnd=false;
-			int otherFunCount=0;
+			boolean hasRegister = false;
+			boolean hasSearchEnd = false;
+			int otherFunCount = 0;
 			for (String action : followingActionMap.keySet()) {
 				if (inArray(showMapCodes, action)) {
 					hasShowMap = true;
@@ -204,53 +197,50 @@ public class Entrance {
 					hasRefineSearch = true;
 				} else if (inArray(scheduleReliabilityCodes, action)) {
 					hasScheduleReliability = true;
-				} else if(inArray(searchRegister, action)){
+				} else if (inArray(searchRegister, action)) {
 					hasRegister = true;
-				}else if(inArray(searchEnd, action)){
-					hasSearchEnd=true;
-				}else{
+				} else if (inArray(searchEnd, action)) {
+					hasSearchEnd = true;
+				} else {
 					otherFunCount++;
 				}
 			}
 
-			int i = (hasRefineSearch ? 1 : 0) + 
-					(hasScheduleReliability ? 2 : 0) + 
-					(hasShowMap ? 4 : 0)+
-					(hasSearchEnd?8:0)+
-					(hasRegister?16:0);
-			if (i==1) {
+			int i = (hasRefineSearch ? 1 : 0) + (hasScheduleReliability ? 2 : 0) + (hasShowMap ? 4 : 0)
+					+ (hasSearchEnd ? 8 : 0) + (hasRegister ? 16 : 0);
+			if (i == 1) {
 				refineSearchCounts[idx1] += 1;
 				refineSearchCounts[idx2] += 1;
 				refineSearchCounts[4] += 1;
-			} else if (i==2) {
+			} else if (i == 2) {
 				scheduleReliabilityCounts[idx1] += 1;
 				scheduleReliabilityCounts[idx2] += 1;
 				scheduleReliabilityCounts[4] += 1;
-			} else if (i==4) {
+			} else if (i == 4) {
 				showMapCounts[idx1] += 1;
 				showMapCounts[idx2] += 1;
 				showMapCounts[4] += 1;
-			} else if (i==5) {
+			} else if (i == 5) {
 				showMaprefineSearchCounts[idx1] += 1;
 				showMaprefineSearchCounts[idx2] += 1;
 				showMaprefineSearchCounts[4] += 1;
-			} else if (i==6) {
+			} else if (i == 6) {
 				showMapscheduleReliabilityCounts[idx1] += 1;
 				showMapscheduleReliabilityCounts[idx2] += 1;
 				showMapscheduleReliabilityCounts[4] += 1;
-			} else if (i==7) {
+			} else if (i == 7) {
 				showMap3Counts[idx1] += 1;
 				showMap3Counts[idx2] += 1;
 				showMap3Counts[4] += 1;
-			}else if(i==8&&otherFunCount==0){
-				searchEndCounts[idx1]+=1;
-				searchEndCounts[idx2]+=1;
-				searchEndCounts[4]+=1;
-			}else if(i==16){
-				searchRegisterCounts[idx1]+=1;
-				searchRegisterCounts[idx2]+=1;
-				searchRegisterCounts[4]+=1;
-			}else {
+			} else if (i == 8 && otherFunCount == 0) {
+				searchEndCounts[idx1] += 1;
+				searchEndCounts[idx2] += 1;
+				searchEndCounts[4] += 1;
+			} else if (i == 16) {
+				searchRegisterCounts[idx1] += 1;
+				searchRegisterCounts[idx2] += 1;
+				searchRegisterCounts[4] += 1;
+			} else {
 				othersCounts[idx1] += 1;
 				othersCounts[idx2] += 1;
 				othersCounts[4] += 1;
