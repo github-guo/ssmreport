@@ -1,0 +1,12 @@
+2015-11-06 09:20:04 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-11-06 09:20:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register users numbers205
+2015-11-06 09:20:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1760444075@qq.com
+2015-11-06 09:20:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is Howard_Schweizer@nittsu.com
+2015-11-06 09:20:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is adam.boisvert@am.kwe.com
+2015-11-06 09:20:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 1521
+2015-11-06 09:20:06 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getPublishUserIDs start
+2015-11-06 09:20:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - publish users number:610
+2015-11-06 09:20:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.136.97.50
+2015-11-06 09:20:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.152.96.157
+2015-11-06 09:20:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.36.221.116
+2015-11-06 09:20:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 1548

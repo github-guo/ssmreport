@@ -89,10 +89,13 @@ public class Entrance {
 		logger.info(requeryPublic == true ? "publish users number:" + registerUserIDs.size()
 				: "register users numbers" + registerUserIDs.size());
 
-		for (String uid : registerUserIDs) {
-			querySearchByUserID(uid);
+//		for (String uid : registerUserIDs) {
+//			querySearchByUserID(uid);
+//		}
+		for(int i=0;i<3;i++){
+			 querySearchByUserID(registerUserIDs.get(i));
 		}
-		// querySearchByUserID(registerUserIDs.get(0));
+		
 		outputToFile("output-" + (requeryPublic ? "public" : "reg") + ".txt");
 		// outputToDB(requeryPublic,registerUserIDs);
 	}
@@ -152,6 +155,8 @@ public class Entrance {
 		if (searchedRecords == null || searchedRecords.size() == 0) {
 			return;
 		}
+		
+		//get key -value (the collection of search records before next search.)
 		for (Clientusagedata ud : searchedRecords) {
 			if (inArray(manualSearchCodes, ud.getFunc()) || inArray(favoriteSearchCodes, ud.getFunc())) {
 				// currentSearchID = ud.getId();
@@ -177,6 +182,7 @@ public class Entrance {
 			}
 		}
 
+		//  for each search loop
 		for (Map.Entry<Clientusagedata, Map<String, Integer>> entry : userActionTacingMap.entrySet()) {
 			Clientusagedata ud = entry.getKey();
 			Map<String, Integer> followingActionMap = entry.getValue();
@@ -190,6 +196,7 @@ public class Entrance {
 			boolean hasRegister = false;
 			boolean hasSearchEnd = false;
 			int otherFunCount = 0;
+			// for each action record loop
 			for (String action : followingActionMap.keySet()) {
 				if (inArray(showMapCodes, action)) {
 					hasShowMap = true;
@@ -232,7 +239,7 @@ public class Entrance {
 				showMap3Counts[idx1] += 1;
 				showMap3Counts[idx2] += 1;
 				showMap3Counts[4] += 1;
-			} else if (i == 8 && otherFunCount == 0) {
+			} else if (i == 8 && otherFunCount != 0) {
 				searchEndCounts[idx1] += 1;
 				searchEndCounts[idx2] += 1;
 				searchEndCounts[4] += 1;
