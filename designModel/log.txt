@@ -10,3 +10,83 @@
 2015-11-06 09:20:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.152.96.157
 2015-11-06 09:20:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.36.221.116
 2015-11-06 09:20:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 1548
+2015-11-06 11:16:52 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-11-06 11:16:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register users numbers205
+2015-11-06 11:16:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1760444075@qq.com
+2015-11-06 11:16:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is Howard_Schweizer@nittsu.com
+2015-11-06 11:16:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is adam.boisvert@am.kwe.com
+2015-11-06 11:16:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 3665
+2015-11-06 11:16:55 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getPublishUserIDs start
+2015-11-06 11:16:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - publish users number:610
+2015-11-06 11:16:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.136.97.50
+2015-11-06 11:16:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.152.96.157
+2015-11-06 11:16:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.36.221.116
+2015-11-06 11:16:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 2744
+2015-11-06 11:24:23 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-11-06 11:24:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register users numbers205
+2015-11-06 11:24:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1760444075@qq.com
+2015-11-06 11:24:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is Howard_Schweizer@nittsu.com
+2015-11-06 11:24:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is adam.boisvert@am.kwe.com
+2015-11-06 11:24:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 3761
+2015-11-06 11:24:27 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getPublishUserIDs start
+2015-11-06 11:24:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - publish users number:610
+2015-11-06 11:24:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.136.97.50
+2015-11-06 11:24:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.152.96.157
+2015-11-06 11:24:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.36.221.116
+2015-11-06 11:24:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 3301
+2015-11-06 11:25:42 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-11-06 11:25:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register users numbers205
+2015-11-06 11:25:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1760444075@qq.com
+2015-11-06 11:25:43 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[DEBUG] - SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.userIdentification#userID ='1760444075@qq.com' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+2015-11-06 11:25:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is Howard_Schweizer@nittsu.com
+2015-11-06 11:25:44 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[DEBUG] - SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.userIdentification#userID ='Howard_Schweizer@nittsu.com' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+2015-11-06 11:25:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is adam.boisvert@am.kwe.com
+2015-11-06 11:25:45 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[DEBUG] - SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.userIdentification#userID ='adam.boisvert@am.kwe.com' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+2015-11-06 11:25:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 3195
+2015-11-06 11:25:45 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getPublishUserIDs start
+2015-11-06 11:25:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - publish users number:610
+2015-11-06 11:25:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.136.97.50
+2015-11-06 11:25:46 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[DEBUG] - SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.requestInformation#requestIp ='1.136.97.50' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+2015-11-06 11:25:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.152.96.157
+2015-11-06 11:25:47 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[DEBUG] - SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.requestInformation#requestIp ='1.152.96.157' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+2015-11-06 11:25:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.36.221.116
+2015-11-06 11:25:47 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[DEBUG] - SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.requestInformation#requestIp ='1.36.221.116' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+2015-11-06 11:25:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 3129
+2015-11-06 11:35:45 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-11-06 11:35:51 [com.cargosmart.csmcs.report.db.DBHelper]-[INFO] - sql :select distinct(cd.userIdentification#userID)from CSSOWNER.CLIENTUSAGEDATAS as cd where cd.userIdentification#userID IS NOT NULL and cd.userIdentification#userID!='' and not exists (select 1 from POI.BS_IP_DATA_XLSX_LIST i where cd.requestInformation#requestIp=i.IP_ADDRESS) and not exists (select 1 from POI.BS_INTERNAL_USE_LIST u where upper(cd.userIdentification#userID)=upper(u.[OFFICE EMAIL ADDRESS]))  AND cd.func in ('trace_routes_search', 'trace_main_routes_search', 'trace_main_search','trace_routes_search_public','trace_routes_favorite_item', 'trace_main_favorite_item') order by cd.userIdentification#userID
+ execute time:6074
+2015-11-06 11:35:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register users numbers205
+2015-11-06 11:35:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1760444075@qq.com
+2015-11-06 11:35:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is Howard_Schweizer@nittsu.com
+2015-11-06 11:35:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is adam.boisvert@am.kwe.com
+2015-11-06 11:35:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is akumar@lcpackaging.com
+2015-11-06 11:35:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is alan.yip@cargosmart.com
+2015-11-06 11:35:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is alex@airshipintl.com
+2015-11-06 11:35:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ali@triplem.be
+2015-11-06 11:35:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is aly_m9002@yahoo.com
+2015-11-06 11:36:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is amcrae@agility.com
+2015-11-06 11:36:04 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - sql :SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.userIdentification#userID ='amcrae@agility.com' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+ execute time:3772
+2015-11-06 11:36:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is amorales@crainwalnut.com
+2015-11-06 11:36:09 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - sql :SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.userIdentification#userID ='amorales@crainwalnut.com' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+ execute time:4695
+2015-11-06 11:36:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andreas.freier@hlag.com
+2015-11-06 11:36:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andrew.lim2@dhl.com
+2015-11-06 11:36:22 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - sql :SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.userIdentification#userID ='andrew.lim2@dhl.com' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-1 16:00:00:000') ORDER BY cd.createTime
+ execute time:11790
+2015-11-06 11:36:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:andrew.lim2@dhl.com search type is withoutFurther,time:2015-10-15 03:42:33.79
+2015-11-06 11:36:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andrew@medey.com
+2015-11-06 11:37:13 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-11-06 11:37:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register users numbers205
+2015-11-06 11:37:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1760444075@qq.com
+2015-11-06 11:37:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is Howard_Schweizer@nittsu.com
+2015-11-06 11:37:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is adam.boisvert@am.kwe.com
+2015-11-06 11:37:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 2600
+2015-11-06 11:37:16 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getPublishUserIDs start
+2015-11-06 11:37:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - publish users number:610
+2015-11-06 11:37:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.136.97.50
+2015-11-06 11:37:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.152.96.157
+2015-11-06 11:37:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.36.221.116
+2015-11-06 11:37:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:1.36.221.116 search type is withoutFurther,time:2015-10-20 02:46:29.107
+2015-11-06 11:37:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:1.36.221.116 search type is withoutFurther,time:2015-10-20 04:03:11.18
+2015-11-06 11:37:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 2896

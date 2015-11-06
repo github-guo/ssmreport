@@ -89,12 +89,12 @@ public class Entrance {
 		logger.info(requeryPublic == true ? "publish users number:" + registerUserIDs.size()
 				: "register users numbers" + registerUserIDs.size());
 
-//		for (String uid : registerUserIDs) {
-//			querySearchByUserID(uid);
-//		}
-		for(int i=0;i<3;i++){
-			 querySearchByUserID(registerUserIDs.get(i));
+		for (String uid : registerUserIDs) {
+			querySearchByUserID(uid);
 		}
+		/*for(int i=0;i<3;i++){
+			 querySearchByUserID(registerUserIDs.get(i));
+		}*/
 		
 		outputToFile("output-" + (requeryPublic ? "public" : "reg") + ".txt");
 		// outputToDB(requeryPublic,registerUserIDs);
@@ -213,8 +213,8 @@ public class Entrance {
 				}
 			}
 
-			int i = (hasRefineSearch ? 1 : 0) + (hasScheduleReliability ? 2 : 0) + (hasShowMap ? 4 : 0)
-					+ (hasSearchEnd ? 8 : 0) + (hasRegister ? 16 : 0);
+			int i = (hasRefineSearch ? 1 : 0) + (hasScheduleReliability ? 2 : 0) + (hasShowMap ? 4 : 0);
+//					+ (hasSearchEnd ? 8 : 0) + (hasRegister ? 16 : 0);
 			if (i == 1) {
 				refineSearchCounts[idx1] += 1;
 				refineSearchCounts[idx2] += 1;
@@ -239,15 +239,19 @@ public class Entrance {
 				showMap3Counts[idx1] += 1;
 				showMap3Counts[idx2] += 1;
 				showMap3Counts[4] += 1;
-			} else if (i == 8 && otherFunCount != 0) {
-				searchEndCounts[idx1] += 1;
-				searchEndCounts[idx2] += 1;
-				searchEndCounts[4] += 1;
-			} else if (i == 16) {
+			}else if (hasRegister) {
 				searchRegisterCounts[idx1] += 1;
 				searchRegisterCounts[idx2] += 1;
 				searchRegisterCounts[4] += 1;
-			} else {
+			} else if (hasSearchEnd&& otherFunCount == 0&&i==0) {
+				logger.info("".equals(ud.getUserIdentification_userID())?
+						"ip:"+ud.getRequestInformation_requestIp()+" search type is withoutFurther,time:"+ud.getCreateTime():
+						"user id:"+ud.getUserIdentification_userID()+" search type is withoutFurther,time:"+ud.getCreateTime()
+						);
+				searchEndCounts[idx1] += 1;
+				searchEndCounts[idx2] += 1;
+				searchEndCounts[4] += 1;
+			}  else {
 				othersCounts[idx1] += 1;
 				othersCounts[idx2] += 1;
 				othersCounts[4] += 1;
