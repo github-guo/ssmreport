@@ -130,7 +130,7 @@ public class Entrance {
 		long end = System.currentTimeMillis();
 		logger.info("spent time " + (end - begin));
 		begin = System.currentTimeMillis();
-		et.first(true);
+//		et.first(true);
 		end = System.currentTimeMillis();
 		logger.info("spent time " + (end - begin));
 	}
@@ -206,6 +206,10 @@ public class Entrance {
 					hasScheduleReliability = true;
 				} else if (inArray(searchRegister, action)) {
 					hasRegister = true;
+					logger.info("".equals(ud.getUserIdentification_userID())?
+							"register ip:"+ud.getRequestInformation_requestIp()+" register time:"+ud.getCreateTime():
+							"register user id:"+ud.getUserIdentification_userID()+" register time:"+ud.getCreateTime()
+							);
 				} else if (inArray(searchEnd, action)) {
 					hasSearchEnd = true;
 				} else {

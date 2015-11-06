@@ -1,0 +1,1192 @@
+2015-11-06 15:44:24 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-11-06 15:44:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register users numbers205
+2015-11-06 15:44:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1760444075@qq.com
+2015-11-06 15:44:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is Howard_Schweizer@nittsu.com
+2015-11-06 15:44:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is adam.boisvert@am.kwe.com
+2015-11-06 15:44:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is akumar@lcpackaging.com
+2015-11-06 15:44:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is alan.yip@cargosmart.com
+2015-11-06 15:44:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is alex@airshipintl.com
+2015-11-06 15:44:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ali@triplem.be
+2015-11-06 15:44:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is aly_m9002@yahoo.com
+2015-11-06 15:44:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is amcrae@agility.com
+2015-11-06 15:44:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is amorales@crainwalnut.com
+2015-11-06 15:44:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andreas.freier@hlag.com
+2015-11-06 15:44:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andrew.lim2@dhl.com
+2015-11-06 15:44:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andrew@medey.com
+2015-11-06 15:44:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andy.baertschi@panalpina.com
+2015-11-06 15:44:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is antony.zhang@cargosmart.com
+2015-11-06 15:44:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is arjen.massaut@ups.com
+2015-11-06 15:44:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is aviisrael2013@gmail.com
+2015-11-06 15:44:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is b.wolke@ict-germany.de
+2015-11-06 15:44:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is bdellinger@fortintl.com
+2015-11-06 15:44:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is bob.costanzo@bdpint.com
+2015-11-06 15:44:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is booking@tiscogroup.com.cn
+2015-11-06 15:44:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is bphillips@wwllmail.com
+2015-11-06 15:44:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is brian.farrell@pace.com
+2015-11-06 15:44:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is camilla@usacargo.com
+2015-11-06 15:44:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is candy.chan@cargosmart.com
+2015-11-06 15:44:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is carga@wizint.com
+2015-11-06 15:44:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is cargo2006@126.com
+2015-11-06 15:44:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is carol.du@cargosmart.com
+2015-11-06 15:44:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is cathy.wang@damco.com
+2015-11-06 15:44:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is cherish.freeman@kuehne-nagel.com
+2015-11-06 15:44:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is christinalau@cct.com.hk
+2015-11-06 15:44:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is christyswamy@sanmar.com
+2015-11-06 15:44:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is chungsingmotor@gmail.com
+2015-11-06 15:44:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is cindy.mcmullen@panalpina.com
+2015-11-06 15:44:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is clair.fu@cargosmart.com
+2015-11-06 15:44:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is craig.bair@kuehne-nagel.com
+2015-11-06 15:44:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is csauto@cargosmart.com
+2015-11-06 15:44:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is csopc
+2015-11-06 15:44:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is dallas.jones@ecunz.com
+2015-11-06 15:44:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is daniel.hornburg@gondrand-logistics.com
+2015-11-06 15:44:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is dapodaca@newportch.com
+2015-11-06 15:44:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is david.fortier@mainfreightusa.com
+2015-11-06 15:44:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is davidc@mel.transtar.net
+2015-11-06 15:44:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is dawn.palumbo@bdpint.com
+2015-11-06 15:44:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is debbie.ostergaard@lemanusa.com
+2015-11-06 15:44:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is diego.alvarez@panalpina.com
+2015-11-06 15:44:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is e.trivino@sdv.com
+2015-11-06 15:44:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is echo@trans-hope.com
+2015-11-06 15:44:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is edale@wwllmail.com
+2015-11-06 15:44:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is elaine.mo@cargosmart.com
+2015-11-06 15:44:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is emilien.bournigal@gmail.com
+2015-11-06 15:44:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is erwin.herfst@panalpina.com
+2015-11-06 15:44:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is eugen.hulm@panalpina.com
+2015-11-06 15:44:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is export@transwing.net
+2015-11-06 15:44:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is expsea.dlc@cn.dsv.com
+2015-11-06 15:44:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is fanny-gy.fan@panalpina.com
+2015-11-06 15:44:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is fengxx@sevenseas.com.cn
+2015-11-06 15:44:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is flaviab@mfc.com.au
+2015-11-06 15:44:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is fred.smit@dhl.com
+2015-11-06 15:44:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is fredrick.dangelo@dhl.com
+2015-11-06 15:44:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is funney_wu@apllogistics.com
+2015-11-06 15:44:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is georgi@kgcargo-bg.com
+2015-11-06 15:44:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is giacomocaio@gavagroup.com
+2015-11-06 15:44:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is gigi.tse@oocl.com
+2015-11-06 15:44:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is glenn@tgloballtd.ca
+2015-11-06 15:44:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is gregor.holm@panalpina.com
+2015-11-06 15:44:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is gunter@kentinternational.co.uk
+2015-11-06 15:44:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is gzfop12@cntrans.cn
+2015-11-06 15:44:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is hleighton@bcr.com.au
+2015-11-06 15:44:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ian.mcnally@kuehne-nagel.com
+2015-11-06 15:44:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ianm@accordif.co.nz
+2015-11-06 15:44:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is icy.liang@cargosmart.com
+2015-11-06 15:44:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is imex.sales@outlook.com
+2015-11-06 15:44:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is imorocho@ups.com
+2015-11-06 15:44:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is import@transcoshipping.com
+2015-11-06 15:44:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ishida-teruhito@shibusawa.co.jp
+2015-11-06 15:44:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is iulian.golub@gmail.com
+2015-11-06 15:44:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jacqueline.so@oocl.com
+2015-11-06 15:44:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jakub.lukas@panalpina.com
+2015-11-06 15:44:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jaska.lu@cargosmart.com
+2015-11-06 15:44:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jason.to@panalpina.com
+2015-11-06 15:44:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jeff.wize@kuehne-nagel.com
+2015-11-06 15:44:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jen@ift.com
+2015-11-06 15:44:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jesper.henriksen@lemanusa.com
+2015-11-06 15:44:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jessie.duan@panalpina.com
+2015-11-06 15:44:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jheri.chan@cargosmart.com
+2015-11-06 15:44:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jimmytsai@gmail.com
+2015-11-06 15:44:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jinnoya
+2015-11-06 15:44:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jonathan.cook@kuehne-nagel.com
+2015-11-06 15:44:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is karen.ip@cargosmart.com
+2015-11-06 15:44:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is karen.l.mccalla@invista.com
+2015-11-06 15:44:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is karine.holloway@kuehne-nagel.com
+2015-11-06 15:44:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kenneth.tsui@cargosmart.com
+2015-11-06 15:44:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kevin.liang@cargosmart.com
+2015-11-06 15:44:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kevin.van.hoof@bnl.yusen-logistics.com
+2015-11-06 15:44:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kevinzhu_sz@walkerhk.com.hk
+2015-11-06 15:44:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kieran.bligh@kuehne-nagel.com
+2015-11-06 15:44:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is laike2
+2015-11-06 15:44:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is launelson@ups.com
+2015-11-06 15:44:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is laura.perez@panalpina.com
+2015-11-06 15:44:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is leohu@ucmcargo.com
+2015-11-06 15:44:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lily.wang@longnation.com
+2015-11-06 15:44:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lindalin@kingdaforwarder.com
+2015-11-06 15:44:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lion.li@cargosmart.com
+2015-11-06 15:44:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lisa.shaw@panalpina.com
+2015-11-06 15:44:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is logistic@arthenterprise.com
+2015-11-06 15:44:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lorena.simpson@bnsflogistics.com
+2015-11-06 15:44:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lynn@tufmsz.com
+2015-11-06 15:44:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is m.njema@gmail.com
+2015-11-06 15:44:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ma@tomex.dk
+2015-11-06 15:44:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is maggie.ren@vastrans.net
+2015-11-06 15:44:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is marcus.harvey@panalpina.com
+2015-11-06 15:44:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is marie-christine.niemann@kuehne-nagel.com
+2015-11-06 15:44:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is marko.popovic@transagent.rs
+2015-11-06 15:44:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is martin.kaiml@panalpina.com
+2015-11-06 15:44:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is martins@uniexpress.co.uk
+2015-11-06 15:44:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mary.christopher@carestreamhealth.com
+2015-11-06 15:44:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mathias-felix.huss@urban-transporte.de
+2015-11-06 15:44:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is matthew.archer@mondialefreight.com
+2015-11-06 15:44:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is meiling.look@hotmail.com
+2015-11-06 15:44:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is melvin.leung@cargosmart.com
+2015-11-06 15:44:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is melvin_leungwt@hotmail.com
+2015-11-06 15:44:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is meredythc@mallorygroup.com
+2015-11-06 15:44:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is michael.petrosini@kuehne-nagel.com
+2015-11-06 15:44:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is michael.x.chen@oocl.com
+2015-11-06 15:44:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is michelle.chang@panalpina.com
+2015-11-06 15:44:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is michelle.mullen@kuehne-nagel.com
+2015-11-06 15:44:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is miguel.picazo@panalpina.com
+2015-11-06 15:44:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is miikka.pelkonen@dhl.com
+2015-11-06 15:44:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mikep@accordif.co.nz
+2015-11-06 15:44:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mjaved@agility.com
+2015-11-06 15:44:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mkr@saco.de
+2015-11-06 15:44:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mktjshipping2@markor.com.cn
+2015-11-06 15:44:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mlipinski@wheelsgroup.com
+2015-11-06 15:44:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is moses@ruishine-logistics.com
+2015-11-06 15:44:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is nathan.yuan@fargo-shipping.com
+2015-11-06 15:44:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is nelly.foe@bdpint.com
+2015-11-06 15:44:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is nickey.liang@cargosmart.com
+2015-11-06 15:44:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is o.petersohn@interfracht.de
+2015-11-06 15:44:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is oconnor.jiang@oocl.com
+2015-11-06 15:44:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is op98@leadone.hk
+2015-11-06 15:44:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is paolaluisa.colombo@geodis.com
+2015-11-06 15:44:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is paul.devries@panalpina.com
+2015-11-06 15:44:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is paul.vangeest@panalpina.com
+2015-11-06 15:44:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is pcleung@celestica.com
+2015-11-06 15:44:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is petrukhin.danila@mail.ru
+2015-11-06 15:44:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is phil5969@gmail.com
+2015-11-06 15:44:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is piano1214@163.com
+2015-11-06 15:44:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is pliton@ups.com
+2015-11-06 15:44:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is prajeetsharma@gmail.com
+2015-11-06 15:44:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is raje.hkg@gmail.com
+2015-11-06 15:44:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is rallison@sanwa.com.au
+2015-11-06 15:44:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is rayliutao@sohu.com
+2015-11-06 15:44:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is raymond.chin@cargosmart.com
+2015-11-06 15:44:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is regina@sg.steinweg.com
+2015-11-06 15:44:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ricardo.ortizc@panalpina.com
+2015-11-06 15:44:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is robin_logistics@126.com
+2015-11-06 15:44:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is romesh@sohu.com
+2015-11-06 15:44:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sales@apicl.com.tw
+2015-11-06 15:44:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sam.gxwong@dhl.com
+2015-11-06 15:44:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sandywu528@qq.com
+2015-11-06 15:44:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is scott.becker@panalpina.com
+2015-11-06 15:44:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is service@yuexiulogistic.com
+2015-11-06 15:44:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is shanty.skaria@hlag.com
+2015-11-06 15:44:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sharadshukla@live.com
+2015-11-06 15:44:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sheldon@nichship.co.za
+2015-11-06 15:44:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sherring.zhang@cargosmart.com
+2015-11-06 15:44:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is snewson@hemisphere-freight.com
+2015-11-06 15:44:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ssam@anbakam.com
+2015-11-06 15:44:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is stefan.flannery@panalpina.com
+2015-11-06 15:44:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is stephen.smith@cameronfreight.com
+2015-11-06 15:44:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sunny.liu@cargosmart.com
+2015-11-06 15:44:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is support
+2015-11-06 15:44:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is susan.hughes@uk.dsv.com
+2015-11-06 15:44:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is susie.liu@cargosmart.com
+2015-11-06 15:44:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is szx-oceanexport@cns.hh-express.com
+2015-11-06 15:45:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tfarrell@tbgfs.com
+2015-11-06 15:45:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tingting.zhang@cargosmart.com
+2015-11-06 15:45:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tlee@pangealogistics.com
+2015-11-06 15:45:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tma.nguyenhoa@gmail.com
+2015-11-06 15:45:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tom.vandenplas@kuehne-nagel.com
+2015-11-06 15:45:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tommy@triplem.be
+2015-11-06 15:45:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tony.walpole@tradefreight.co.uk
+2015-11-06 15:45:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tonypeng_sz@walkerhk.com.hk
+2015-11-06 15:45:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is topeak_tj@163.com
+2015-11-06 15:45:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tsmithlll@aol.com
+2015-11-06 15:45:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is vban@ups.com
+2015-11-06 15:45:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is venkat.shivkumar@tollgroup.com
+2015-11-06 15:45:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is veoboch1@singnet.com.sg
+2015-11-06 15:45:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is vivian@c-ocean.net
+2015-11-06 15:45:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is vladanton.vetra@dhl.com
+2015-11-06 15:45:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is w.y.chan@cargosmart.com
+2015-11-06 15:45:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is wade.stock@kuehne-nagel.com
+2015-11-06 15:45:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is walter.whippy@panalpina.com
+2015-11-06 15:45:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is weerachon.pinatha@kwe.com
+2015-11-06 15:45:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is whaili@hotmail.com
+2015-11-06 15:45:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is william.fields@kuehne-nagel.com
+2015-11-06 15:45:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is win_sz@139.com
+2015-11-06 15:45:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ws@ritra.nl
+2015-11-06 15:45:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is xuan5824@163.com
+2015-11-06 15:45:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is y.vandersande@vandongederoo.nl
+2015-11-06 15:45:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is yu@cncosmos.com
+2015-11-06 15:45:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is zbartczak@ups.com
+2015-11-06 15:45:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is zolaliu@thi-group.com
+2015-11-06 15:45:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is zuobai.fan@aeblogistics.com
+2015-11-06 15:45:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 40389
+2015-11-06 15:45:04 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getPublishUserIDs start
+2015-11-06 15:45:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - publish users number:610
+2015-11-06 15:45:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.136.97.50
+2015-11-06 15:45:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.152.96.157
+2015-11-06 15:45:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.36.221.116
+2015-11-06 15:45:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:1.36.221.116 search type is withoutFurther,time:2015-10-20 04:03:11.18
+2015-11-06 15:45:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:1.36.221.116 search type is withoutFurther,time:2015-10-20 02:46:29.107
+2015-11-06 15:45:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1.36.232.188
+2015-11-06 15:45:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.0.84.129
+2015-11-06 15:45:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.123.6.126
+2015-11-06 15:45:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:10.123.6.126 search type is withoutFurther,time:2015-10-20 15:32:11.843
+2015-11-06 15:45:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.123.6.27
+2015-11-06 15:45:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.123.6.68
+2015-11-06 15:45:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.161.224.98
+2015-11-06 15:45:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.21.26.145
+2015-11-06 15:45:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.128.41
+2015-11-06 15:45:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.128.84
+2015-11-06 15:45:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.134.15
+2015-11-06 15:45:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.134.25
+2015-11-06 15:45:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.184.19
+2015-11-06 15:45:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.2.164
+2015-11-06 15:45:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.20.178
+2015-11-06 15:45:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.22.153
+2015-11-06 15:45:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.22.184
+2015-11-06 15:45:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.22.186
+2015-11-06 15:45:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:10.222.22.186 register time:2015-10-19 09:23:27.93
+2015-11-06 15:45:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.22.81
+2015-11-06 15:45:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.22.92
+2015-11-06 15:45:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.22.98
+2015-11-06 15:45:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.23.180
+2015-11-06 15:45:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.23.183
+2015-11-06 15:45:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.23.193
+2015-11-06 15:45:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.23.26
+2015-11-06 15:45:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.23.43
+2015-11-06 15:45:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:10.222.23.43 search type is withoutFurther,time:2015-10-14 06:51:59.927
+2015-11-06 15:45:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.242.138
+2015-11-06 15:45:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.242.174
+2015-11-06 15:45:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.242.63
+2015-11-06 15:45:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.242.66
+2015-11-06 15:45:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:10.222.242.66 search type is withoutFurther,time:2015-10-19 09:31:05.143
+2015-11-06 15:45:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:10.222.242.66 search type is withoutFurther,time:2015-10-19 06:44:47.777
+2015-11-06 15:45:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.242.86
+2015-11-06 15:45:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.36.160
+2015-11-06 15:45:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.36.165
+2015-11-06 15:45:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:10.222.36.165 search type is withoutFurther,time:2015-10-19 02:55:46.247
+2015-11-06 15:45:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.36.28
+2015-11-06 15:45:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.41.142
+2015-11-06 15:45:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.47.147
+2015-11-06 15:45:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:10.222.47.147 search type is withoutFurther,time:2015-10-19 03:53:40.043
+2015-11-06 15:45:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.47.156
+2015-11-06 15:45:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.47.198
+2015-11-06 15:45:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.47.206
+2015-11-06 15:45:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.48.154
+2015-11-06 15:45:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.48.158
+2015-11-06 15:45:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.48.166
+2015-11-06 15:45:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.48.173
+2015-11-06 15:45:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.48.180
+2015-11-06 15:45:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.48.36
+2015-11-06 15:45:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.49.30
+2015-11-06 15:45:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.49.33
+2015-11-06 15:45:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.49.61
+2015-11-06 15:45:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.51.53
+2015-11-06 15:45:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.53.182
+2015-11-06 15:45:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.53.20
+2015-11-06 15:45:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.57.153
+2015-11-06 15:45:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.57.191
+2015-11-06 15:45:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.57.192
+2015-11-06 15:45:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.60.148
+2015-11-06 15:45:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:10.222.60.148 search type is withoutFurther,time:2015-10-14 02:04:02.67
+2015-11-06 15:45:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.60.210
+2015-11-06 15:45:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.65.12
+2015-11-06 15:45:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.222.68.54
+2015-11-06 15:45:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.246.144.198
+2015-11-06 15:45:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.33.113.51
+2015-11-06 15:45:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.33.41.198
+2015-11-06 15:45:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.33.47.140
+2015-11-06 15:45:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.33.47.161
+2015-11-06 15:45:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.49.28.144
+2015-11-06 15:45:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 10.50.50.169
+2015-11-06 15:45:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 101.173.106.186
+2015-11-06 15:45:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 101.180.1.82
+2015-11-06 15:45:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 101.228.132.98
+2015-11-06 15:45:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:101.228.132.98 search type is withoutFurther,time:2015-10-19 16:54:34.823
+2015-11-06 15:45:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 101.57.193.1
+2015-11-06 15:45:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 101.78.154.226
+2015-11-06 15:45:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 101.78.179.238
+2015-11-06 15:45:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:101.78.179.238 search type is withoutFurther,time:2015-10-15 03:52:41.763
+2015-11-06 15:45:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:101.78.179.238 search type is withoutFurther,time:2015-10-16 06:30:29.227
+2015-11-06 15:45:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:101.78.179.238 search type is withoutFurther,time:2015-10-16 03:04:27.307
+2015-11-06 15:45:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:101.78.179.238 search type is withoutFurther,time:2015-10-14 04:18:05.667
+2015-11-06 15:45:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:101.78.179.238 search type is withoutFurther,time:2015-10-14 06:59:36.18
+2015-11-06 15:45:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 101.78.200.254
+2015-11-06 15:45:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 103.10.48.222
+2015-11-06 15:45:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 103.11.124.102
+2015-11-06 15:45:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 103.245.174.147
+2015-11-06 15:45:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 103.26.120.206
+2015-11-06 15:45:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 104.35.50.72
+2015-11-06 15:45:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 106.216.163.187
+2015-11-06 15:45:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 108.30.177.23
+2015-11-06 15:45:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 109.156.101.134
+2015-11-06 15:45:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 109.204.98.103
+2015-11-06 15:45:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 109.211.117.250
+2015-11-06 15:45:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 109.22.61.173
+2015-11-06 15:45:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 110.171.178.199
+2015-11-06 15:45:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 110.79.13.10
+2015-11-06 15:45:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 110.87.12.36
+2015-11-06 15:45:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 111.160.30.18
+2015-11-06 15:45:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 111.161.127.172
+2015-11-06 15:45:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 111.161.18.87
+2015-11-06 15:45:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 111.163.45.183
+2015-11-06 15:45:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 111.68.46.18
+2015-11-06 15:45:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 112.17.239.100
+2015-11-06 15:45:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 112.65.187.26
+2015-11-06 15:45:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.103.84.155
+2015-11-06 15:45:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.104.213.211
+2015-11-06 15:45:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.105.186.227
+2015-11-06 15:45:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.108.128.66
+2015-11-06 15:45:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:113.108.128.66 search type is withoutFurther,time:2015-10-16 02:14:34.38
+2015-11-06 15:45:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.108.129.66
+2015-11-06 15:45:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.116.232.106
+2015-11-06 15:45:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.119.18.132
+2015-11-06 15:45:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.161.68.241
+2015-11-06 15:45:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:113.161.68.241 register time:2015-10-14 02:44:17.52
+2015-11-06 15:45:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:113.161.68.241 search type is withoutFurther,time:2015-10-15 03:29:58.097
+2015-11-06 15:45:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.254.172.97
+2015-11-06 15:45:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:113.254.172.97 search type is withoutFurther,time:2015-10-15 12:57:32.547
+2015-11-06 15:45:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:113.254.172.97 search type is withoutFurther,time:2015-10-18 13:05:58.0
+2015-11-06 15:45:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.28.58.42
+2015-11-06 15:45:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.30.124.1
+2015-11-06 15:45:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:113.30.124.1 search type is withoutFurther,time:2015-10-19 03:05:11.75
+2015-11-06 15:45:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.74.45.128
+2015-11-06 15:45:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.76.152.173
+2015-11-06 15:45:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.76.152.95
+2015-11-06 15:45:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.87.115.105
+2015-11-06 15:45:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:113.87.115.105 search type is withoutFurther,time:2015-10-14 10:27:55.937
+2015-11-06 15:45:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.90.180.158
+2015-11-06 15:45:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 113.90.74.222
+2015-11-06 15:45:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:113.90.74.222 search type is withoutFurther,time:2015-10-15 02:35:07.203
+2015-11-06 15:45:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 114.121.129.12
+2015-11-06 15:45:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 114.23.249.57
+2015-11-06 15:45:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 114.88.154.81
+2015-11-06 15:45:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:114.88.154.81 register time:2015-10-20 03:04:18.683
+2015-11-06 15:45:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 114.93.78.244
+2015-11-06 15:45:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 115.132.252.112
+2015-11-06 15:45:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 115.214.139.208
+2015-11-06 15:45:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:115.214.139.208 search type is withoutFurther,time:2015-10-18 12:18:57.0
+2015-11-06 15:45:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 115.238.150.226
+2015-11-06 15:45:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 115.248.128.181
+2015-11-06 15:45:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 115.70.227.2
+2015-11-06 15:45:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:115.70.227.2 search type is withoutFurther,time:2015-10-19 05:55:32.707
+2015-11-06 15:45:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 116.226.102.30
+2015-11-06 15:45:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 116.226.11.127
+2015-11-06 15:45:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 116.226.113.121
+2015-11-06 15:45:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 116.226.17.66
+2015-11-06 15:45:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 116.231.27.13
+2015-11-06 15:45:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 116.235.220.103
+2015-11-06 15:45:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 116.247.98.182
+2015-11-06 15:45:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 116.6.104.10
+2015-11-06 15:45:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 117.15.234.54
+2015-11-06 15:45:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 117.247.63.61
+2015-11-06 15:45:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 117.247.63.90
+2015-11-06 15:46:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 117.25.232.50
+2015-11-06 15:46:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 117.30.220.100
+2015-11-06 15:46:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 117.83.9.134
+2015-11-06 15:46:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.131.237.82
+2015-11-06 15:46:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.143.141.119
+2015-11-06 15:46:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.143.31.207
+2015-11-06 15:46:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:118.143.31.207 search type is withoutFurther,time:2015-10-16 01:38:41.05
+2015-11-06 15:46:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:118.143.31.207 search type is withoutFurther,time:2015-10-16 02:25:37.897
+2015-11-06 15:46:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.143.4.254
+2015-11-06 15:46:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.151.148.135
+2015-11-06 15:46:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.163.30.252
+2015-11-06 15:46:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:118.163.30.252 search type is withoutFurther,time:2015-10-14 02:09:23.53
+2015-11-06 15:46:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.200.211.245
+2015-11-06 15:46:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.200.225.153
+2015-11-06 15:46:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.200.235.14
+2015-11-06 15:46:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 118.22.5.94
+2015-11-06 15:46:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 119.130.187.236
+2015-11-06 15:46:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 119.136.176.3
+2015-11-06 15:46:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 119.137.90.192
+2015-11-06 15:46:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 119.139.136.43
+2015-11-06 15:46:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 119.139.16.38
+2015-11-06 15:46:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:119.139.16.38 search type is withoutFurther,time:2015-10-20 03:29:03.423
+2015-11-06 15:46:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 119.148.6.17
+2015-11-06 15:46:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 119.167.27.208
+2015-11-06 15:46:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 12.149.79.7
+2015-11-06 15:46:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 12.49.187.31
+2015-11-06 15:46:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 12.96.122.2
+2015-11-06 15:46:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 120.21.74.92
+2015-11-06 15:46:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 121.15.145.166
+2015-11-06 15:46:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 121.15.57.105
+2015-11-06 15:46:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 121.32.201.86
+2015-11-06 15:46:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 121.35.113.47
+2015-11-06 15:46:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 121.75.39.104
+2015-11-06 15:46:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 122.160.135.40
+2015-11-06 15:46:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 122.192.1.154
+2015-11-06 15:46:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 122.227.217.222
+2015-11-06 15:46:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 122.246.181.223
+2015-11-06 15:46:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 122.4.72.244
+2015-11-06 15:46:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 122.56.198.134
+2015-11-06 15:46:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 122.62.98.125
+2015-11-06 15:46:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 123.150.65.50
+2015-11-06 15:46:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:123.150.65.50 search type is withoutFurther,time:2015-10-15 02:18:38.853
+2015-11-06 15:46:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 123.152.114.33
+2015-11-06 15:46:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 123.152.162.122
+2015-11-06 15:46:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 123.234.143.251
+2015-11-06 15:46:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 123.235.50.173
+2015-11-06 15:46:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 124.163.223.83
+2015-11-06 15:46:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 124.43.238.118
+2015-11-06 15:46:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:124.43.238.118 search type is withoutFurther,time:2015-10-17 19:45:05.01
+2015-11-06 15:46:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 124.93.16.114
+2015-11-06 15:46:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 125.111.138.47
+2015-11-06 15:46:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 125.209.85.204
+2015-11-06 15:46:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 125.227.64.217
+2015-11-06 15:46:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 125.252.85.203
+2015-11-06 15:46:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:125.252.85.203 register time:2015-10-16 08:50:09.0
+2015-11-06 15:46:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 125.255.112.94
+2015-11-06 15:46:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 127.0.0.1
+2015-11-06 15:46:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 129.169.66.225
+2015-11-06 15:46:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 130.100.156.90
+2015-11-06 15:46:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 130.100.156.96
+2015-11-06 15:46:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 131.103.23.181
+2015-11-06 15:46:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 132.160.97.167
+2015-11-06 15:46:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 137.1.16.56
+2015-11-06 15:46:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 137.186.85.219
+2015-11-06 15:46:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 14.117.40.171
+2015-11-06 15:46:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:14.117.40.171 search type is withoutFurther,time:2015-10-14 09:36:12.103
+2015-11-06 15:46:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 14.145.48.28
+2015-11-06 15:46:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:14.145.48.28 register time:2015-10-15 04:54:32.717
+2015-11-06 15:46:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 14.147.11.148
+2015-11-06 15:46:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 14.155.75.167
+2015-11-06 15:46:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 14.155.75.207
+2015-11-06 15:46:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 14.192.208.72
+2015-11-06 15:46:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:14.192.208.72 search type is withoutFurther,time:2015-10-15 02:40:17.523
+2015-11-06 15:46:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 14.192.208.80
+2015-11-06 15:46:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 14.203.99.67
+2015-11-06 15:46:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 140.207.34.58
+2015-11-06 15:46:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 140.246.123.203
+2015-11-06 15:46:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 141.6.11.22
+2015-11-06 15:46:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 141.6.11.25
+2015-11-06 15:46:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 142.162.124.6
+2015-11-06 15:46:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 144.0.10.213
+2015-11-06 15:46:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 144.29.1.19
+2015-11-06 15:46:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 144.29.1.20
+2015-11-06 15:46:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 144.29.1.21
+2015-11-06 15:46:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 144.29.129.20
+2015-11-06 15:46:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 144.29.129.37
+2015-11-06 15:46:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 144.52.46.134
+2015-11-06 15:46:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:144.52.46.134 search type is withoutFurther,time:2015-10-20 08:10:36.763
+2015-11-06 15:46:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 145.131.176.34
+2015-11-06 15:46:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.130.13
+2015-11-06 15:46:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.143.110
+2015-11-06 15:46:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.185.155
+2015-11-06 15:46:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.188.14
+2015-11-06 15:46:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.188.20
+2015-11-06 15:46:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.192.13
+2015-11-06 15:46:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.192.31
+2015-11-06 15:46:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.220.178
+2015-11-06 15:46:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:146.222.220.178 search type is withoutFurther,time:2015-10-15 13:38:25.937
+2015-11-06 15:46:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.220.182
+2015-11-06 15:46:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.220.225
+2015-11-06 15:46:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.220.39
+2015-11-06 15:46:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.221.24
+2015-11-06 15:46:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.224.13
+2015-11-06 15:46:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.252.44
+2015-11-06 15:46:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.252.46
+2015-11-06 15:46:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.33.154
+2015-11-06 15:46:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:146.222.33.154 search type is withoutFurther,time:2015-10-16 12:08:24.323
+2015-11-06 15:46:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.34.14
+2015-11-06 15:46:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.34.17
+2015-11-06 15:46:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.34.20
+2015-11-06 15:46:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.35.172
+2015-11-06 15:46:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.43.195
+2015-11-06 15:46:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.43.48
+2015-11-06 15:46:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.43.73
+2015-11-06 15:46:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:146.222.43.73 register time:2015-10-16 08:40:04.263
+2015-11-06 15:46:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.46.167
+2015-11-06 15:46:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.46.189
+2015-11-06 15:46:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.61.57
+2015-11-06 15:46:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 146.222.94.170
+2015-11-06 15:46:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 150.101.176.176
+2015-11-06 15:46:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 153.2.246.32
+2015-11-06 15:46:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:153.2.246.32 register time:2015-10-19 11:22:06.687
+2015-11-06 15:46:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 153.2.247.31
+2015-11-06 15:46:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 153.2.247.32
+2015-11-06 15:46:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 156.137.15.66
+2015-11-06 15:46:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:156.137.15.66 search type is withoutFurther,time:2015-10-19 14:01:28.857
+2015-11-06 15:46:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 164.39.66.126
+2015-11-06 15:46:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 165.156.25.4
+2015-11-06 15:46:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:165.156.25.4 search type is withoutFurther,time:2015-10-20 17:10:12.167
+2015-11-06 15:46:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 165.72.200.11
+2015-11-06 15:46:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 166.137.246.56
+2015-11-06 15:46:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 166.170.5.33
+2015-11-06 15:46:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 167.184.203.6
+2015-11-06 15:46:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 167.184.214.6
+2015-11-06 15:46:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 168.208.215.217
+2015-11-06 15:46:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 172.17.201.39
+2015-11-06 15:46:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 172.192.58.185
+2015-11-06 15:46:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:172.192.58.185 search type is withoutFurther,time:2015-10-16 21:54:06.157
+2015-11-06 15:46:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 172.28.29.50
+2015-11-06 15:46:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 172.56.6.76
+2015-11-06 15:46:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 173.160.163.22
+2015-11-06 15:46:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 173.165.22.41
+2015-11-06 15:46:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 173.166.231.122
+2015-11-06 15:46:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 173.70.86.212
+2015-11-06 15:46:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 174.46.40.20
+2015-11-06 15:46:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 175.139.159.53
+2015-11-06 15:47:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 175.144.206.91
+2015-11-06 15:47:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 176.13.5.247
+2015-11-06 15:47:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 176.35.144.160
+2015-11-06 15:47:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 180.152.174.166
+2015-11-06 15:47:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 180.155.55.123
+2015-11-06 15:47:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 180.166.43.133
+2015-11-06 15:47:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 180.167.16.90
+2015-11-06 15:47:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 180.169.32.146
+2015-11-06 15:47:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 180.43.68.188
+2015-11-06 15:47:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 181.67.107.35
+2015-11-06 15:47:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.132.91.93
+2015-11-06 15:47:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.135.155.254
+2015-11-06 15:47:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:183.135.155.254 register time:2015-10-15 01:29:00.907
+2015-11-06 15:47:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.15.255.199
+2015-11-06 15:47:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.16.5.78
+2015-11-06 15:47:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.17.121.184
+2015-11-06 15:47:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.171.173.117
+2015-11-06 15:47:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.37.186.237
+2015-11-06 15:47:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.38.249.151
+2015-11-06 15:47:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.49.117.136
+2015-11-06 15:47:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 183.54.14.81
+2015-11-06 15:47:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:183.54.14.81 register time:2015-10-16 03:23:49.053
+2015-11-06 15:47:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 184.23.243.82
+2015-11-06 15:47:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 184.68.143.130
+2015-11-06 15:47:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 184.74.188.54
+2015-11-06 15:47:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 185.35.202.78
+2015-11-06 15:47:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 190.152.179.246
+2015-11-06 15:47:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 190.213.57.103
+2015-11-06 15:47:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 190.24.131.219
+2015-11-06 15:47:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 192.168.0.127
+2015-11-06 15:47:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:192.168.0.127 search type is withoutFurther,time:2015-10-18 07:12:30.0
+2015-11-06 15:47:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:192.168.0.127 register time:2015-10-18 07:19:56.0
+2015-11-06 15:47:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 192.168.0.44
+2015-11-06 15:47:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 192.168.0.68
+2015-11-06 15:47:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 192.168.1.124
+2015-11-06 15:47:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.109.130.75
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:193.109.130.75 search type is withoutFurther,time:2015-10-15 06:19:23.633
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.135.50.32
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:193.135.50.32 search type is withoutFurther,time:2015-10-20 03:10:19.79
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:193.135.50.32 search type is withoutFurther,time:2015-10-16 00:19:14.653
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.135.50.34
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:193.135.50.34 search type is withoutFurther,time:2015-10-17 06:11:50.787
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:193.135.50.34 search type is withoutFurther,time:2015-10-19 00:01:16.2
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:193.135.50.34 search type is withoutFurther,time:2015-10-19 04:44:09.007
+2015-11-06 15:47:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.135.50.8
+2015-11-06 15:47:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.135.50.9
+2015-11-06 15:47:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.162.21.10
+2015-11-06 15:47:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.162.26.10
+2015-11-06 15:47:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.18.92.162
+2015-11-06 15:47:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:193.18.92.162 search type is withoutFurther,time:2015-10-15 19:27:02.2
+2015-11-06 15:47:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 193.240.30.242
+2015-11-06 15:47:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.0.236.86
+2015-11-06 15:47:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.107.2.81
+2015-11-06 15:47:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.107.2.82
+2015-11-06 15:47:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.11.79.42
+2015-11-06 15:47:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.11.79.45
+2015-11-06 15:47:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.11.79.46
+2015-11-06 15:47:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:194.11.79.46 register time:2015-10-19 05:01:04.977
+2015-11-06 15:47:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.206.63.1
+2015-11-06 15:47:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.65.140.113
+2015-11-06 15:47:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.78.152.196
+2015-11-06 15:47:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:194.78.152.196 search type is withoutFurther,time:2015-10-15 12:58:31.43
+2015-11-06 15:47:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.78.239.190
+2015-11-06 15:47:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:194.78.239.190 register time:2015-10-16 11:19:45.647
+2015-11-06 15:47:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.78.248.186
+2015-11-06 15:47:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 194.98.32.20
+2015-11-06 15:47:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:194.98.32.20 search type is withoutFurther,time:2015-10-16 10:47:30.093
+2015-11-06 15:47:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:194.98.32.20 search type is withoutFurther,time:2015-10-14 08:59:27.783
+2015-11-06 15:47:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 195.101.158.127
+2015-11-06 15:47:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 195.125.179.184
+2015-11-06 15:47:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 195.174.20.253
+2015-11-06 15:47:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 195.191.121.2
+2015-11-06 15:47:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 195.250.58.6
+2015-11-06 15:47:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 195.55.103.25
+2015-11-06 15:47:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 195.68.198.11
+2015-11-06 15:47:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 196.25.28.30
+2015-11-06 15:47:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 197.232.32.108
+2015-11-06 15:47:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 198.212.213.5
+2015-11-06 15:47:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 198.245.202.252
+2015-11-06 15:47:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 199.103.111.20
+2015-11-06 15:47:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 199.103.111.21
+2015-11-06 15:47:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 199.103.111.33
+2015-11-06 15:47:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:199.103.111.33 search type is withoutFurther,time:2015-10-20 17:52:20.833
+2015-11-06 15:47:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:199.103.111.33 search type is withoutFurther,time:2015-10-20 19:02:00.393
+2015-11-06 15:47:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 199.190.10.27
+2015-11-06 15:47:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 199.190.11.26
+2015-11-06 15:47:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 199.40.204.245
+2015-11-06 15:47:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 199.47.44.122
+2015-11-06 15:47:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 2.139.195.217
+2015-11-06 15:47:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 2.229.87.250
+2015-11-06 15:47:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 2.50.27.243
+2015-11-06 15:47:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 200.122.230.218
+2015-11-06 15:47:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 202.109.245.178
+2015-11-06 15:47:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 202.158.0.70
+2015-11-06 15:47:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 202.166.64.85
+2015-11-06 15:47:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:202.166.64.85 search type is withoutFurther,time:2015-10-19 13:23:36.48
+2015-11-06 15:47:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 202.253.246.3
+2015-11-06 15:47:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 202.4.73.82
+2015-11-06 15:47:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 202.40.240.169
+2015-11-06 15:47:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:202.40.240.169 register time:2015-10-15 05:28:56.973
+2015-11-06 15:47:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 202.55.95.234
+2015-11-06 15:47:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 202.73.35.247
+2015-11-06 15:47:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.115.201.25
+2015-11-06 15:47:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.146.143.50
+2015-11-06 15:47:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.156.206.19
+2015-11-06 15:47:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:203.156.206.19 search type is withoutFurther,time:2015-10-16 00:38:09.11
+2015-11-06 15:47:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:203.156.206.19 search type is withoutFurther,time:2015-10-16 00:38:09.657
+2015-11-06 15:47:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:203.156.206.19 search type is withoutFurther,time:2015-10-16 04:21:34.337
+2015-11-06 15:47:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.167.219.148
+2015-11-06 15:47:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:203.167.219.148 search type is withoutFurther,time:2015-10-19 03:10:22.17
+2015-11-06 15:47:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.176.98.201
+2015-11-06 15:47:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.198.127.207
+2015-11-06 15:47:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:203.198.127.207 search type is withoutFurther,time:2015-10-16 02:16:25.987
+2015-11-06 15:47:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:203.198.127.207 search type is withoutFurther,time:2015-10-17 03:16:33.32
+2015-11-06 15:47:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.208.80.129
+2015-11-06 15:47:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.24.194.251
+2015-11-06 15:47:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.42.208.172
+2015-11-06 15:47:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.55.80.3
+2015-11-06 15:47:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:203.55.80.3 search type is withoutFurther,time:2015-10-15 02:56:32.983
+2015-11-06 15:47:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 203.58.1.34
+2015-11-06 15:47:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:203.58.1.34 search type is withoutFurther,time:2015-10-20 04:07:39.237
+2015-11-06 15:47:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 204.17.79.98
+2015-11-06 15:47:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 205.129.6.74
+2015-11-06 15:47:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:205.129.6.74 search type is withoutFurther,time:2015-10-20 01:34:08.843
+2015-11-06 15:47:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 205.164.4.184
+2015-11-06 15:47:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 206.47.114.162
+2015-11-06 15:47:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 207.243.144.114
+2015-11-06 15:47:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 208.187.154.124
+2015-11-06 15:47:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:208.187.154.124 search type is withoutFurther,time:2015-10-15 19:38:36.86
+2015-11-06 15:47:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 208.189.181.8
+2015-11-06 15:47:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 209.118.37.136
+2015-11-06 15:47:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 210.167.249.129
+2015-11-06 15:47:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 210.5.162.131
+2015-11-06 15:47:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 210.6.243.238
+2015-11-06 15:47:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 211.144.218.180
+2015-11-06 15:47:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 211.152.34.141
+2015-11-06 15:47:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:211.152.34.141 search type is withoutFurther,time:2015-10-20 04:10:36.493
+2015-11-06 15:47:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 211.20.56.183
+2015-11-06 15:47:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 211.66.242.14
+2015-11-06 15:47:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 212.121.159.122
+2015-11-06 15:47:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 212.156.39.110
+2015-11-06 15:47:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 212.203.107.196
+2015-11-06 15:47:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:212.203.107.196 search type is withoutFurther,time:2015-10-16 14:10:08.997
+2015-11-06 15:47:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 212.203.98.135
+2015-11-06 15:47:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 212.224.28.189
+2015-11-06 15:47:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 212.243.104.188
+2015-11-06 15:47:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.168.12.230
+2015-11-06 15:47:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.189.150.2
+2015-11-06 15:47:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.193.34.170
+2015-11-06 15:47:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.207.174.146
+2015-11-06 15:47:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.251.73.196
+2015-11-06 15:47:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.30.51.198
+2015-11-06 15:47:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:213.30.51.198 register time:2015-10-20 16:51:27.887
+2015-11-06 15:47:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.6.5.182
+2015-11-06 15:47:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.69.54.1
+2015-11-06 15:47:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 213.86.2.126
+2015-11-06 15:47:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 216.128.253.152
+2015-11-06 15:47:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:216.128.253.152 search type is withoutFurther,time:2015-10-15 21:16:11.537
+2015-11-06 15:47:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 217.110.125.134
+2015-11-06 15:47:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 217.149.129.137
+2015-11-06 15:47:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 217.156.240.222
+2015-11-06 15:47:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 217.5.253.82
+2015-11-06 15:47:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 217.71.45.174
+2015-11-06 15:47:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 217.74.106.130
+2015-11-06 15:47:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 217.8.58.2
+2015-11-06 15:47:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 217.92.225.164
+2015-11-06 15:47:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.103.125.9
+2015-11-06 15:47:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.16.236.10
+2015-11-06 15:47:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.17.12.74
+2015-11-06 15:47:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.17.2.132
+2015-11-06 15:47:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:218.17.2.132 search type is withoutFurther,time:2015-10-15 07:54:57.583
+2015-11-06 15:47:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:218.17.2.132 search type is withoutFurther,time:2015-10-14 08:46:20.363
+2015-11-06 15:47:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.189.37.171
+2015-11-06 15:47:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.189.37.172
+2015-11-06 15:48:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.242.156.180
+2015-11-06 15:48:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.255.133.42
+2015-11-06 15:48:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.255.225.122
+2015-11-06 15:48:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.58.78.70
+2015-11-06 15:48:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.65.251.169
+2015-11-06 15:48:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.82.110.215
+2015-11-06 15:48:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 218.85.118.213
+2015-11-06 15:48:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 219.136.159.88
+2015-11-06 15:48:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:219.136.159.88 search type is withoutFurther,time:2015-10-15 13:32:09.563
+2015-11-06 15:48:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 219.147.28.214
+2015-11-06 15:48:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 219.77.54.109
+2015-11-06 15:48:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:219.77.54.109 register time:2015-10-16 02:10:24.137
+2015-11-06 15:48:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 220.233.151.242
+2015-11-06 15:48:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 220.239.226.210
+2015-11-06 15:48:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 221.12.57.6
+2015-11-06 15:48:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 221.120.214.54
+2015-11-06 15:48:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 221.133.242.163
+2015-11-06 15:48:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 221.215.72.22
+2015-11-06 15:48:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 222.153.229.216
+2015-11-06 15:48:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 222.161.250.166
+2015-11-06 15:48:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 222.66.91.18
+2015-11-06 15:48:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 222.76.185.30
+2015-11-06 15:48:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:222.76.185.30 search type is withoutFurther,time:2015-10-16 06:55:13.22
+2015-11-06 15:48:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 223.104.5.235
+2015-11-06 15:48:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 223.197.66.178
+2015-11-06 15:48:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 23.30.56.241
+2015-11-06 15:48:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 24.105.164.170
+2015-11-06 15:48:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:24.105.164.170 register time:2015-10-20 13:54:51.093
+2015-11-06 15:48:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 24.114.222.253
+2015-11-06 15:48:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 24.130.140.241
+2015-11-06 15:48:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 24.222.204.30
+2015-11-06 15:48:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 24.222.79.70
+2015-11-06 15:48:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 24.43.13.50
+2015-11-06 15:48:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 27.159.115.211
+2015-11-06 15:48:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 27.42.36.85
+2015-11-06 15:48:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 31.17.154.97
+2015-11-06 15:48:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:31.17.154.97 search type is withoutFurther,time:2015-10-19 19:30:15.347
+2015-11-06 15:48:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 31.19.167.66
+2015-11-06 15:48:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 31.39.143.22
+2015-11-06 15:48:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 36.22.52.122
+2015-11-06 15:48:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 37.120.69.102
+2015-11-06 15:48:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 37.152.228.232
+2015-11-06 15:48:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 38.92.224.86
+2015-11-06 15:48:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 39.77.163.130
+2015-11-06 15:48:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 4.15.98.219
+2015-11-06 15:48:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 40.141.225.226
+2015-11-06 15:48:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 41.21.229.4
+2015-11-06 15:48:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 41.46.99.94
+2015-11-06 15:48:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 42.80.193.233
+2015-11-06 15:48:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 45.119.45.151
+2015-11-06 15:48:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 46.193.136.176
+2015-11-06 15:48:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:46.193.136.176 register time:2015-10-14 17:13:13.457
+2015-11-06 15:48:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 46.31.16.12
+2015-11-06 15:48:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 47.20.62.97
+2015-11-06 15:48:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:47.20.62.97 search type is withoutFurther,time:2015-10-14 19:45:43.593
+2015-11-06 15:48:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 47.23.184.58
+2015-11-06 15:48:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 49.197.158.214
+2015-11-06 15:48:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 49.248.47.170
+2015-11-06 15:48:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.148.164.83
+2015-11-06 15:48:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.154.202.171
+2015-11-06 15:48:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.187.232.248
+2015-11-06 15:48:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.192.146.9
+2015-11-06 15:48:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.194.216.81
+2015-11-06 15:48:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.198.116.194
+2015-11-06 15:48:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.20.50.26
+2015-11-06 15:48:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.244.55.241
+2015-11-06 15:48:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.253.178.169
+2015-11-06 15:48:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.254.138.225
+2015-11-06 15:48:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 50.58.19.15
+2015-11-06 15:48:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 57.66.70.230
+2015-11-06 15:48:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 57.68.10.197
+2015-11-06 15:48:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:57.68.10.197 search type is withoutFurther,time:2015-10-16 20:20:28.63
+2015-11-06 15:48:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 57.70.144.1
+2015-11-06 15:48:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.109.87.153
+2015-11-06 15:48:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.11.101.70
+2015-11-06 15:48:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.11.71.117
+2015-11-06 15:48:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.246.190.86
+2015-11-06 15:48:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.246.84.174
+2015-11-06 15:48:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.32.208.54
+2015-11-06 15:48:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.40.126.226
+2015-11-06 15:48:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:58.40.126.226 search type is withoutFurther,time:2015-10-19 02:31:49.033
+2015-11-06 15:48:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.40.126.232
+2015-11-06 15:48:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:58.40.126.232 search type is withoutFurther,time:2015-10-19 02:11:15.133
+2015-11-06 15:48:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:58.40.126.232 search type is withoutFurther,time:2015-10-19 02:11:14.59
+2015-11-06 15:48:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:58.40.126.232 search type is withoutFurther,time:2015-10-19 02:11:15.353
+2015-11-06 15:48:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:58.40.126.232 search type is withoutFurther,time:2015-10-19 02:11:13.673
+2015-11-06 15:48:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:58.40.126.232 search type is withoutFurther,time:2015-10-19 02:11:15.653
+2015-11-06 15:48:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.64.171.38
+2015-11-06 15:48:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 58.96.29.122
+2015-11-06 15:48:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.124.29.80
+2015-11-06 15:48:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.152.244.170
+2015-11-06 15:48:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.167.228.37
+2015-11-06 15:48:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.38.32.10
+2015-11-06 15:48:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.40.225.173
+2015-11-06 15:48:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.40.40.10
+2015-11-06 15:48:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.42.231.140
+2015-11-06 15:48:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:59.42.231.140 search type is withoutFurther,time:2015-10-15 09:14:39.047
+2015-11-06 15:48:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.45.74.10
+2015-11-06 15:48:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:59.45.74.10 search type is withoutFurther,time:2015-10-15 00:23:26.723
+2015-11-06 15:48:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.46.187.58
+2015-11-06 15:48:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 59.60.11.162
+2015-11-06 15:48:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.190.30.92
+2015-11-06 15:48:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.191.16.92
+2015-11-06 15:48:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.209.235.210
+2015-11-06 15:48:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.240.147.51
+2015-11-06 15:48:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.249.151.174
+2015-11-06 15:48:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.28.116.209
+2015-11-06 15:48:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.29.14.196
+2015-11-06 15:48:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.29.75.182
+2015-11-06 15:48:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.30.27.129
+2015-11-06 15:48:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.51.15.197
+2015-11-06 15:48:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 60.54.69.134
+2015-11-06 15:48:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.113.94.84
+2015-11-06 15:48:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.145.246.10
+2015-11-06 15:48:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.165.188.123
+2015-11-06 15:48:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.172.183.152
+2015-11-06 15:48:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.174.30.194
+2015-11-06 15:48:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.181.14.151
+2015-11-06 15:48:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.2.12.61
+2015-11-06 15:48:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.244.128.184
+2015-11-06 15:48:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.8.9.114
+2015-11-06 15:48:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 61.88.108.172
+2015-11-06 15:48:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:61.88.108.172 search type is withoutFurther,time:2015-10-20 22:23:37.833
+2015-11-06 15:48:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 62.173.37.226
+2015-11-06 15:48:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 62.180.229.43
+2015-11-06 15:48:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:62.180.229.43 search type is withoutFurther,time:2015-10-19 11:28:30.763
+2015-11-06 15:48:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 62.192.101.50
+2015-11-06 15:48:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 62.232.178.98
+2015-11-06 15:48:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 62.44.46.30
+2015-11-06 15:48:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:62.44.46.30 search type is withoutFurther,time:2015-10-14 07:28:39.93
+2015-11-06 15:48:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 62.65.4.200
+2015-11-06 15:48:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:62.65.4.200 search type is withoutFurther,time:2015-10-14 10:22:31.71
+2015-11-06 15:48:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 62.8.156.20
+2015-11-06 15:48:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:62.8.156.20 search type is withoutFurther,time:2015-10-16 11:53:52.407
+2015-11-06 15:48:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:62.8.156.20 register time:2015-10-19 07:10:08.117
+2015-11-06 15:48:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 62.96.29.5
+2015-11-06 15:48:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:62.96.29.5 search type is withoutFurther,time:2015-10-14 11:49:47.777
+2015-11-06 15:48:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:62.96.29.5 search type is withoutFurther,time:2015-10-14 11:13:11.627
+2015-11-06 15:48:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 63.145.233.189
+2015-11-06 15:48:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 63.158.232.154
+2015-11-06 15:48:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 63.82.135.13
+2015-11-06 15:48:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 64.210.94.134
+2015-11-06 15:48:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 64.251.83.130
+2015-11-06 15:48:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 66.153.56.114
+2015-11-06 15:48:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 66.192.207.74
+2015-11-06 15:48:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 66.193.227.6
+2015-11-06 15:48:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 66.38.236.68
+2015-11-06 15:48:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:66.38.236.68 search type is withoutFurther,time:2015-10-15 16:30:34.42
+2015-11-06 15:48:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:66.38.236.68 search type is withoutFurther,time:2015-10-15 16:29:33.007
+2015-11-06 15:48:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 66.60.139.98
+2015-11-06 15:48:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 66.64.28.14
+2015-11-06 15:48:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 66.87.118.252
+2015-11-06 15:48:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 67.21.211.29
+2015-11-06 15:48:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 67.59.103.123
+2015-11-06 15:48:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 68.225.10.129
+2015-11-06 15:48:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 70.91.206.229
+2015-11-06 15:48:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 70.91.215.53
+2015-11-06 15:48:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 71.139.162.14
+2015-11-06 15:48:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 71.160.218.218
+2015-11-06 15:48:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 71.19.188.226
+2015-11-06 15:48:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 71.190.166.35
+2015-11-06 15:48:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 71.194.180.92
+2015-11-06 15:48:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 71.224.66.138
+2015-11-06 15:48:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 71.39.229.14
+2015-11-06 15:48:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 72.22.219.36
+2015-11-06 15:48:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 74.105.25.139
+2015-11-06 15:48:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:74.105.25.139 register time:2015-10-15 17:36:26.517
+2015-11-06 15:48:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 74.113.166.254
+2015-11-06 15:48:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 74.62.152.194
+2015-11-06 15:48:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 74.62.82.124
+2015-11-06 15:48:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 75.182.26.1
+2015-11-06 15:48:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 77.73.227.251
+2015-11-06 15:48:56 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 77.89.171.130
+2015-11-06 15:48:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 79.173.148.85
+2015-11-06 15:48:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 79.178.56.153
+2015-11-06 15:48:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:79.178.56.153 register time:2015-10-19 08:05:44.067
+2015-11-06 15:48:57 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 8.3.65.2
+2015-11-06 15:48:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 80.118.10.94
+2015-11-06 15:48:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 80.146.199.122
+2015-11-06 15:48:58 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 80.147.32.207
+2015-11-06 15:48:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 80.147.44.50
+2015-11-06 15:48:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:80.147.44.50 register time:2015-10-15 12:50:56.6
+2015-11-06 15:48:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.104.235.169
+2015-11-06 15:49:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.108.234.149
+2015-11-06 15:49:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.144.240.202
+2015-11-06 15:49:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.145.129.202
+2015-11-06 15:49:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.145.224.138
+2015-11-06 15:49:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.168.0.181
+2015-11-06 15:49:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.20.72.70
+2015-11-06 15:49:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.82.248.83
+2015-11-06 15:49:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:81.82.248.83 search type is withoutFurther,time:2015-10-15 14:35:31.093
+2015-11-06 15:49:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 81.83.17.37
+2015-11-06 15:49:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 82.198.196.91
+2015-11-06 15:49:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 82.218.164.26
+2015-11-06 15:49:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 82.222.210.147
+2015-11-06 15:49:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 82.249.29.6
+2015-11-06 15:49:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 82.35.25.146
+2015-11-06 15:49:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 82.68.53.174
+2015-11-06 15:49:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 83.110.147.154
+2015-11-06 15:49:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 83.110.3.82
+2015-11-06 15:49:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 83.216.143.239
+2015-11-06 15:49:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 83.244.149.38
+2015-11-06 15:49:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 84.245.143.137
+2015-11-06 15:49:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 84.50.207.240
+2015-11-06 15:49:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:84.50.207.240 register time:2015-10-15 07:42:43.427
+2015-11-06 15:49:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 85.238.105.73
+2015-11-06 15:49:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 85.98.93.13
+2015-11-06 15:49:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 86.148.192.175
+2015-11-06 15:49:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 86.158.75.143
+2015-11-06 15:49:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:86.158.75.143 search type is withoutFurther,time:2015-10-16 16:01:23.947
+2015-11-06 15:49:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 86.167.141.45
+2015-11-06 15:49:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 86.171.108.124
+2015-11-06 15:49:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 86.176.77.26
+2015-11-06 15:49:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 86.188.222.4
+2015-11-06 15:49:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 86.98.49.255
+2015-11-06 15:49:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:86.98.49.255 register time:2015-10-14 05:42:44.287
+2015-11-06 15:49:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 86.98.50.166
+2015-11-06 15:49:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:86.98.50.166 search type is withoutFurther,time:2015-10-20 11:08:43.273
+2015-11-06 15:49:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 88.111.131.176
+2015-11-06 15:49:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 88.119.248.156
+2015-11-06 15:49:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 88.14.231.119
+2015-11-06 15:49:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:88.14.231.119 register time:2015-10-14 11:56:52.917
+2015-11-06 15:49:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 88.211.140.148
+2015-11-06 15:49:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 88.224.64.151
+2015-11-06 15:49:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 88.230.248.74
+2015-11-06 15:49:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 88.244.44.219
+2015-11-06 15:49:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 89.189.65.117
+2015-11-06 15:49:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:89.189.65.117 search type is withoutFurther,time:2015-10-17 07:25:47.583
+2015-11-06 15:49:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 89.20.95.25
+2015-11-06 15:49:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 90.174.4.29
+2015-11-06 15:49:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 90.187.207.173
+2015-11-06 15:49:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 90.190.250.137
+2015-11-06 15:49:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 91.199.127.162
+2015-11-06 15:49:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 91.229.220.110
+2015-11-06 15:49:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 91.229.220.5
+2015-11-06 15:49:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 92.236.187.3
+2015-11-06 15:49:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 92.67.17.166
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:92.67.17.166 search type is withoutFurther,time:2015-10-15 12:20:54.047
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 93.122.167.42
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 93.165.132.100
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register ip:93.165.132.100 register time:2015-10-16 07:32:06.667
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 94.100.245.136
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:94.100.245.136 search type is withoutFurther,time:2015-10-19 13:43:29.46
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:94.100.245.136 search type is withoutFurther,time:2015-10-19 14:24:09.75
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:94.100.245.136 search type is withoutFurther,time:2015-10-19 17:16:09.69
+2015-11-06 15:49:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 94.140.163.72
+2015-11-06 15:49:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 95.147.136.204
+2015-11-06 15:49:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 95.80.209.162
+2015-11-06 15:49:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 97.65.218.94
+2015-11-06 15:49:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - ip:97.65.218.94 search type is withoutFurther,time:2015-10-20 20:43:41.24
+2015-11-06 15:49:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 98.101.66.67
+2015-11-06 15:49:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 98.14.70.237
+2015-11-06 15:49:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 98.177.196.113
+2015-11-06 15:49:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 99.22.149.224
+2015-11-06 15:49:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 256293
+2015-11-06 15:55:02 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - getRegistUserIDs start...pls wait
+2015-11-06 15:55:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - register users numbers205
+2015-11-06 15:55:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is 1760444075@qq.com
+2015-11-06 15:55:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is Howard_Schweizer@nittsu.com
+2015-11-06 15:55:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is adam.boisvert@am.kwe.com
+2015-11-06 15:55:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is akumar@lcpackaging.com
+2015-11-06 15:55:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is alan.yip@cargosmart.com
+2015-11-06 15:55:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is alex@airshipintl.com
+2015-11-06 15:55:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ali@triplem.be
+2015-11-06 15:55:05 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is aly_m9002@yahoo.com
+2015-11-06 15:55:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is amcrae@agility.com
+2015-11-06 15:55:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is amorales@crainwalnut.com
+2015-11-06 15:55:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andreas.freier@hlag.com
+2015-11-06 15:55:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andrew.lim2@dhl.com
+2015-11-06 15:55:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:andrew.lim2@dhl.com search type is withoutFurther,time:2015-10-15 03:42:33.79
+2015-11-06 15:55:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andrew@medey.com
+2015-11-06 15:55:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is andy.baertschi@panalpina.com
+2015-11-06 15:55:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is antony.zhang@cargosmart.com
+2015-11-06 15:55:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is arjen.massaut@ups.com
+2015-11-06 15:55:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:arjen.massaut@ups.com search type is withoutFurther,time:2015-10-20 11:45:53.04
+2015-11-06 15:55:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is aviisrael2013@gmail.com
+2015-11-06 15:55:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is b.wolke@ict-germany.de
+2015-11-06 15:55:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is bdellinger@fortintl.com
+2015-11-06 15:55:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is bob.costanzo@bdpint.com
+2015-11-06 15:55:11 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is booking@tiscogroup.com.cn
+2015-11-06 15:55:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:booking@tiscogroup.com.cn search type is withoutFurther,time:2015-10-14 09:22:17.277
+2015-11-06 15:55:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:booking@tiscogroup.com.cn search type is withoutFurther,time:2015-10-20 06:28:33.107
+2015-11-06 15:55:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is bphillips@wwllmail.com
+2015-11-06 15:55:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:bphillips@wwllmail.com search type is withoutFurther,time:2015-10-19 15:30:02.147
+2015-11-06 15:55:12 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is brian.farrell@pace.com
+2015-11-06 15:55:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is camilla@usacargo.com
+2015-11-06 15:55:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is candy.chan@cargosmart.com
+2015-11-06 15:55:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is carga@wizint.com
+2015-11-06 15:55:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is cargo2006@126.com
+2015-11-06 15:55:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is carol.du@cargosmart.com
+2015-11-06 15:55:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is cathy.wang@damco.com
+2015-11-06 15:55:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is cherish.freeman@kuehne-nagel.com
+2015-11-06 15:55:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is christinalau@cct.com.hk
+2015-11-06 15:55:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is christyswamy@sanmar.com
+2015-11-06 15:55:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is chungsingmotor@gmail.com
+2015-11-06 15:55:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is cindy.mcmullen@panalpina.com
+2015-11-06 15:55:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is clair.fu@cargosmart.com
+2015-11-06 15:55:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is craig.bair@kuehne-nagel.com
+2015-11-06 15:55:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is csauto@cargosmart.com
+2015-11-06 15:55:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is csopc
+2015-11-06 15:55:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is dallas.jones@ecunz.com
+2015-11-06 15:55:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is daniel.hornburg@gondrand-logistics.com
+2015-11-06 15:55:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is dapodaca@newportch.com
+2015-11-06 15:55:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is david.fortier@mainfreightusa.com
+2015-11-06 15:55:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is davidc@mel.transtar.net
+2015-11-06 15:55:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:davidc@mel.transtar.net search type is withoutFurther,time:2015-10-15 04:46:39.91
+2015-11-06 15:55:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:davidc@mel.transtar.net search type is withoutFurther,time:2015-10-15 04:46:40.787
+2015-11-06 15:55:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is dawn.palumbo@bdpint.com
+2015-11-06 15:55:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is debbie.ostergaard@lemanusa.com
+2015-11-06 15:55:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is diego.alvarez@panalpina.com
+2015-11-06 15:55:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is e.trivino@sdv.com
+2015-11-06 15:55:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is echo@trans-hope.com
+2015-11-06 15:55:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is edale@wwllmail.com
+2015-11-06 15:55:27 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - sql :SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.userIdentification#userID ='edale@wwllmail.com' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-30  16:00:00:000') ORDER BY cd.createTime
+ execute time:4101
+2015-11-06 15:55:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is elaine.mo@cargosmart.com
+2015-11-06 15:55:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is emilien.bournigal@gmail.com
+2015-11-06 15:55:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is erwin.herfst@panalpina.com
+2015-11-06 15:55:28 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is eugen.hulm@panalpina.com
+2015-11-06 15:55:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:eugen.hulm@panalpina.com search type is withoutFurther,time:2015-10-15 02:06:42.77
+2015-11-06 15:55:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is export@transwing.net
+2015-11-06 15:55:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is expsea.dlc@cn.dsv.com
+2015-11-06 15:55:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is fanny-gy.fan@panalpina.com
+2015-11-06 15:55:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is fengxx@sevenseas.com.cn
+2015-11-06 15:55:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is flaviab@mfc.com.au
+2015-11-06 15:55:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is fred.smit@dhl.com
+2015-11-06 15:55:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is fredrick.dangelo@dhl.com
+2015-11-06 15:55:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is funney_wu@apllogistics.com
+2015-11-06 15:55:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:funney_wu@apllogistics.com search type is withoutFurther,time:2015-10-20 10:03:05.143
+2015-11-06 15:55:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is georgi@kgcargo-bg.com
+2015-11-06 15:55:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is giacomocaio@gavagroup.com
+2015-11-06 15:55:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is gigi.tse@oocl.com
+2015-11-06 15:55:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:gigi.tse@oocl.com search type is withoutFurther,time:2015-10-15 16:24:26.397
+2015-11-06 15:55:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is glenn@tgloballtd.ca
+2015-11-06 15:55:34 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is gregor.holm@panalpina.com
+2015-11-06 15:55:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is gunter@kentinternational.co.uk
+2015-11-06 15:55:35 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is gzfop12@cntrans.cn
+2015-11-06 15:55:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is hleighton@bcr.com.au
+2015-11-06 15:55:36 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ian.mcnally@kuehne-nagel.com
+2015-11-06 15:55:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:ian.mcnally@kuehne-nagel.com search type is withoutFurther,time:2015-10-15 18:12:54.393
+2015-11-06 15:55:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ianm@accordif.co.nz
+2015-11-06 15:55:37 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is icy.liang@cargosmart.com
+2015-11-06 15:55:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is imex.sales@outlook.com
+2015-11-06 15:55:38 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is imorocho@ups.com
+2015-11-06 15:55:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is import@transcoshipping.com
+2015-11-06 15:55:39 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ishida-teruhito@shibusawa.co.jp
+2015-11-06 15:55:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is iulian.golub@gmail.com
+2015-11-06 15:55:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jacqueline.so@oocl.com
+2015-11-06 15:55:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jakub.lukas@panalpina.com
+2015-11-06 15:55:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jaska.lu@cargosmart.com
+2015-11-06 15:55:40 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jason.to@panalpina.com
+2015-11-06 15:55:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jeff.wize@kuehne-nagel.com
+2015-11-06 15:55:41 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jen@ift.com
+2015-11-06 15:55:42 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jesper.henriksen@lemanusa.com
+2015-11-06 15:55:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jessie.duan@panalpina.com
+2015-11-06 15:55:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jheri.chan@cargosmart.com
+2015-11-06 15:55:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:jheri.chan@cargosmart.com search type is withoutFurther,time:2015-10-20 08:24:30.823
+2015-11-06 15:55:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:jheri.chan@cargosmart.com search type is withoutFurther,time:2015-10-20 08:33:32.72
+2015-11-06 15:55:43 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jimmytsai@gmail.com
+2015-11-06 15:55:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jinnoya
+2015-11-06 15:55:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is jonathan.cook@kuehne-nagel.com
+2015-11-06 15:55:44 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is karen.ip@cargosmart.com
+2015-11-06 15:55:45 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is karen.l.mccalla@invista.com
+2015-11-06 15:55:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is karine.holloway@kuehne-nagel.com
+2015-11-06 15:55:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kenneth.tsui@cargosmart.com
+2015-11-06 15:55:46 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kevin.liang@cargosmart.com
+2015-11-06 15:55:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kevin.van.hoof@bnl.yusen-logistics.com
+2015-11-06 15:55:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kevinzhu_sz@walkerhk.com.hk
+2015-11-06 15:55:47 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is kieran.bligh@kuehne-nagel.com
+2015-11-06 15:55:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is laike2
+2015-11-06 15:55:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:laike2 search type is withoutFurther,time:2015-10-19 07:17:30.377
+2015-11-06 15:55:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is launelson@ups.com
+2015-11-06 15:55:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is laura.perez@panalpina.com
+2015-11-06 15:55:48 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is leohu@ucmcargo.com
+2015-11-06 15:55:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lily.wang@longnation.com
+2015-11-06 15:55:49 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lindalin@kingdaforwarder.com
+2015-11-06 15:55:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lion.li@cargosmart.com
+2015-11-06 15:55:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lisa.shaw@panalpina.com
+2015-11-06 15:55:50 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is logistic@arthenterprise.com
+2015-11-06 15:55:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lorena.simpson@bnsflogistics.com
+2015-11-06 15:55:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is lynn@tufmsz.com
+2015-11-06 15:55:51 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is m.njema@gmail.com
+2015-11-06 15:55:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ma@tomex.dk
+2015-11-06 15:55:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is maggie.ren@vastrans.net
+2015-11-06 15:55:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is marcus.harvey@panalpina.com
+2015-11-06 15:55:52 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is marie-christine.niemann@kuehne-nagel.com
+2015-11-06 15:55:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:marie-christine.niemann@kuehne-nagel.com search type is withoutFurther,time:2015-10-20 12:31:28.187
+2015-11-06 15:55:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is marko.popovic@transagent.rs
+2015-11-06 15:55:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is martin.kaiml@panalpina.com
+2015-11-06 15:55:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:martin.kaiml@panalpina.com search type is withoutFurther,time:2015-10-15 14:44:32.283
+2015-11-06 15:55:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is martins@uniexpress.co.uk
+2015-11-06 15:55:53 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mary.christopher@carestreamhealth.com
+2015-11-06 15:55:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mathias-felix.huss@urban-transporte.de
+2015-11-06 15:55:54 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is matthew.archer@mondialefreight.com
+2015-11-06 15:55:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is meiling.look@hotmail.com
+2015-11-06 15:55:55 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is melvin.leung@cargosmart.com
+2015-11-06 15:55:59 [com.cargosmart.csmcs.report.entrance.DataLoadTools]-[INFO] - sql :SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE cd.userIdentification#userID ='melvin.leung@cargosmart.com' and createTime between convert(datetime,'2015-07-14 16:00:00:000') and convert(datetime,'2015-11-30  16:00:00:000') ORDER BY cd.createTime
+ execute time:3367
+2015-11-06 15:55:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:melvin.leung@cargosmart.com search type is withoutFurther,time:2015-10-18 23:50:25.3
+2015-11-06 15:55:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:melvin.leung@cargosmart.com search type is withoutFurther,time:2015-10-14 02:14:59.367
+2015-11-06 15:55:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is melvin_leungwt@hotmail.com
+2015-11-06 15:55:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is meredythc@mallorygroup.com
+2015-11-06 15:55:59 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is michael.petrosini@kuehne-nagel.com
+2015-11-06 15:56:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is michael.x.chen@oocl.com
+2015-11-06 15:56:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is michelle.chang@panalpina.com
+2015-11-06 15:56:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is michelle.mullen@kuehne-nagel.com
+2015-11-06 15:56:00 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is miguel.picazo@panalpina.com
+2015-11-06 15:56:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is miikka.pelkonen@dhl.com
+2015-11-06 15:56:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mikep@accordif.co.nz
+2015-11-06 15:56:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:mikep@accordif.co.nz search type is withoutFurther,time:2015-10-18 21:20:55.0
+2015-11-06 15:56:01 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mjaved@agility.com
+2015-11-06 15:56:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mkr@saco.de
+2015-11-06 15:56:02 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mktjshipping2@markor.com.cn
+2015-11-06 15:56:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is mlipinski@wheelsgroup.com
+2015-11-06 15:56:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is moses@ruishine-logistics.com
+2015-11-06 15:56:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is nathan.yuan@fargo-shipping.com
+2015-11-06 15:56:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:nathan.yuan@fargo-shipping.com search type is withoutFurther,time:2015-10-20 03:26:11.39
+2015-11-06 15:56:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is nelly.foe@bdpint.com
+2015-11-06 15:56:03 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is nickey.liang@cargosmart.com
+2015-11-06 15:56:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is o.petersohn@interfracht.de
+2015-11-06 15:56:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is oconnor.jiang@oocl.com
+2015-11-06 15:56:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is op98@leadone.hk
+2015-11-06 15:56:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is paolaluisa.colombo@geodis.com
+2015-11-06 15:56:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:paolaluisa.colombo@geodis.com search type is withoutFurther,time:2015-10-16 07:30:01.2
+2015-11-06 15:56:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:paolaluisa.colombo@geodis.com search type is withoutFurther,time:2015-10-16 14:23:43.757
+2015-11-06 15:56:04 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is paul.devries@panalpina.com
+2015-11-06 15:56:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:paul.devries@panalpina.com search type is withoutFurther,time:2015-10-19 07:07:40.603
+2015-11-06 15:56:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:paul.devries@panalpina.com search type is withoutFurther,time:2015-10-19 06:46:55.067
+2015-11-06 15:56:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is paul.vangeest@panalpina.com
+2015-11-06 15:56:06 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is pcleung@celestica.com
+2015-11-06 15:56:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is petrukhin.danila@mail.ru
+2015-11-06 15:56:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:petrukhin.danila@mail.ru search type is withoutFurther,time:2015-10-20 15:44:50.827
+2015-11-06 15:56:07 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is phil5969@gmail.com
+2015-11-06 15:56:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is piano1214@163.com
+2015-11-06 15:56:08 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is pliton@ups.com
+2015-11-06 15:56:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is prajeetsharma@gmail.com
+2015-11-06 15:56:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is raje.hkg@gmail.com
+2015-11-06 15:56:09 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is rallison@sanwa.com.au
+2015-11-06 15:56:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:rallison@sanwa.com.au search type is withoutFurther,time:2015-10-15 04:04:34.53
+2015-11-06 15:56:10 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is rayliutao@sohu.com
+2015-11-06 15:56:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:rayliutao@sohu.com search type is withoutFurther,time:2015-10-16 04:20:28.937
+2015-11-06 15:56:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is raymond.chin@cargosmart.com
+2015-11-06 15:56:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:raymond.chin@cargosmart.com search type is withoutFurther,time:2015-10-20 08:59:38.303
+2015-11-06 15:56:13 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is regina@sg.steinweg.com
+2015-11-06 15:56:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ricardo.ortizc@panalpina.com
+2015-11-06 15:56:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is robin_logistics@126.com
+2015-11-06 15:56:14 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is romesh@sohu.com
+2015-11-06 15:56:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sales@apicl.com.tw
+2015-11-06 15:56:15 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sam.gxwong@dhl.com
+2015-11-06 15:56:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sandywu528@qq.com
+2015-11-06 15:56:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:sandywu528@qq.com search type is withoutFurther,time:2015-10-15 03:14:29.17
+2015-11-06 15:56:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is scott.becker@panalpina.com
+2015-11-06 15:56:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is service@yuexiulogistic.com
+2015-11-06 15:56:16 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is shanty.skaria@hlag.com
+2015-11-06 15:56:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sharadshukla@live.com
+2015-11-06 15:56:17 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sheldon@nichship.co.za
+2015-11-06 15:56:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sherring.zhang@cargosmart.com
+2015-11-06 15:56:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is snewson@hemisphere-freight.com
+2015-11-06 15:56:18 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ssam@anbakam.com
+2015-11-06 15:56:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is stefan.flannery@panalpina.com
+2015-11-06 15:56:19 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is stephen.smith@cameronfreight.com
+2015-11-06 15:56:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is sunny.liu@cargosmart.com
+2015-11-06 15:56:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is support
+2015-11-06 15:56:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is susan.hughes@uk.dsv.com
+2015-11-06 15:56:20 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is susie.liu@cargosmart.com
+2015-11-06 15:56:21 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is szx-oceanexport@cns.hh-express.com
+2015-11-06 15:56:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tfarrell@tbgfs.com
+2015-11-06 15:56:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tingting.zhang@cargosmart.com
+2015-11-06 15:56:22 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tlee@pangealogistics.com
+2015-11-06 15:56:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tma.nguyenhoa@gmail.com
+2015-11-06 15:56:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tom.vandenplas@kuehne-nagel.com
+2015-11-06 15:56:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tommy@triplem.be
+2015-11-06 15:56:23 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tony.walpole@tradefreight.co.uk
+2015-11-06 15:56:24 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tonypeng_sz@walkerhk.com.hk
+2015-11-06 15:56:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:tonypeng_sz@walkerhk.com.hk search type is withoutFurther,time:2015-10-19 07:18:51.55
+2015-11-06 15:56:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:tonypeng_sz@walkerhk.com.hk search type is withoutFurther,time:2015-10-19 07:20:43.7
+2015-11-06 15:56:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is topeak_tj@163.com
+2015-11-06 15:56:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is tsmithlll@aol.com
+2015-11-06 15:56:25 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is vban@ups.com
+2015-11-06 15:56:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is venkat.shivkumar@tollgroup.com
+2015-11-06 15:56:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is veoboch1@singnet.com.sg
+2015-11-06 15:56:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is vivian@c-ocean.net
+2015-11-06 15:56:26 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is vladanton.vetra@dhl.com
+2015-11-06 15:56:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is w.y.chan@cargosmart.com
+2015-11-06 15:56:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:w.y.chan@cargosmart.com search type is withoutFurther,time:2015-10-14 04:04:45.45
+2015-11-06 15:56:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:w.y.chan@cargosmart.com search type is withoutFurther,time:2015-10-14 07:47:32.85
+2015-11-06 15:56:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:w.y.chan@cargosmart.com search type is withoutFurther,time:2015-10-15 02:54:54.577
+2015-11-06 15:56:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - user id:w.y.chan@cargosmart.com search type is withoutFurther,time:2015-10-14 07:20:06.547
+2015-11-06 15:56:27 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is wade.stock@kuehne-nagel.com
+2015-11-06 15:56:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is walter.whippy@panalpina.com
+2015-11-06 15:56:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is weerachon.pinatha@kwe.com
+2015-11-06 15:56:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is whaili@hotmail.com
+2015-11-06 15:56:29 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is william.fields@kuehne-nagel.com
+2015-11-06 15:56:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is win_sz@139.com
+2015-11-06 15:56:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is ws@ritra.nl
+2015-11-06 15:56:30 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is xuan5824@163.com
+2015-11-06 15:56:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is y.vandersande@vandongederoo.nl
+2015-11-06 15:56:31 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is yu@cncosmos.com
+2015-11-06 15:56:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is zbartczak@ups.com
+2015-11-06 15:56:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is zolaliu@thi-group.com
+2015-11-06 15:56:32 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - processing user id or ip is zuobai.fan@aeblogistics.com
+2015-11-06 15:56:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 91350
+2015-11-06 15:56:33 [com.cargosmart.csmcs.report.entrance.Entrance]-[INFO] - spent time 0
