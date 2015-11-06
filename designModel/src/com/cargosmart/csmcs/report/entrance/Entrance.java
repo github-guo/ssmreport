@@ -130,7 +130,7 @@ public class Entrance {
 		long end = System.currentTimeMillis();
 		logger.info("spent time " + (end - begin));
 		begin = System.currentTimeMillis();
-//		et.first(true);
+		et.first(true);
 		end = System.currentTimeMillis();
 		logger.info("spent time " + (end - begin));
 	}
