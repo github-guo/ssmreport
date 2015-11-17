@@ -189,6 +189,7 @@ public class Entrance {
 		for (Map.Entry<Clientusagedata, Map<String, Integer>> entry : userActionTacingMap.entrySet()) {
 			SearchDetailObject detailObject = new SearchDetailObject();
 			Clientusagedata ud = entry.getKey();
+			detailObject.setId(ud.getId());
 			Map<String, Integer> followingActionMap = entry.getValue();
 			boolean isManualSearch = inArray(manualSearchCodes, ud.getFunc());
 			boolean isMobile = isByMobile(ud);
@@ -269,7 +270,7 @@ public class Entrance {
 				searchRegisterCounts[4] += 1;
 				searchType = JourneyType.SEARCH_REGISTER;
 			} else if (hasSearchEnd && otherFunCount == 0 && i == 0) {
-				logger.info("".equals(ud.getUserIdentification_userID())
+				logger.debug("".equals(ud.getUserIdentification_userID())
 						? "ip:" + ud.getRequestInformation_requestIp() + " search type is withoutFurther,time:"
 								+ ud.getCreateTime()
 						: "user id:" + ud.getUserIdentification_userID() + " search type is withoutFurther,time:"

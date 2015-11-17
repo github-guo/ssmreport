@@ -138,7 +138,7 @@ public class DataLoadTools {
 		Connection connection=dbSources.getConnection();
 //		INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip], [updateDate]) VALUES ('sdfsdf', 'sdf234', 'asdf', 'asdf', 'asdf', 'asdfa', 'sdf', '2015-11-17 10:38:49')
 //		String sql = "INSERT INTO `searchDetail` (`search_journey`, `customer_type`, `customer_segment`, `search_method`, `search_platform`, `userID`, `ip`, `search_date`, `updateDate`) VALUES (?,?,?,?,?,?,?,?,?)";
-		String sql="INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip],[search_date], [updateDate]) VALUES (?,?,?,?,?,?,?,?,?)";
+		String sql="INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip],[search_date], [updateDate],[_id]) VALUES (?,?,?,?,?,?,?,?,?,?)";
 		for(SearchDetailObject per:searchDetailList){
 			try {
 				PreparedStatement pre=connection.prepareStatement(sql);
@@ -151,9 +151,11 @@ public class DataLoadTools {
 				pre.setString(7, per.getIp());
 				pre.setTimestamp(8,new Timestamp(per.getSearchDate().getTime()));
 				pre.setTimestamp(9, new Timestamp(new Date().getTime()));
+				pre.setString(10, per.getId());
 				pre.execute();
 			} catch (SQLException e) {
-				e.printStackTrace();
+				logger.error("duplicate search record:"+per.getId(), e);
+				continue;
 			}
 		}
 		try {

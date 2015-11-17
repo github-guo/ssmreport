@@ -12,6 +12,7 @@ public class SearchDetailObject {
 	private String userId;
 	private String ip;
 	private Date searchDate;
+	private String id;
 
 	public String getSearchJourney() {
 		return searchJourney;
@@ -75,6 +76,14 @@ public class SearchDetailObject {
 
 	public void setSearchDate(Date searchDate) {
 		this.searchDate = searchDate;
+	}
+
+	public void setId(String id) {
+		this.id=id;
+	}
+	
+	public String getId(){
+		return this.id;
 	}
 
 }
