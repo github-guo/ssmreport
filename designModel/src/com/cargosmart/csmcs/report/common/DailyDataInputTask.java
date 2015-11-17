@@ -18,7 +18,7 @@ public class DailyDataInputTask extends TimerTask {
 		et.executeLogic(true);
 		end = System.currentTimeMillis();
 		logger.info("spent time " + (end - begin));
-	
+		logger.info("waiting for the next execute time");
 	}
 	
 }

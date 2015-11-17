@@ -97,7 +97,6 @@ public class Entrance {
 			querySearchByUserID(uid, publicUser);
 		}
 		 
-
 		outputToFile("output-" + (publicUser ? "public" : "reg") + ".txt");
 	}
 
