@@ -25,7 +25,7 @@ public class DBHelper {
 		try {
 			Class.forName(DRIVE_CLASS);
 		} catch (ClassNotFoundException e) {
-			System.err.println("can not connect to db because of load drive class");
+			logger.error("can not connect to db because of load drive class");
 		}
 	}
 
@@ -36,7 +36,7 @@ public class DBHelper {
 				connection = DriverManager.getConnection(CONNECT_URL, USERNAME, PASSWORD);
 			} catch (SQLException e) {
 				e.printStackTrace();
-				System.err.println("get connection fail");
+				logger.error("get connection fail");
 			}
 		}
 		return connection;
@@ -49,7 +49,7 @@ public class DBHelper {
 		try {
 			rs = cn.prepareStatement(sql).executeQuery();
 		} catch (SQLException e) {
-			System.err.println("excute query fail");
+			logger.error("excute query fail");
 		}
 		long end = System.currentTimeMillis();
 		if ((end - begin) > 5000) {
