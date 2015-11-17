@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
@@ -15,8 +16,10 @@ import org.apache.log4j.Logger;
 
 import com.cargosmart.csmcs.report.common.DateUtil;
 import com.cargosmart.csmcs.report.common.JourneyType;
+import com.cargosmart.csmcs.report.common.TimerManager;
 import com.cargosmart.csmcs.report.db.DBSources;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
+import com.cargosmart.csmcs.report.domain.SearchDetailObject;
 
 public class Entrance {
 	private static Logger logger = Logger.getLogger(Entrance.class);
@@ -65,7 +68,7 @@ public class Entrance {
 
 	}
 
-	public void first(boolean requeryPublic) {
+	public void executeLogic(boolean publicUser) {
 
 		refineSearchCounts = new int[] { 0, 0, 0, 0, 0 };
 		scheduleReliabilityCounts = new int[] { 0, 0, 0, 0, 0 };
@@ -77,62 +80,61 @@ public class Entrance {
 		searchEndCounts = new int[] { 0, 0, 0, 0, 0 };
 		searchRegisterCounts = new int[] { 0, 0, 0, 0, 0 };
 
-		dataLoadTools.setSearchByIP(requeryPublic);
+		dataLoadTools.setSearchByIP(publicUser);
 
 		List<String> registerUserIDs = null;
-		if (requeryPublic) {
+		if (publicUser) {
 			registerUserIDs = dataLoadTools.getPublishUserIPs();
 		} else {
 			registerUserIDs = dataLoadTools.getRegistUserIDs();
 		}
 
-		logger.info(requeryPublic == true ? "publish users number:" + registerUserIDs.size()
+		logger.info(publicUser == true ? "publish users number:" + registerUserIDs.size()
 				: "register users numbers" + registerUserIDs.size());
 
-		for (String uid : registerUserIDs) {
-			querySearchByUserID(uid);
-		}
-		/*for(int i=0;i<3;i++){
-			 querySearchByUserID(registerUserIDs.get(i));
-		}*/
 		
-		outputToFile("output-" + (requeryPublic ? "public" : "reg") + ".txt");
-		// outputToDB(requeryPublic,registerUserIDs);
+		for (String uid : registerUserIDs) {
+			querySearchByUserID(uid, publicUser);
+		}
+		 
+
+		outputToFile("output-" + (publicUser ? "public" : "reg") + ".txt");
 	}
 
-	/*
-	 * private void outputToDB(boolean requeryPublic,List<String>
-	 * registerUserIDs) { resultDataMap.put(JourneyType.REFINE_SEARCH,
-	 * refineSearchCounts); resultDataMap.put(JourneyType.SCHEDULE_RELIABILITY,
-	 * scheduleReliabilityCounts); resultDataMap.put(JourneyType.SHOW_MAP,
-	 * showMapCounts); resultDataMap.put(JourneyType.SHOW1,
-	 * showMaprefineSearchCounts); resultDataMap.put(JourneyType.SHOW2,
-	 * showMapscheduleReliabilityCounts); resultDataMap.put(JourneyType.SHOW3,
-	 * showMap3Counts); resultDataMap.put(JourneyType.OTHERS, othersCounts);
-	 * DBSources db=new DBSources(null); Connection con=db.getConnection();
-	 * String sql =
-	 * "INSERT INTO `journeyreport` (`journeyType`, `web`, `mobile`, `manual`, `favorite`, `total`, `usertype`, `from_month`,`to_month`) VALUES (?,?,?,?,?,?,?,?,?)"
-	 * ; for(JourneyType type:resultDataMap.keySet()){ int []
-	 * searchRs=resultDataMap.get(type); try { PreparedStatement
-	 * pre=con.prepareStatement(sql); pre.setString(1, type.toString());
-	 * pre.setInt(2, searchRs[0]); pre.setInt(3,searchRs[1]); pre.setInt(4,
-	 * searchRs[2]); pre.setInt(5, searchRs[3]); pre.setInt(6, searchRs[4]);
-	 * pre.setString(7,(requeryPublic ? "public" : "register") );
-	 * pre.setInt(8,DateUtil.getStartMonth()); pre.setInt(9,
-	 * DateUtil.getEndMonth()); pre.execute(); } catch (SQLException e) {
-	 * e.printStackTrace(); } } }
-	 */
+	private void outputToDB(boolean requeryPublic, List<String> registerUserIDs) {
+		resultDataMap.put(JourneyType.REFINE_SEARCH, refineSearchCounts);
+		resultDataMap.put(JourneyType.SCHEDULE_RELIABILITY, scheduleReliabilityCounts);
+		resultDataMap.put(JourneyType.SHOW_MAP, showMapCounts);
+		resultDataMap.put(JourneyType.SHOW1, showMaprefineSearchCounts);
+		resultDataMap.put(JourneyType.SHOW2, showMapscheduleReliabilityCounts);
+		resultDataMap.put(JourneyType.SHOW3, showMap3Counts);
+		resultDataMap.put(JourneyType.OTHERS, othersCounts);
+		DBSources db = new DBSources(null);
+		Connection con = db.getConnection();
+		String sql = "INSERT INTO `journeyreport` (`journeyType`, `web`, `mobile`, `manual`, `favorite`, `total`, `usertype`, `from_month`,`to_month`) VALUES (?,?,?,?,?,?,?,?,?)";
+		for (JourneyType type : resultDataMap.keySet()) {
+			int[] searchRs = resultDataMap.get(type);
+			try {
+				PreparedStatement pre = con.prepareStatement(sql);
+				pre.setString(1, type.toString());
+				pre.setInt(2, searchRs[0]);
+				pre.setInt(3, searchRs[1]);
+				pre.setInt(4, searchRs[2]);
+				pre.setInt(5, searchRs[3]);
+				pre.setInt(6, searchRs[4]);
+				pre.setString(7, (requeryPublic ? "public" : "register"));
+				pre.setInt(8, DateUtil.getStartMonth());
+				pre.setInt(9, DateUtil.getEndMonth());
+				pre.execute();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+	}
 
 	public static void main(String[] args) {
-		long begin = System.currentTimeMillis();
-		Entrance et = new Entrance();
-		et.first(false);
-		long end = System.currentTimeMillis();
-		logger.info("spent time " + (end - begin));
-		begin = System.currentTimeMillis();
-		et.first(true);
-		end = System.currentTimeMillis();
-		logger.info("spent time " + (end - begin));
+		logger.info("waiting for the right time to execute ");
+		new TimerManager();
 	}
 
 	public boolean inArray(String[] arr, String t) {
@@ -144,10 +146,12 @@ public class Entrance {
 		return false;
 	}
 
-	public void querySearchByUserID(String userID) {
+	public void querySearchByUserID(String userID, boolean publicUser) {
 		logger.info("processing user id or ip is " + userID);
 
 		List<Clientusagedata> searchedRecords = dataLoadTools.allSearch(userID);
+		List<SearchDetailObject> searchDetailList = new ArrayList<>();
+		String searchSegment = dataLoadTools.getSearchSegment(userID);
 		Map<Clientusagedata, Map<String, Integer>> userActionTacingMap = new HashMap<Clientusagedata, Map<String, Integer>>();
 		// String currentSearchID = null;
 		Map<String, Integer> currentSearchMap = null;
@@ -155,8 +159,8 @@ public class Entrance {
 		if (searchedRecords == null || searchedRecords.size() == 0) {
 			return;
 		}
-		
-		//get key -value (the collection of search records before next search.)
+
+		// get key -value (the collection of search records before next search.)
 		for (Clientusagedata ud : searchedRecords) {
 			if (inArray(manualSearchCodes, ud.getFunc()) || inArray(favoriteSearchCodes, ud.getFunc())) {
 				// currentSearchID = ud.getId();
@@ -182,19 +186,29 @@ public class Entrance {
 			}
 		}
 
-		//  for each search loop
+		// for each search loop
 		for (Map.Entry<Clientusagedata, Map<String, Integer>> entry : userActionTacingMap.entrySet()) {
+			SearchDetailObject detailObject = new SearchDetailObject();
 			Clientusagedata ud = entry.getKey();
 			Map<String, Integer> followingActionMap = entry.getValue();
-
-			int idx1 = inArray(manualSearchCodes, ud.getFunc()) ? 2 : 3;
-			int idx2 = isByMobile(ud) ? 1 : 0;
+			boolean isManualSearch = inArray(manualSearchCodes, ud.getFunc());
+			boolean isMobile = isByMobile(ud);
+			detailObject.setCustomerType(publicUser ? "public user" : "register");
+			detailObject.setIp(ud.getRequestInformation_requestIp());
+			detailObject.setSearchDate(ud.getCreateTime());
+			detailObject.setSearchMethod(isManualSearch ? "manual search" : "favorite search");
+			detailObject.setSearchPlatform(isMobile ? "mobile" : "web");
+			detailObject.setUserId(ud.getUserIdentification_userID());
+			detailObject.setCustomerSegment(searchSegment);
+			int idx1 = isManualSearch ? 2 : 3;
+			int idx2 = isMobile ? 1 : 0;
 
 			boolean hasScheduleReliability = false;
 			boolean hasRefineSearch = false;
 			boolean hasShowMap = false;
 			boolean hasRegister = false;
 			boolean hasSearchEnd = false;
+			JourneyType searchType;
 			int otherFunCount = 0;
 			// for each action record loop
 			for (String action : followingActionMap.keySet()) {
@@ -206,10 +220,11 @@ public class Entrance {
 					hasScheduleReliability = true;
 				} else if (inArray(searchRegister, action)) {
 					hasRegister = true;
-					logger.info("".equals(ud.getUserIdentification_userID())?
-							"register ip:"+ud.getRequestInformation_requestIp()+" register time:"+ud.getCreateTime():
-							"register user id:"+ud.getUserIdentification_userID()+" register time:"+ud.getCreateTime()
-							);
+					logger.info("".equals(ud.getUserIdentification_userID())
+							? "register ip:" + ud.getRequestInformation_requestIp() + " register time:"
+									+ ud.getCreateTime()
+							: "register user id:" + ud.getUserIdentification_userID() + " register time:"
+									+ ud.getCreateTime());
 				} else if (inArray(searchEnd, action)) {
 					hasSearchEnd = true;
 				} else {
@@ -218,50 +233,64 @@ public class Entrance {
 			}
 
 			int i = (hasRefineSearch ? 1 : 0) + (hasScheduleReliability ? 2 : 0) + (hasShowMap ? 4 : 0);
-//					+ (hasSearchEnd ? 8 : 0) + (hasRegister ? 16 : 0);
+			// + (hasSearchEnd ? 8 : 0) + (hasRegister ? 16 : 0);
 			if (i == 1) {
 				refineSearchCounts[idx1] += 1;
 				refineSearchCounts[idx2] += 1;
 				refineSearchCounts[4] += 1;
+				searchType = JourneyType.REFINE_SEARCH;
 			} else if (i == 2) {
 				scheduleReliabilityCounts[idx1] += 1;
 				scheduleReliabilityCounts[idx2] += 1;
 				scheduleReliabilityCounts[4] += 1;
+				searchType = JourneyType.SCHEDULE_RELIABILITY;
 			} else if (i == 4) {
 				showMapCounts[idx1] += 1;
 				showMapCounts[idx2] += 1;
 				showMapCounts[4] += 1;
+				searchType = JourneyType.SHOW_MAP;
 			} else if (i == 5) {
 				showMaprefineSearchCounts[idx1] += 1;
 				showMaprefineSearchCounts[idx2] += 1;
 				showMaprefineSearchCounts[4] += 1;
+				searchType = JourneyType.SHOW1;
 			} else if (i == 6) {
 				showMapscheduleReliabilityCounts[idx1] += 1;
 				showMapscheduleReliabilityCounts[idx2] += 1;
 				showMapscheduleReliabilityCounts[4] += 1;
+				searchType = JourneyType.SHOW2;
 			} else if (i == 7) {
 				showMap3Counts[idx1] += 1;
 				showMap3Counts[idx2] += 1;
 				showMap3Counts[4] += 1;
-			}else if (hasRegister) {
+				searchType = JourneyType.SHOW3;
+			} else if (hasRegister) {
 				searchRegisterCounts[idx1] += 1;
 				searchRegisterCounts[idx2] += 1;
 				searchRegisterCounts[4] += 1;
-			} else if (hasSearchEnd&& otherFunCount == 0&&i==0) {
-				logger.info("".equals(ud.getUserIdentification_userID())?
-						"ip:"+ud.getRequestInformation_requestIp()+" search type is withoutFurther,time:"+ud.getCreateTime():
-						"user id:"+ud.getUserIdentification_userID()+" search type is withoutFurther,time:"+ud.getCreateTime()
-						);
+				searchType = JourneyType.SEARCH_REGISTER;
+			} else if (hasSearchEnd && otherFunCount == 0 && i == 0) {
+				logger.info("".equals(ud.getUserIdentification_userID())
+						? "ip:" + ud.getRequestInformation_requestIp() + " search type is withoutFurther,time:"
+								+ ud.getCreateTime()
+						: "user id:" + ud.getUserIdentification_userID() + " search type is withoutFurther,time:"
+								+ ud.getCreateTime());
 				searchEndCounts[idx1] += 1;
 				searchEndCounts[idx2] += 1;
 				searchEndCounts[4] += 1;
-			}  else {
+				searchType = JourneyType.SEARCH_END;
+			} else {
 				othersCounts[idx1] += 1;
 				othersCounts[idx2] += 1;
 				othersCounts[4] += 1;
+				searchType = JourneyType.OTHERS;
 			}
-
+			detailObject.setSearchJourney(searchType.toString());
+			searchDetailList.add(detailObject);
 		}
+
+		dataLoadTools.writeSearchDetails(searchDetailList);
+
 	}
 
 	public void pintArray(int[] arr) {

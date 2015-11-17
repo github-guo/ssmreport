@@ -1,8 +1,14 @@
 package com.cargosmart.csmcs.report.entrance;
 
+import java.sql.Connection;
+import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Timestamp;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 
 import org.apache.log4j.Logger;
@@ -10,7 +16,9 @@ import org.apache.log4j.Logger;
 import com.cargosmart.csmcs.report.common.DateUtil;
 import com.cargosmart.csmcs.report.db.Configure;
 import com.cargosmart.csmcs.report.db.DBHelper;
+import com.cargosmart.csmcs.report.db.DBSources;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
+import com.cargosmart.csmcs.report.domain.SearchDetailObject;
 
 public class DataLoadTools {
 
@@ -20,6 +28,7 @@ public class DataLoadTools {
 	private String sqlConditon = "cd.userIdentification#userID";
 	private DBHelper dbHelper;
 	private static Logger logger = Logger.getLogger(DataLoadTools.class);
+	DBSources dbSources ;
 
 	public DataLoadTools() {
 		Configure config = new Configure("config.properties");
@@ -27,6 +36,7 @@ public class DataLoadTools {
 		SQL_FIND_REGIST_USERID = config.getValue("SQL_FIND_REGIST_USERID");
 		SQL_FUNC_CODE=config.getValue("SQL_FUNC_CODE");
 		dbHelper = new DBHelper();
+		dbSources=new DBSources(null);
 		dbHelper.loadConfigure(config);
 	}
 
@@ -86,8 +96,9 @@ public class DataLoadTools {
 	}
 
 	public List<Clientusagedata> allSearch(String id) {
+		DateUtil dateUtil = new DateUtil();
 		String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE "+ sqlConditon + " ='" + id
-				+ "'"+ " and createTime between convert(datetime,'"+DateUtil.getStartTime()+"') and convert(datetime,'"+DateUtil.getEndTime()+"') ORDER BY cd.createTime";
+				+ "'"+ " and createTime between convert(datetime,'"+dateUtil.getStartTime()+"') and convert(datetime,'"+dateUtil.getEndTime()+"') ORDER BY cd.createTime";
 		logger.debug(sql);
 //		String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
 //				+ "'"+SQL_FUNC_CODE+ " and createTime between convert(datetime,'"+DateUtil.getStartTime()+"') and convert(datetime,'"+DateUtil.getEndTime()+"') ORDER BY cd.createTime";
@@ -99,6 +110,57 @@ public class DataLoadTools {
 	public void setSearchByIP(boolean byIP) {
 		if (byIP == true) {
 			sqlConditon = "LEN(cd.userIdentification#userID)=0  and cd.requestInformation#requestIp";
+		}
+	}
+
+	// Customer Segment refer to CSSOWNER.SSM_FREEMIUM_USERS.companyType
+	public String getSearchSegment(String userID) {
+		if("".equals(userID)||userID==null)
+			return "";
+		Connection connection = dbHelper.getConnection();
+		String sql ="SELECT companyType  FROM CSSOWNER.SSM_FREEMIUM_USERS where emailAddress=?";
+		try {
+			PreparedStatement pre=connection.prepareStatement(sql);
+			pre.setString(1, userID);
+			ResultSet rs=pre.executeQuery();
+			if(rs.next()){
+				return rs.getString(1);
+			}else {
+				return "";
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return "";
+		}
+	}
+
+	public void writeSearchDetails(List<SearchDetailObject> searchDetailList) {
+		Connection connection=dbSources.getConnection();
+//		INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip], [updateDate]) VALUES ('sdfsdf', 'sdf234', 'asdf', 'asdf', 'asdf', 'asdfa', 'sdf', '2015-11-17 10:38:49')
+//		String sql = "INSERT INTO `searchDetail` (`search_journey`, `customer_type`, `customer_segment`, `search_method`, `search_platform`, `userID`, `ip`, `search_date`, `updateDate`) VALUES (?,?,?,?,?,?,?,?,?)";
+		String sql="INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip],[search_date], [updateDate]) VALUES (?,?,?,?,?,?,?,?,?)";
+		for(SearchDetailObject per:searchDetailList){
+			try {
+				PreparedStatement pre=connection.prepareStatement(sql);
+				pre.setString(1, per.getSearchJourney());
+				pre.setString(2, per.getCustomerType());
+				pre.setString(3, per.getCustomerSegment());
+				pre.setString(4, per.getSearchMethod());
+				pre.setString(5, per.getSearchPlatform());
+				pre.setString(6, per.getUserId());
+				pre.setString(7, per.getIp());
+				pre.setTimestamp(8,new Timestamp(per.getSearchDate().getTime()));
+				pre.setTimestamp(9, new Timestamp(new Date().getTime()));
+				pre.execute();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+		}
+		try {
+			connection.close();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 }

@@ -28,12 +28,24 @@ public class DateUtil {
 	}
 	
 	
-	public static String getStartTime(){
-		return startTime;
+	public  String getStartTime(){
+		Calendar dailyCal =  Calendar.getInstance();
+		dailyCal.set(Calendar.HOUR,16);
+		dailyCal.set(Calendar.MINUTE,0);
+		dailyCal.set(Calendar.SECOND,0);
+		dailyCal.set(Calendar.MILLISECOND,0);
+		dailyCal.add(Calendar.DATE, -2);
+		return sdf.format(dailyCal.getTime());
 	}
 	
-	public static String getEndTime(){
-		return endTime;
+	public  String getEndTime(){
+		Calendar dailyCal =  Calendar.getInstance();
+		dailyCal.set(Calendar.HOUR,16);
+		dailyCal.set(Calendar.MINUTE,0);
+		dailyCal.set(Calendar.SECOND,0);
+		dailyCal.set(Calendar.MILLISECOND,0);
+		dailyCal.add(Calendar.DATE, -1);
+		return sdf.format(dailyCal.getTime());
 	}
 	
 	public static int getStartMonth(){
