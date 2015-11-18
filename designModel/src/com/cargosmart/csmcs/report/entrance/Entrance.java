@@ -132,8 +132,15 @@ public class Entrance {
 	}
 
 	public static void main(String[] args) {
-		logger.info("waiting for the right time to execute ");
-		new TimerManager();
+		long begin = System.currentTimeMillis();
+		Entrance et = new Entrance();
+		et.executeLogic(false);
+		long end = System.currentTimeMillis();
+		logger.info("spent time " + (end - begin));
+		begin = System.currentTimeMillis();
+		et.executeLogic(true);
+		end = System.currentTimeMillis();
+		logger.info("spent time " + (end - begin));
 	}
 
 	public boolean inArray(String[] arr, String t) {
