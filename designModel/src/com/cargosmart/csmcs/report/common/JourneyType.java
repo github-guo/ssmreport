@@ -1,15 +1,15 @@
 package com.cargosmart.csmcs.report.common;
 
 public enum JourneyType {
-	REFINE_SEARCH("refine search"),
-	SHOW_MAP("show map"),
-	SCHEDULE_RELIABILITY("schedule reliability"),
-	SHOW1("show map + refine search"),
-	SHOW2("show map + schedule reliability"),
-	SHOW3("show map + refine search + schedule reliability"),
-	OTHERS("others"),
-	SEARCH_END("search without further action"), 
-	SEARCH_REGISTER("search + registration(successful 'Register')");
+	REFINE_SEARCH("Search + refine search"),
+	SHOW_MAP("Search + Show Map"),
+	SCHEDULE_RELIABILITY("Search + Schedule Reliability"),
+	SHOW1("Search + Show Map + Refine Search"),
+	SHOW2("Search + Show Map + Schedule Reliability"),
+	SHOW3("Search + Show Map + Refine Search + Schedule Reliability"),
+	OTHERS("Search + Others"),
+	SEARCH_END("Search (No further action)"), 
+	SEARCH_REGISTER("Search + Registration (successful 'Register')");
 	
 	private String description;
 

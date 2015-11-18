@@ -97,7 +97,7 @@ public class Entrance {
 			querySearchByUserID(uid, publicUser);
 		}
 		 
-		outputToFile("output-" + (publicUser ? "public" : "reg") + ".txt");
+//		outputToFile("output-" + (publicUser ? "public" : "reg") + ".txt");
 	}
 
 	private void outputToDB(boolean requeryPublic, List<String> registerUserIDs) {
@@ -193,10 +193,10 @@ public class Entrance {
 			Map<String, Integer> followingActionMap = entry.getValue();
 			boolean isManualSearch = inArray(manualSearchCodes, ud.getFunc());
 			boolean isMobile = isByMobile(ud);
-			detailObject.setCustomerType(publicUser ? "public user" : "register");
+			detailObject.setCustomerType(publicUser ? "Public Users" : "Registered Users");
 			detailObject.setIp(ud.getRequestInformation_requestIp());
 			detailObject.setSearchDate(ud.getCreateTime());
-			detailObject.setSearchMethod(isManualSearch ? "manual search" : "favorite search");
+			detailObject.setSearchMethod(isManualSearch ? "manual" : "favorite");
 			detailObject.setSearchPlatform(isMobile ? "mobile" : "web");
 			detailObject.setUserId(ud.getUserIdentification_userID());
 			detailObject.setCustomerSegment(searchSegment);
