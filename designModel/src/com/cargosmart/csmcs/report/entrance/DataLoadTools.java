@@ -25,7 +25,9 @@ public class DataLoadTools {
 	private String SQL_FIND_REGIST_USERID = "";
 	private String SQL_FIND_PUBLISH_USERIP = "";
 	private String SQL_FUNC_CODE="";
+	private String UPDATE_SEARCH_RESULT="";
 	private String sqlConditon = "cd.userIdentification#userID";
+	private String INSERT_SEARCH_RESULT_SQL="";
 	private DBHelper dbHelper;
 	private static Logger logger = Logger.getLogger(DataLoadTools.class);
 	DBSources dbSources ;
@@ -35,6 +37,8 @@ public class DataLoadTools {
 		SQL_FIND_PUBLISH_USERIP = config.getValue("SQL_FIND_PUBLISH_USERIP");
 		SQL_FIND_REGIST_USERID = config.getValue("SQL_FIND_REGIST_USERID");
 		SQL_FUNC_CODE=config.getValue("SQL_FUNC_CODE");
+		INSERT_SEARCH_RESULT_SQL=config.getValue("INSERT_SEARCH_RESULT");
+		UPDATE_SEARCH_RESULT=config.getValue("UPDATE_SEARCH_RESULT");
 		dbHelper = new DBHelper();
 		dbSources=new DBSources(null);
 		dbHelper.loadConfigure(config);
@@ -138,7 +142,8 @@ public class DataLoadTools {
 		Connection connection=dbSources.getConnection();
 //		INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip], [updateDate]) VALUES ('sdfsdf', 'sdf234', 'asdf', 'asdf', 'asdf', 'asdfa', 'sdf', '2015-11-17 10:38:49')
 //		String sql = "INSERT INTO `searchDetail` (`search_journey`, `customer_type`, `customer_segment`, `search_method`, `search_platform`, `userID`, `ip`, `search_date`, `updateDate`) VALUES (?,?,?,?,?,?,?,?,?)";
-		String sql="INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip],[search_date], [updateDate],[_id]) VALUES (?,?,?,?,?,?,?,?,?,?)";
+//		String sql="INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip],[search_date], [updateDate],[_id]) VALUES (?,?,?,?,?,?,?,?,?,?)";
+		String sql =INSERT_SEARCH_RESULT_SQL;
 		for(SearchDetailObject per:searchDetailList){
 			try {
 				PreparedStatement pre=connection.prepareStatement(sql);
@@ -154,14 +159,31 @@ public class DataLoadTools {
 				pre.setString(10, per.getId());
 				pre.execute();
 			} catch (SQLException e) {
-				logger.error("duplicate search record:"+per.getId(), e);
+				String updateSql=UPDATE_SEARCH_RESULT;
+				//UPDATE [CSMCS].[CSSOWNER].[searchDetail] SET [customer_segment]=? ,[search_journey]=?, [customer_type]=?, [search_method]=?, [search_platform]=?, [userID]=?, [ip]=?, [updateDate]=? WHERE ([_id]=?)
+				try {
+					PreparedStatement pre=connection.prepareStatement(updateSql);
+					pre.setString(1, per.getCustomerSegment());
+					pre.setString(2, per.getSearchJourney());
+					pre.setString(3, per.getCustomerType());
+					pre.setString(4, per.getSearchMethod());
+					pre.setString(5, per.getSearchPlatform());
+					pre.setString(6, per.getUserId());
+					pre.setString(7, per.getIp());
+					pre.setTimestamp(8, new Timestamp(new Date().getTime()));
+					pre.setString(9, per.getId());
+					pre.execute();
+				} catch (SQLException e1) {
+					logger.error("can not update search record ,id:"+per.getId(),e1);
+					continue;
+				}
+				logger.info("updated,duplicate search record id:"+per.getId());
 				continue;
 			}
 		}
 		try {
 			connection.close();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
