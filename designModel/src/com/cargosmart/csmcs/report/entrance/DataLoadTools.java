@@ -144,44 +144,52 @@ public class DataLoadTools {
 //		String sql = "INSERT INTO `searchDetail` (`search_journey`, `customer_type`, `customer_segment`, `search_method`, `search_platform`, `userID`, `ip`, `search_date`, `updateDate`) VALUES (?,?,?,?,?,?,?,?,?)";
 //		String sql="INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip],[search_date], [updateDate],[_id]) VALUES (?,?,?,?,?,?,?,?,?,?)";
 		String sql =INSERT_SEARCH_RESULT_SQL;
-		for(SearchDetailObject per:searchDetailList){
-			try {
-				PreparedStatement pre=connection.prepareStatement(sql);
-				pre.setString(1, per.getSearchJourney());
-				pre.setString(2, per.getCustomerType());
-				pre.setString(3, per.getCustomerSegment());
-				pre.setString(4, per.getSearchMethod());
-				pre.setString(5, per.getSearchPlatform());
-				pre.setString(6, per.getUserId());
-				pre.setString(7, per.getIp());
-				pre.setTimestamp(8,new Timestamp(per.getSearchDate().getTime()));
-				pre.setTimestamp(9, new Timestamp(new Date().getTime()));
-				pre.setString(10, per.getId());
-				pre.execute();
-			} catch (SQLException e) {
-				String updateSql=UPDATE_SEARCH_RESULT;
-				//UPDATE [CSMCS].[CSSOWNER].[searchDetail] SET [customer_segment]=? ,[search_journey]=?, [customer_type]=?, [search_method]=?, [search_platform]=?, [userID]=?, [ip]=?, [updateDate]=? WHERE ([_id]=?)
+	
+		try {
+			connection.setAutoCommit(false);
+			for (SearchDetailObject per : searchDetailList) {
 				try {
-					PreparedStatement pre=connection.prepareStatement(updateSql);
-					pre.setString(1, per.getCustomerSegment());
-					pre.setString(2, per.getSearchJourney());
-					pre.setString(3, per.getCustomerType());
+					PreparedStatement pre = connection.prepareStatement(sql);
+					pre.setString(1, per.getSearchJourney());
+					pre.setString(2, per.getCustomerType());
+					pre.setString(3, per.getCustomerSegment());
 					pre.setString(4, per.getSearchMethod());
 					pre.setString(5, per.getSearchPlatform());
 					pre.setString(6, per.getUserId());
 					pre.setString(7, per.getIp());
-					pre.setTimestamp(8, new Timestamp(new Date().getTime()));
-					pre.setString(9, per.getId());
+					pre.setTimestamp(8, new Timestamp(per.getSearchDate().getTime()));
+					pre.setTimestamp(9, new Timestamp(new Date().getTime()));
+					pre.setString(10, per.getId());
 					pre.execute();
-				} catch (SQLException e1) {
-					logger.error("can not update search record ,id:"+per.getId(),e1);
+				} catch (SQLException e) {
+					String updateSql = UPDATE_SEARCH_RESULT;
+					// UPDATE [CSMCS].[CSSOWNER].[searchDetail] SET
+					// [customer_segment]=? ,[search_journey]=?,
+					// [customer_type]=?, [search_method]=?,
+					// [search_platform]=?, [userID]=?, [ip]=?, [updateDate]=?
+					// WHERE ([_id]=?)
+					try {
+						PreparedStatement pre = connection.prepareStatement(updateSql);
+						pre.setString(1, per.getCustomerSegment());
+						pre.setString(2, per.getSearchJourney());
+						pre.setString(3, per.getCustomerType());
+						pre.setString(4, per.getSearchMethod());
+						pre.setString(5, per.getSearchPlatform());
+						pre.setString(6, per.getUserId());
+						pre.setString(7, per.getIp());
+						pre.setTimestamp(8, new Timestamp(new Date().getTime()));
+						pre.setString(9, per.getId());
+						pre.execute();
+					} catch (SQLException e1) {
+						logger.error("can not update search record ,id:" + per.getId(), e1);
+						connection.rollback();
+						continue;
+					}
+					logger.info("updated,duplicate search record id:" + per.getId());
 					continue;
 				}
-				logger.info("updated,duplicate search record id:"+per.getId());
-				continue;
+				connection.commit();
 			}
-		}
-		try {
 			connection.close();
 		} catch (SQLException e) {
 			e.printStackTrace();
