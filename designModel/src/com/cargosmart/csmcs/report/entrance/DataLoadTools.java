@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.log4j.Logger;
 
@@ -24,23 +25,23 @@ public class DataLoadTools {
 
 	private String SQL_FIND_REGIST_USERID = "";
 	private String SQL_FIND_PUBLISH_USERIP = "";
-	private String SQL_FUNC_CODE="";
-	private String UPDATE_SEARCH_RESULT="";
+	private String SQL_FUNC_CODE = "";
+	private String UPDATE_SEARCH_RESULT = "";
 	private String sqlConditon = "cd.userIdentification#userID";
-	private String INSERT_SEARCH_RESULT_SQL="";
+	private String INSERT_SEARCH_RESULT_SQL = "";
 	private DBHelper dbHelper;
 	private static Logger logger = Logger.getLogger(DataLoadTools.class);
-	DBSources dbSources ;
+	DBSources dbSources;
 
 	public DataLoadTools() {
 		Configure config = new Configure("config.properties");
 		SQL_FIND_PUBLISH_USERIP = config.getValue("SQL_FIND_PUBLISH_USERIP");
 		SQL_FIND_REGIST_USERID = config.getValue("SQL_FIND_REGIST_USERID");
-		SQL_FUNC_CODE=config.getValue("SQL_FUNC_CODE");
-		INSERT_SEARCH_RESULT_SQL=config.getValue("INSERT_SEARCH_RESULT");
-		UPDATE_SEARCH_RESULT=config.getValue("UPDATE_SEARCH_RESULT");
+		SQL_FUNC_CODE = config.getValue("SQL_FUNC_CODE");
+		INSERT_SEARCH_RESULT_SQL = config.getValue("INSERT_SEARCH_RESULT");
+		UPDATE_SEARCH_RESULT = config.getValue("UPDATE_SEARCH_RESULT");
 		dbHelper = new DBHelper();
-		dbSources=new DBSources(null);
+		dbSources = new DBSources(null);
 		dbHelper.loadConfigure(config);
 	}
 
@@ -77,7 +78,7 @@ public class DataLoadTools {
 		ResultSet rs = dbHelper.excuteQuery(sql);
 		try {
 			Clientusagedata obj = null;
-			while (rs!=null&&rs.next()!= false) {
+			while (rs != null && rs.next() != false) {
 				obj = new Clientusagedata();
 				obj.setId(rs.getString(1));
 				obj.setSource(rs.getString(2));
@@ -101,11 +102,16 @@ public class DataLoadTools {
 
 	public List<Clientusagedata> allSearch(String id) {
 		DateUtil dateUtil = new DateUtil();
-		String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE "+ sqlConditon + " ='" + id
-				+ "'"+ " and createTime between convert(datetime,'"+dateUtil.getStartTime()+"') and convert(datetime,'"+dateUtil.getEndTime()+"') ORDER BY cd.createTime";
+		String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id + "'"
+				+ " and createTime between convert(datetime,'" + dateUtil.getStartTime() + "') and convert(datetime,'"
+				+ dateUtil.getEndTime() + "') ORDER BY cd.createTime";
 		logger.debug(sql);
-//		String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id
-//				+ "'"+SQL_FUNC_CODE+ " and createTime between convert(datetime,'"+DateUtil.getStartTime()+"') and convert(datetime,'"+DateUtil.getEndTime()+"') ORDER BY cd.createTime";
+		// String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
+		// sqlConditon + " ='" + id
+		// + "'"+SQL_FUNC_CODE+ " and createTime between
+		// convert(datetime,'"+DateUtil.getStartTime()+"') and
+		// convert(datetime,'"+DateUtil.getEndTime()+"') ORDER BY
+		// cd.createTime";
 		List<Clientusagedata> searchRecords = resultStepByStep(sql);
 		return searchRecords;
 
@@ -119,17 +125,17 @@ public class DataLoadTools {
 
 	// Customer Segment refer to CSSOWNER.SSM_FREEMIUM_USERS.companyType
 	public String getSearchSegment(String userID) {
-		if("".equals(userID)||userID==null)
+		if ("".equals(userID) || userID == null)
 			return "";
 		Connection connection = dbHelper.getConnection();
-		String sql ="SELECT companyType  FROM CSSOWNER.SSM_FREEMIUM_USERS where emailAddress=?";
+		String sql = "SELECT companyType  FROM CSSOWNER.SSM_FREEMIUM_USERS where emailAddress=?";
 		try {
-			PreparedStatement pre=connection.prepareStatement(sql);
+			PreparedStatement pre = connection.prepareStatement(sql);
 			pre.setString(1, userID);
-			ResultSet rs=pre.executeQuery();
-			if(rs.next()){
+			ResultSet rs = pre.executeQuery();
+			if (rs.next()) {
 				return rs.getString(1);
-			}else {
+			} else {
 				return "";
 			}
 		} catch (SQLException e) {
@@ -139,12 +145,9 @@ public class DataLoadTools {
 	}
 
 	public void writeSearchDetails(List<SearchDetailObject> searchDetailList) {
-		Connection connection=dbSources.getConnection();
-//		INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip], [updateDate]) VALUES ('sdfsdf', 'sdf234', 'asdf', 'asdf', 'asdf', 'asdfa', 'sdf', '2015-11-17 10:38:49')
-//		String sql = "INSERT INTO `searchDetail` (`search_journey`, `customer_type`, `customer_segment`, `search_method`, `search_platform`, `userID`, `ip`, `search_date`, `updateDate`) VALUES (?,?,?,?,?,?,?,?,?)";
-//		String sql="INSERT INTO [CSMCS].[CSSOWNER].[searchDetail] ([search_journey], [customer_type], [customer_segment], [search_method], [search_platform], [userID], [ip],[search_date], [updateDate],[_id]) VALUES (?,?,?,?,?,?,?,?,?,?)";
-		String sql =INSERT_SEARCH_RESULT_SQL;
-	
+		Connection connection = dbSources.getConnection();
+		String sql = INSERT_SEARCH_RESULT_SQL;
+
 		try {
 			connection.setAutoCommit(false);
 			for (SearchDetailObject per : searchDetailList) {
@@ -163,11 +166,6 @@ public class DataLoadTools {
 					pre.execute();
 				} catch (SQLException e) {
 					String updateSql = UPDATE_SEARCH_RESULT;
-					// UPDATE [CSMCS].[CSSOWNER].[searchDetail] SET
-					// [customer_segment]=? ,[search_journey]=?,
-					// [customer_type]=?, [search_method]=?,
-					// [search_platform]=?, [userID]=?, [ip]=?, [updateDate]=?
-					// WHERE ([_id]=?)
 					try {
 						PreparedStatement pre = connection.prepareStatement(updateSql);
 						pre.setString(1, per.getCustomerSegment());
@@ -185,7 +183,7 @@ public class DataLoadTools {
 						connection.rollback();
 						continue;
 					}
-					logger.info("updated,duplicate search record id:" + per.getId());
+					logger.info("update search_usage_analysis,duplicate search record id:" + per.getId());
 					continue;
 				}
 				connection.commit();
@@ -194,5 +192,124 @@ public class DataLoadTools {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
+	}
+
+	public int getSearchCountByUserID(String uid) {
+		int count = 0;
+		String sql = "select count(1) from [CSMCS].[STAGE].[SEARCH_USAGE_ANALYSIS] where userID='" + uid + "'";
+		Connection connection = dbSources.getConnection();
+		try {
+			PreparedStatement pre = connection.prepareStatement(sql);
+			ResultSet rs = pre.executeQuery();
+			if (rs.next()) {
+				count = rs.getInt(1);
+			}
+			connection.close();
+		} catch (SQLException e) {
+			count = 0;
+			e.printStackTrace();
+		}
+		return count;
+	}
+
+	public void insertSearchCount(Map<String, Integer> topUserCount) {
+		Connection connection = dbSources.getConnection();
+		String sql = "INSERT INTO [CSMCS].[STAGE].[BS_TOP_Usage] ([UserID], [search_count],[updateDate]) VALUES (?, ?,?)";
+		logger.info("begin insert into bs_top_usage");
+		try {
+			connection.setAutoCommit(false);
+			for (String uid : topUserCount.keySet()) {
+				int number = 0;
+				try {
+					
+					number = topUserCount.get(uid);
+					PreparedStatement pre = connection.prepareStatement(sql);
+					pre.setString(1, uid);
+					pre.setInt(2, number);
+					pre.setTimestamp(3, new Timestamp(new Date().getTime()));
+					pre.execute();
+					logger.info("insert into bs_top_usage,uid"+uid);
+				} catch (SQLException e) {
+					logger.info("update bs_top_usage,uid:"+uid);
+					String updatesql = "UPDATE [CSMCS].[STAGE].[BS_TOP_Usage] SET [search_count]=?, [updateDate]=? WHERE ([UserID]=?)";
+					PreparedStatement pre = connection.prepareStatement(updatesql);
+					pre.setInt(1, number);
+					pre.setTimestamp(2, new Timestamp(new Date().getTime()));
+					pre.setString(3, uid);
+					pre.execute();
+				}
+			}
+			connection.commit();
+		} catch (Exception e) {
+			try {
+				connection.rollback();
+			} catch (SQLException e1) {
+				logger.error("insert bs_top_usage fail,rollback");
+				e1.printStackTrace();
+			}
+		}finally {
+			try {
+				connection.close();
+			} catch (SQLException e) {
+				logger.error("fail to close connection");
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public int getTopSumCount(int i) {
+		StringBuffer sb = new StringBuffer();
+		sb.append("select sum(rs.search_count)from (select top ");
+		sb.append(i);
+		sb.append(" search_count from STAGE.BS_TOP_Usage order by search_count desc) rs");
+		String sql=sb.toString();
+		Connection connection = dbSources.getConnection();
+		try {
+			PreparedStatement pre = connection.prepareStatement(sql);
+			ResultSet rs=pre.executeQuery();
+			if(rs.next()){
+				return rs.getInt(1);
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return 0;
+	}
+
+	public void save2usageRange(String group, int top, float per) {
+		String sql ="INSERT INTO [CSMCS].[STAGE].[BS_TOP_USAGE_RANK] ([Group], [total_search_count], [Percentage], [updateDate]) VALUES (?,?,?,?)";
+		
+		Connection connection = dbSources.getConnection();
+		try {
+			PreparedStatement pre = connection.prepareStatement(sql);
+			pre.setString(1, group);
+			pre.setInt(2, top);
+			pre.setFloat(3, per);
+			pre.setTimestamp(4, new Timestamp(new Date().getTime()));
+			pre.execute();
+			logger.info("insert into BS_TOP_USAGE_RANK");
+		} catch (SQLException e) {
+			String updateSql="UPDATE [CSMCS].[STAGE].[BS_TOP_USAGE_RANK] SET [total_search_count]=?, [Percentage]=?, [updateDate]=? WHERE ([Group]=?)";
+			try {
+				PreparedStatement pre = connection.prepareStatement(updateSql);
+				pre.setInt(1, top);
+				pre.setFloat(2, per);
+				pre.setTimestamp(3, new Timestamp(new Date().getTime()));
+				pre.setString(4, group);
+				pre.execute();
+				logger.info("update  BS_TOP_USAGE_RANK");
+			} catch (SQLException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+		}finally{
+			try {
+				connection.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		
 	}
 }

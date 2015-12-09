@@ -20,6 +20,7 @@ import com.cargosmart.csmcs.report.common.TimerManager;
 import com.cargosmart.csmcs.report.db.DBSources;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
 import com.cargosmart.csmcs.report.domain.SearchDetailObject;
+import com.cargosmart.csmcs.report.function.CalTopUsers;
 
 public class Entrance {
 	private static Logger logger = Logger.getLogger(Entrance.class);
@@ -81,6 +82,7 @@ public class Entrance {
 		searchRegisterCounts = new int[] { 0, 0, 0, 0, 0 };
 
 		dataLoadTools.setSearchByIP(publicUser);
+		CalTopUsers calTopUsers = new CalTopUsers();
 
 		List<String> registerUserIDs = null;
 		if (publicUser) {
@@ -96,43 +98,15 @@ public class Entrance {
 		for (String uid : registerUserIDs) {
 			querySearchByUserID(uid, publicUser);
 		}
-		 
-//		outputToFile("output-" + (publicUser ? "public" : "reg") + ".txt");
-	}
-
-	private void outputToDB(boolean requeryPublic, List<String> registerUserIDs) {
-		resultDataMap.put(JourneyType.REFINE_SEARCH, refineSearchCounts);
-		resultDataMap.put(JourneyType.SCHEDULE_RELIABILITY, scheduleReliabilityCounts);
-		resultDataMap.put(JourneyType.SHOW_MAP, showMapCounts);
-		resultDataMap.put(JourneyType.SHOW1, showMaprefineSearchCounts);
-		resultDataMap.put(JourneyType.SHOW2, showMapscheduleReliabilityCounts);
-		resultDataMap.put(JourneyType.SHOW3, showMap3Counts);
-		resultDataMap.put(JourneyType.OTHERS, othersCounts);
-		DBSources db = new DBSources(null);
-		Connection con = db.getConnection();
-		String sql = "INSERT INTO `journeyreport` (`journeyType`, `web`, `mobile`, `manual`, `favorite`, `total`, `usertype`, `from_month`,`to_month`) VALUES (?,?,?,?,?,?,?,?,?)";
-		for (JourneyType type : resultDataMap.keySet()) {
-			int[] searchRs = resultDataMap.get(type);
-			try {
-				PreparedStatement pre = con.prepareStatement(sql);
-				pre.setString(1, type.toString());
-				pre.setInt(2, searchRs[0]);
-				pre.setInt(3, searchRs[1]);
-				pre.setInt(4, searchRs[2]);
-				pre.setInt(5, searchRs[3]);
-				pre.setInt(6, searchRs[4]);
-				pre.setString(7, (requeryPublic ? "public" : "register"));
-				pre.setInt(8, DateUtil.getStartMonth());
-				pre.setInt(9, DateUtil.getEndMonth());
-				pre.execute();
-			} catch (SQLException e) {
-				e.printStackTrace();
-			}
+		
+		if(publicUser==false){
+			calTopUsers.calTop(registerUserIDs,dataLoadTools);
 		}
+		 
 	}
 
 	public static void main(String[] args) {
-		long begin = System.currentTimeMillis();
+		/*long begin = System.currentTimeMillis();
 		Entrance et = new Entrance();
 		et.executeLogic(false);
 		long end = System.currentTimeMillis();
@@ -140,7 +114,8 @@ public class Entrance {
 		begin = System.currentTimeMillis();
 		et.executeLogic(true);
 		end = System.currentTimeMillis();
-		logger.info("spent time " + (end - begin));
+		logger.info("spent time " + (end - begin));*/
+		new TimerManager();
 	}
 
 	public boolean inArray(String[] arr, String t) {
