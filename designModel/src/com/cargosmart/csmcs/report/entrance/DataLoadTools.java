@@ -9,6 +9,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -106,12 +107,6 @@ public class DataLoadTools {
 				+ " and createTime between convert(datetime,'" + dateUtil.getStartTime() + "') and convert(datetime,'"
 				+ dateUtil.getEndTime() + "') ORDER BY cd.createTime";
 		logger.debug(sql);
-		// String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " +
-		// sqlConditon + " ='" + id
-		// + "'"+SQL_FUNC_CODE+ " and createTime between
-		// convert(datetime,'"+DateUtil.getStartTime()+"') and
-		// convert(datetime,'"+DateUtil.getEndTime()+"') ORDER BY
-		// cd.createTime";
 		List<Clientusagedata> searchRecords = resultStepByStep(sql);
 		return searchRecords;
 
@@ -194,25 +189,7 @@ public class DataLoadTools {
 		}
 	}
 
-	public int getSearchCountByUserID(String uid) {
-		int count = 0;
-		String sql = "select count(1) from [CSMCS].[STAGE].[SEARCH_USAGE_ANALYSIS] where userID='" + uid + "'";
-		Connection connection = dbSources.getConnection();
-		try {
-			PreparedStatement pre = connection.prepareStatement(sql);
-			ResultSet rs = pre.executeQuery();
-			if (rs.next()) {
-				count = rs.getInt(1);
-			}
-			connection.close();
-		} catch (SQLException e) {
-			count = 0;
-			e.printStackTrace();
-		}
-		return count;
-	}
-
-	public void insertSearchCount(Map<String, Integer> topUserCount) {
+	private void insertTopUsage(Map<String, Integer> topUserCount) {
 		Connection connection = dbSources.getConnection();
 		String sql = "INSERT INTO [CSMCS].[STAGE].[BS_TOP_Usage] ([UserID], [search_count],[updateDate]) VALUES (?, ?,?)";
 		logger.info("begin insert into bs_top_usage");
@@ -309,6 +286,29 @@ public class DataLoadTools {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+		}
+		
+	}
+
+	public int copyUsageAnalysis2TopUsage() {
+		String sql ="select ua.userID,COUNT(1) from STAGE.SEARCH_USAGE_ANALYSIS ua where ua.customer_type='Registered Users' and not exists(select 1 from POI.BS_INTERNAL_USE_LIST u where upper(ua.userID)=upper(u.[OFFICE EMAIL ADDRESS])) GROUP BY ua.userID order by COUNT(1) desc";
+		Connection connection = dbSources.getConnection();
+		int sum =0;
+		Map<String, Integer> userSearchCount=new HashMap<>();
+		try {
+			PreparedStatement pre =connection.prepareStatement(sql);
+			ResultSet rs=pre.executeQuery();
+			while(rs.next()){
+				int count=rs.getInt(2);
+				userSearchCount.put(rs.getString(1), count);
+				sum+=count;
+			}
+			insertTopUsage(userSearchCount);
+			connection.close();
+			return sum;
+		} catch (SQLException e) {
+			logger.error("can not get users list from search_usage_analysis,sql:\n"+sql+"\n",e);
+			return 0;
 		}
 		
 	}

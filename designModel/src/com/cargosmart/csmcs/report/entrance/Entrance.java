@@ -3,9 +3,7 @@ package com.cargosmart.csmcs.report.entrance;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
+
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
@@ -14,10 +12,8 @@ import java.util.Map;
 
 import org.apache.log4j.Logger;
 
-import com.cargosmart.csmcs.report.common.DateUtil;
 import com.cargosmart.csmcs.report.common.JourneyType;
 import com.cargosmart.csmcs.report.common.TimerManager;
-import com.cargosmart.csmcs.report.db.DBSources;
 import com.cargosmart.csmcs.report.domain.Clientusagedata;
 import com.cargosmart.csmcs.report.domain.SearchDetailObject;
 import com.cargosmart.csmcs.report.function.CalTopUsers;
@@ -26,7 +22,6 @@ public class Entrance {
 	private static Logger logger = Logger.getLogger(Entrance.class);
 
 	private DataLoadTools dataLoadTools = new DataLoadTools();
-	private Map<JourneyType, int[]> resultDataMap = new HashMap<>();
 
 	int[] refineSearchCounts = { 0, 0, 0, 0, 0 };
 	int[] scheduleReliabilityCounts = { 0, 0, 0, 0, 0 };
@@ -98,15 +93,16 @@ public class Entrance {
 		for (String uid : registerUserIDs) {
 			querySearchByUserID(uid, publicUser);
 		}
-		
+
+		// count the top usage 
 		if(publicUser==false){
-			calTopUsers.calTop(registerUserIDs,dataLoadTools);
+			calTopUsers.calTop();
 		}
 		 
 	}
 
 	public static void main(String[] args) {
-		/*long begin = System.currentTimeMillis();
+	/*	long begin = System.currentTimeMillis();
 		Entrance et = new Entrance();
 		et.executeLogic(false);
 		long end = System.currentTimeMillis();
