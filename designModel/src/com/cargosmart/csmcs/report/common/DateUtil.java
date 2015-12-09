@@ -2,9 +2,6 @@ package com.cargosmart.csmcs.report.common;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-import java.util.Date;
-import java.util.TimeZone;
-
 import com.cargosmart.csmcs.report.db.Configure;
 
 public class DateUtil {
@@ -30,26 +27,29 @@ public class DateUtil {
 	
 	
 	public  String getStartTime(){
-		Calendar dailyCal =  Calendar.getInstance();
-		dailyCal.add(Calendar.DAY_OF_MONTH, -2);
-		dailyCal.set(Calendar.HOUR,16);
+		/*Calendar dailyCal =  Calendar.getInstance();
+		
+		dailyCal.set(Calendar.HOUR_OF_DAY,16);
+		dailyCal.add(Calendar.DATE, -2);
+		
 		dailyCal.set(Calendar.MINUTE,0);
 		dailyCal.set(Calendar.SECOND,0);
 		dailyCal.set(Calendar.MILLISECOND,0);
 		
-		return sdf.format(dailyCal.getTime());
-//		return startTime;
+		return sdf.format(dailyCal.getTime());*/
+		return startTime;
 	}
 	
 	public  String getEndTime(){
-		Calendar dailyCal =  Calendar.getInstance();
+		/*Calendar dailyCal =  Calendar.getInstance();
+		dailyCal.set(Calendar.HOUR_OF_DAY,16);
 		dailyCal.add(Calendar.DATE, -1);
-		dailyCal.set(Calendar.HOUR,16);
+		
 		dailyCal.set(Calendar.MINUTE,0);
 		dailyCal.set(Calendar.SECOND,0);
 		dailyCal.set(Calendar.MILLISECOND,0);
-		return sdf.format(dailyCal.getTime());
-//		return endTime;
+		return sdf.format(dailyCal.getTime());*/
+		return endTime;
 	}
 	
 	public static int getStartMonth(){
@@ -59,10 +59,9 @@ public class DateUtil {
 	public static int getEndMonth(){
 		return to;
 	}
-	
-	
+/*	
 	public static void main(String[] args) {
-		System.out.println(new DateUtil().getStartTime()+"--->" + new DateUtil().getEndTime());
-	}
-	
+		DateUtil dateUtil = new DateUtil();
+		System.out.println(dateUtil.getEndTime());
+	}*/
 }

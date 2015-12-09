@@ -102,7 +102,7 @@ public class Entrance {
 	}
 
 	public static void main(String[] args) {
-	/*	long begin = System.currentTimeMillis();
+		long begin = System.currentTimeMillis();
 		Entrance et = new Entrance();
 		et.executeLogic(false);
 		long end = System.currentTimeMillis();
@@ -110,8 +110,8 @@ public class Entrance {
 		begin = System.currentTimeMillis();
 		et.executeLogic(true);
 		end = System.currentTimeMillis();
-		logger.info("spent time " + (end - begin));*/
-		new TimerManager();
+		logger.info("spent time " + (end - begin));
+//		new TimerManager();
 	}
 
 	public boolean inArray(String[] arr, String t) {
@@ -124,8 +124,7 @@ public class Entrance {
 	}
 
 	public void querySearchByUserID(String userID, boolean publicUser) {
-		logger.info("processing user id or ip is " + userID);
-
+		
 		List<Clientusagedata> searchedRecords = dataLoadTools.allSearch(userID);
 		List<SearchDetailObject> searchDetailList = new ArrayList<>();
 		String searchSegment = dataLoadTools.getSearchSegment(userID);

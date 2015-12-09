@@ -5,6 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Timestamp;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -102,7 +103,22 @@ public class DataLoadTools {
 	}
 
 	public List<Clientusagedata> allSearch(String id) {
+		
 		DateUtil dateUtil = new DateUtil();
+		SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS");
+		Calendar startCalendar = Calendar.getInstance();
+		Calendar currentCalendar = Calendar.getInstance();
+		
+		try {
+			startCalendar.setTime(sdf.parse(dateUtil.getStartTime()));
+			if(currentCalendar.before(startCalendar)){
+				logger.info("skip process "+id);
+				return new ArrayList<>();
+			}
+		} catch (ParseException e) {
+			logger.error("please check your config.properties: startTime format must be startTime=yyyy-MM-dd hh:mm:ss:SSS",e);
+		}
+		logger.info("processing user id or ip is " + id);
 		String sql = "SELECT * FROM CSSOWNER.CLIENTUSAGEDATAS AS cd WHERE " + sqlConditon + " ='" + id + "'"
 				+ " and createTime between convert(datetime,'" + dateUtil.getStartTime() + "') and convert(datetime,'"
 				+ dateUtil.getEndTime() + "') ORDER BY cd.createTime";
@@ -181,8 +197,8 @@ public class DataLoadTools {
 					logger.info("update search_usage_analysis,duplicate search record id:" + per.getId());
 					continue;
 				}
-				connection.commit();
 			}
+			connection.commit();
 			connection.close();
 		} catch (SQLException e) {
 			e.printStackTrace();
